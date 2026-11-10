@@ -1,0 +1,21 @@
+# Local Lean 4.35.0 validation, 2026-11-10T18:58:50.708889+05:00
+# Mathlib 56a005855ea17e0b0958f73ec801ae140b0a1679
+# Source manifest SHA-256: 0146e40b349cbfaa82e5e1cc044c5fa730b38e621cb8dfb47cb91dcdc9a056ba
+== Source integrity: PASS
+== Forbidden constructs: 1146 Lean files, zero forbidden tokens; two intended Challenge placeholders excluded
+== Build: lake build LRXDiameter Solution Challenge
+Build completed successfully (4322 jobs).
+== Full-body axiom audit: lake env lean Verify.lean
+PASS: 16032 theorems in 1139 package modules use only propext, Classical.choice, Quot.sound.
+LRX.exact_diameter_all : ∀ (n : ℕ) [inst : NeZero n], 4 ≤ n → (LRX.graph n).diam = n * (n - 1) / 2
+'LRX.exact_diameter_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.sharp_diameter_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.nonzero_lift_routing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.diam_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+PalomarLRX.boundedRouting : ∀ (n : ℕ) [inst : NeZero n],
+  4 ≤ n → ∀ (a b : PalomarLRX.State n), ∃ w, a * PalomarLRX.eval w = b ∧ w.length ≤ n * (n - 1) / 2
+PalomarLRX.exactDiameter : ∀ (n : ℕ) [inst : NeZero n], 4 ≤ n → (PalomarLRX.graph n).diam = n * (n - 1) / 2
+'PalomarLRX.boundedRouting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PalomarLRX.exactDiameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+== Comparator command: lake comparator --config comparator.json
+The Comparator and full Palomar preflight have separate reports; this log records source integrity, build, and axiom auditing only.

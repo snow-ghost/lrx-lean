@@ -1180,3 +1180,13 @@ run_cmd do
 #check @PalomarLRX.exactDiameter
 #print axioms PalomarLRX.boundedRouting
 #print axioms PalomarLRX.exactDiameter
+
+-- Check the complete independent statement types, not just their names.
+example (n : ℕ) [NeZero n] (hn : 4 ≤ n) :
+    (PalomarLRX.graph n).diam = n * (n - 1) / 2 :=
+  PalomarLRX.exactDiameter n hn
+
+example (n : ℕ) [NeZero n] (hn : 4 ≤ n) (a b : PalomarLRX.State n) :
+    ∃ w : List (Fin 3), a * PalomarLRX.eval w = b ∧
+      w.length ≤ n * (n - 1) / 2 :=
+  PalomarLRX.boundedRouting n hn a b

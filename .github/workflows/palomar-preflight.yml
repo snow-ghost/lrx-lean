@@ -1,0 +1,21 @@
+name: Palomar full mechanical preflight
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: palomar-preflight-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+jobs:
+  palomar-preflight:
+    uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+    with:
+      repository: ${{ github.repository }}
+      commit: ${{ github.event.pull_request.head.sha || github.sha }}
+      pipeline_commit: 14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+      request_id: lrxpreflight
+      mode: full
+      execution_profile: palomar-standard-v1
+      options: '{"comparator_config_path":"comparator.json","authorization_relationship":"I am a responsible author or maintainer"}'
