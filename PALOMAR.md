@@ -51,8 +51,8 @@ work from assumptions of the proof.
 ## Submission fields
 
 After the build, axiom audit, and Comparator pass for a committed snapshot,
-check out that exact SHA when reproducing it; the preparation branch is
-`palomar`, and the published `main` snapshot may use an older toolchain:
+check out that exact SHA when reproducing it. The `main` branch and the
+`v1.0.0` release contain the Lean 4.35.0 submission interface:
 
 | Field | Value |
 |---|---|
@@ -89,12 +89,16 @@ Use these values at https://submit.palomar-registry.org/:
 | How approval was given | Leave empty for the responsible-author choice |
 | Notes | Optional; may be left empty |
 
-The full official mechanical preflight is defined in
+An optional manual mechanical preflight is defined in
 `.github/workflows/palomar-preflight.yml`. It uses the pinned PalomarSubmission
 commit `14aa8d6b3c2f14a8540605e37144560b9a00e7e7` in full mode with
 `palomar-standard-v1`. Check its mechanical report for `status: pass` on the
 exact source SHA before submitting. Local build/audit/Comparator checks
 alone do not replace that official preflight.
+
+The preflight has no automatic pull-request trigger. A submission through
+Palomar starts its own verification workflow; its result is recorded with
+that submission.
 
 The initial submission starts verification and review; completing registration
 is a later decision after reading the review. The browser sign-in is performed

@@ -1,8 +1,6 @@
 name: Palomar full mechanical preflight
 on:
   workflow_dispatch:
-  pull_request:
-    branches: [main]
 permissions:
   contents: read
 concurrency:

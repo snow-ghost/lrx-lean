@@ -52,7 +52,7 @@ usual Lean build prerequisites. Then run:
 ```sh
 git clone https://github.com/snow-ghost/lrx-lean.git
 cd lrx-lean
-git checkout palomar
+git checkout v1.0.0
 lake exe cache get
 bash scripts/verify.sh
 ```
