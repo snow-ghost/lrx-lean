@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite this proof and Lean formalization when using or discussing this result."
+title: "The LRX Cayley graph: exact diameter of the symmetric group in Lean 4"
+type: software
+authors:
+  - family-names: Uskov
+    given-names: S.
+    orcid: "https://orcid.org/0009-0006-5845-7013"
+  - family-names: Chervov
+    given-names: A.
+  - family-names: Levkovich-Maslyuk
+    given-names: F.
+  - family-names: Litvak
+    given-names: I.
+  - family-names: Smolensky
+    given-names: A.
+  - family-names: Soibelman
+    given-names: A.
+  - family-names: Taha
+    given-names: Dia
+version: 1.0.0
+date-released: 2026-11-10
+repository-code: "https://github.com/snow-ghost/lrx-lean"
+url: "https://github.com/snow-ghost/lrx-lean"
+license: MIT
+abstract: >-
+  A Lean 4 formalization of the exact Cayley diameter of S_n with generators
+  L, a cyclic shift, R = L inverse, and X, the transposition of the first two
+  positions. For every n >= 4, the diameter is n*(n-1)/2. Includes upper and
+  lower bounds, finite certificates checked by the Lean kernel, and an
+  axiom audit of all project theorems.
+keywords:
+  - Lean 4
+  - formal proof
+  - Cayley graphs
+  - symmetric group
+  - diameter
+  - A186783

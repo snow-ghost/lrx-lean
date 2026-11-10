@@ -1,0 +1,868 @@
+{
+ "modules_in_import_closure": 1203,
+ "modules_kept": 1137,
+ "modules_dropped": [
+  "LRX.ActualExteriorShellPayment",
+  "LRX.ActualPeakCountCutoff",
+  "LRX.BridgeSequencePositiveLoad",
+  "LRX.CanonicalGapSharpCases",
+  "LRX.ComponentLoad",
+  "LRX.Connected",
+  "LRX.Cycle11BlockReversal",
+  "LRX.CycleSelection",
+  "LRX.EnclosingCycleRankRoute",
+  "LRX.EnergyOneSixRegimes",
+  "LRX.EventCoverSlack",
+  "LRX.FiniteBridgeService",
+  "LRX.FiniteBridgeWord",
+  "LRX.FiniteCycleRoutes",
+  "LRX.FiniteExactFamily",
+  "LRX.FiniteReducedScan",
+  "LRX.FiniteRootRankRoute",
+  "LRX.ForwardFiniteRankTransfer",
+  "LRX.GeometricSourcePacket",
+  "LRX.InternalGapWord",
+  "LRX.JoinedBridgeGapWord",
+  "LRX.JoinedComponentWord",
+  "LRX.JoinedCoreEnergy",
+  "LRX.JoinedPeakPacketWord",
+  "LRX.LargeComponentFixedGapSharpWords",
+  "LRX.LargeComponentJointBudget",
+  "LRX.LeftPortPrice",
+  "LRX.LoadComponentService",
+  "LRX.LowerBoundExceptionalEndpoint",
+  "LRX.LowerBoundExceptionalReduction",
+  "LRX.ManyComponentPeakReduction",
+  "LRX.NestedService",
+  "LRX.OriginalShallowInternalDeficit",
+  "LRX.PaidPortPrice",
+  "LRX.PeriodicRootChildrenRightRoute",
+  "LRX.PeriodicRootChildrenRoute",
+  "LRX.PeriodicWindowProfile",
+  "LRX.PeriodicWindowRightProfile",
+  "LRX.PeriodicWindowRightRoute",
+  "LRX.PeriodicWindowRoute",
+  "LRX.PositiveFillingResource",
+  "LRX.ProjectImports",
+  "LRX.PrunedExactService",
+  "LRX.ReflectionWitness",
+  "LRX.ReflectionWitnessAudit",
+  "LRX.ReflectionWitnessDistance",
+  "LRX.RemainingRootService",
+  "LRX.ReversalPairServiceFamily",
+  "LRX.RightSelectedPartService",
+  "LRX.RootAndChildrenScan",
+  "LRX.RootChildrenRankScan",
+  "LRX.RootCyclePorts",
+  "LRX.ScalarIntervalComplete",
+  "LRX.SelectedCycleSplit",
+  "LRX.SelectedRootRankScan",
+  "LRX.SelectedRootScan",
+  "LRX.ShallowEventTree",
+  "LRX.ShallowPhysicalRankModel",
+  "LRX.SourceCoverSlack",
+  "LRX.TwoBoundaryWindowRoute",
+  "LRX.TwoComponentActivityRouting",
+  "LRX.TwoComponentBridgeWord",
+  "LRX.TwoComponentGeometry",
+  "LRX.TwoComponentOuterReduction",
+  "LRX.WindowReversalInversionBudget",
+  "Submission"
+ ],
+ "removed_declarations": {
+  "LRX.ActualEvenWidthSixDefect": [
+   "LRX.FiniteCuts.even_width_six_high_peak_sharp_word"
+  ],
+  "LRX.ActualNonshortFillings": [
+   "LRX.FiniteCuts.actual_zero_width_four_strict_width_reserve"
+  ],
+  "LRX.ActualNonunitComponentDefect": [
+   "LRX.FiniteCuts.two_component_unit_energy_high_peak_defects"
+  ],
+  "LRX.ActualOddFullWidthFiveDefect": [
+   "LRX.FiniteCuts.odd_full_width_five_high_peak_sharp_word"
+  ],
+  "LRX.ActualOddOneWidthSevenDefect": [
+   "LRX.FiniteCuts.odd_one_width_seven_high_peak_sharp_word"
+  ],
+  "LRX.ActualOddWidthFiveDefect": [
+   "LRX.FiniteCuts.odd_width_five_high_peak_sharp_word"
+  ],
+  "LRX.ActualPeakCountFour": [
+   "LRX.FiniteCuts.count_or_size_many_component_sharp_word"
+  ],
+  "LRX.ActualPeakCountThree": [
+   "LRX.FiniteCuts.four_or_large_many_component_sharp_word"
+  ],
+  "LRX.ActualPeakCutoff": [
+   "LRX.FiniteCuts.actual_two_arc_sharp_or_finite",
+   "LRX.FiniteCuts.large_size_two_arc_sharp_word"
+  ],
+  "LRX.ActualShallowExteriorDeficit": [
+   "LRX.FiniteCuts.two_component_zero_energy_exterior_deficit"
+  ],
+  "LRX.ActualShellEvenPayment": [
+   "LRX.FiniteCuts.prefix_even_exterior_actual_shell_paid",
+   "LRX.FiniteCuts.prefix_even_exterior_sharp_word",
+   "LRX.FiniteCuts.prefix_even_nonnegative_T_sharp_word"
+  ],
+  "LRX.ActualShellInternalPayment": [
+   "LRX.FiniteCuts.prefix_even_shell_paid",
+   "LRX.FiniteCuts.prefix_even_shell_sharp_word"
+  ],
+  "LRX.ActualTwoNeighborReserve": [
+   "LRX.FiniteCuts.original_zero_energy_even_linear_reserve"
+  ],
+  "LRX.ActualTwoSizeCutoff": [
+   "LRX.FiniteCuts.size74_many_component_sharp_word"
+  ],
+  "LRX.AffineCrossings": [
+   "LRX.AffineLift.crossing_row_sum",
+   "LRX.AffineLift.crossing_unit",
+   "LRX.AffineLift.numerator_sum",
+   "LRX.AffineLift.remainder_sum"
+  ],
+  "LRX.AffineLift": [
+   "LRX.AffineLift.exists_short_lift",
+   "LRX.AffineLift.range_bound"
+  ],
+  "LRX.ArcPacketServiceFamily": [
+   "LRX.ZeroGap.arc_packet_service_family"
+  ],
+  "LRX.BlockExchange": [
+   "LRX.BlockExchange.Atom",
+   "LRX.BlockExchange.Atom.block",
+   "LRX.BlockExchange.Atom.block.elim",
+   "LRX.BlockExchange.Atom.block.noConfusion",
+   "LRX.BlockExchange.Atom.casesOn",
+   "LRX.BlockExchange.Atom.ctorElim",
+   "LRX.BlockExchange.Atom.named",
+   "LRX.BlockExchange.Atom.named.elim",
+   "LRX.BlockExchange.Atom.named.noConfusion",
+   "LRX.BlockExchange.Atom.noConfusion",
+   "LRX.BlockExchange.Atom.rec",
+   "LRX.BlockExchange.Atom.recOn",
+   "LRX.BlockExchange.atomExpand",
+   "LRX.BlockExchange.exchange_left_block",
+   "LRX.BlockExchange.exchange_right_block",
+   "LRX.BlockExchange.expand",
+   "LRX.BlockExchange.expand_append",
+   "LRX.BlockExchange.leftMacro",
+   "LRX.BlockExchange.left_macro_length",
+   "LRX.BlockExchange.liftWord",
+   "LRX.BlockExchange.lifted_word_length",
+   "LRX.BlockExchange.lx",
+   "LRX.BlockExchange.lx_length",
+   "LRX.BlockExchange.lx_transfer",
+   "LRX.BlockExchange.macroFor",
+   "LRX.BlockExchange.macroPrice",
+   "LRX.BlockExchange.macro_length_eq_price",
+   "LRX.BlockExchange.rawPrice",
+   "LRX.BlockExchange.repeated_blocks_commute",
+   "LRX.BlockExchange.replicate_add_blocks",
+   "LRX.BlockExchange.replicate_append_one",
+   "LRX.BlockExchange.rightMacro",
+   "LRX.BlockExchange.right_macro_length",
+   "LRX.BlockExchange.rotate_left_block",
+   "LRX.BlockExchange.rotate_right_block",
+   "LRX.BlockExchange.run_liftWord",
+   "LRX.BlockExchange.run_macro",
+   "LRX.BlockExchange.rx",
+   "LRX.BlockExchange.rx_length",
+   "LRX.BlockExchange.rx_step",
+   "LRX.BlockExchange.rx_transfer"
+  ],
+  "LRX.BufferItinerary": [
+   "LRX.BufferProgram.itinerary_correct",
+   "LRX.BufferProgram.itinerary_length"
+  ],
+  "LRX.BufferMotion": [
+   "LRX.BufferProgram.move_correct",
+   "LRX.BufferProgram.move_exchange_price",
+   "LRX.BufferProgram.move_length"
+  ],
+  "LRX.BufferProgram": [
+   "LRX.BufferProgram.exchanges_compile",
+   "LRX.BufferProgram.length_compile"
+  ],
+  "LRX.BufferScan": [
+   "LRX.BufferProgram.scan_exchange",
+   "LRX.BufferProgram.scan_port"
+  ],
+  "LRX.BufferTransfer": [
+   "LRX.BufferProgram.contracted_transfer_correct",
+   "LRX.BufferProgram.transfer_correct",
+   "LRX.BufferProgram.transfer_length"
+  ],
+  "LRX.ChildService": [
+   "LRX.BufferProgram.child_service_head"
+  ],
+  "LRX.ClosedReachableService": [
+   "LRX.RotationWords.exists_closed_service",
+   "LRX.RotationWords.idleService"
+  ],
+  "LRX.ComponentCutBlockCount": [
+   "LRX.FiniteCuts.maximal_cut_component_bridge_bounds"
+  ],
+  "LRX.ConnectedLoadWord": [
+   "LRX.CycleFootprint.component_word",
+   "LRX.CycleFootprint.connected_load_word"
+  ],
+  "LRX.ContractionCutCounts": [
+   "LRX.ContractionBlocks.System.threshold_cut_bounds"
+  ],
+  "LRX.ContractionSelectedArrows": [
+   "LRX.ContractionBlocks.System.selected_contract_card"
+  ],
+  "LRX.CoveredPacketSharpWord": [
+   "LRX.phase_covered_packet_word"
+  ],
+  "LRX.Cycle11PairEncounter": [
+   "LRX.Cycle11PairEncounter.first_encounter",
+   "LRX.Cycle11PairEncounter.pair_right",
+   "LRX.Cycle11PairEncounter.step_birth"
+  ],
+  "LRX.Cycle11RigidPairMoves": [
+   "LRX.Cycle11RigidPairMoves.next_to_wrap",
+   "LRX.Cycle11RigidPairMoves.wrap_to_next"
+  ],
+  "LRX.Cycle11StructuralBridge": [
+   "LRX.Cycle11StructuralBridge.near_repair",
+   "LRX.Cycle11StructuralBridge.structural_bridge"
+  ],
+  "LRX.Cycle11TwoLabelRepair": [
+   "LRX.Cycle11TwoLabelRepair.encounter_bridge",
+   "LRX.Cycle11TwoLabelRepair.repair_next",
+   "LRX.Cycle11TwoLabelRepair.repair_tail",
+   "LRX.Cycle11TwoLabelRepair.repair_wrap"
+  ],
+  "LRX.Cycle11WordSymmetry": [
+   "LRX.Cycle11WordSymmetry.inverse",
+   "LRX.Cycle11WordSymmetry.inverse_mirror",
+   "LRX.Cycle11WordSymmetry.mirror",
+   "LRX.Cycle11WordSymmetry.mirrorOp",
+   "LRX.Cycle11WordSymmetry.mirror_spin",
+   "LRX.Cycle11WordSymmetry.reflect_involutive",
+   "LRX.Cycle11WordSymmetry.reflect_left",
+   "LRX.Cycle11WordSymmetry.reflect_right",
+   "LRX.Cycle11WordSymmetry.reflect_run",
+   "LRX.Cycle11WordSymmetry.reflect_spin",
+   "LRX.Cycle11WordSymmetry.reflect_step",
+   "LRX.Cycle11WordSymmetry.reverse_spin",
+   "LRX.Cycle11WordSymmetry.run_inverse",
+   "LRX.Cycle11WordSymmetry.spin_length_state",
+   "LRX.Cycle11WordSymmetry.spin_prefix",
+   "LRX.Cycle11WordSymmetry.step_inverse"
+  ],
+  "LRX.CycleWinding": [
+   "LRX.BufferProgram.cycle_displacement_sum"
+  ],
+  "LRX.CyclicService": [
+   "LRX.BufferProgram.cyclic_service",
+   "LRX.BufferProgram.exists_complete_cycle_order"
+  ],
+  "LRX.DiscreteLoadProfile": [
+   "LRX.DiscreteLoad.rightPeak"
+  ],
+  "LRX.EnclosingBoundaryRoute": [
+   "LRX.FiniteCuts.enclosing_selected_boundary_word",
+   "LRX.FiniteCuts.enclosing_selected_exit_word",
+   "LRX.RotationWords.approach_boundary_word",
+   "LRX.RotationWords.depart_boundary_word"
+  ],
+  "LRX.ExactDiameter": [
+   "LRX.exact_diameter_small",
+   "LRX.reflected_distance"
+  ],
+  "LRX.ExchangeReserveNonnegative": [
+   "LRX.FiniteGaps.small_core_first_gap_word"
+  ],
+  "LRX.ExteriorUnitPairRigidity": [
+   "LRX.FiniteCuts.unit_pair_sign_check",
+   "LRX.FiniteCuts.zero_width_four_catalogue_iff"
+  ],
+  "LRX.FiniteBridgeLoad": [
+   "LRX.FiniteCuts.component_bridge_cut_load"
+  ],
+  "LRX.FiniteCutRegularity": [
+   "LRX.FiniteCuts.half_load_step"
+  ],
+  "LRX.FiniteCycleAvailability": [
+   "LRX.FiniteCuts.left_peak_service",
+   "LRX.FiniteCuts.right_peak_service"
+  ],
+  "LRX.FiniteCycleScan": [
+   "LRX.FiniteCuts.left_cycle_scan"
+  ],
+  "LRX.FiniteEntryContraction": [
+   "LRX.FiniteCuts.contract_inverse"
+  ],
+  "LRX.FiniteExactAvailability": [
+   "LRX.FiniteCuts.right_peak_exact_service"
+  ],
+  "LRX.FiniteGapPacketWordBound": [
+   "LRX.FiniteWindow.finite_gap_packet_word_bound"
+  ],
+  "LRX.FiniteLoadIntervals": [
+   "LRX.FiniteCuts.finite_component_interval"
+  ],
+  "LRX.FinitePeakEnumeration": [
+   "LRX.FinitePeak.Profile.exteriorLower",
+   "LRX.FinitePeak.Profile.exteriorUpper",
+   "LRX.FinitePeak.admissible_exterior_bounds",
+   "LRX.FinitePeak.admissible_mem_enumerate",
+   "LRX.FinitePeak.admissible_mem_enumerateHoles",
+   "LRX.FinitePeak.enumerate",
+   "LRX.FinitePeak.enumerateAt",
+   "LRX.FinitePeak.enumerateHoles",
+   "LRX.FinitePeak.makeProfile"
+  ],
+  "LRX.FinitePermutationProfile": [
+   "LRX.FiniteCuts.finite_cut_charge_bound",
+   "LRX.FiniteCuts.profile",
+   "LRX.FiniteCuts.profile_footrule"
+  ],
+  "LRX.FiniteQuadraticGap": [
+   "LRX.FiniteCuts.gapCost_le_size"
+  ],
+  "LRX.FiniteRankSorting": [
+   "LRX.FiniteRankOrder.below_compare_sequence",
+   "LRX.FiniteRankOrder.compareSequence",
+   "LRX.FiniteRankOrder.sorting_transfer"
+  ],
+  "LRX.FiniteReachableExactService": [
+   "LRX.FiniteCuts.component_bridge_service_at"
+  ],
+  "LRX.FiniteRootRoute": [
+   "LRX.FiniteCuts.finite_root_left_line",
+   "LRX.FiniteCuts.finite_root_route"
+  ],
+  "LRX.FiniteRouteRankTransfer": [
+   "LRX.LiftedModel.eval_initial_tokens",
+   "LRX.RotationWords.finite_route_rank_transfer"
+  ],
+  "LRX.FullCycleService": [
+   "LRX.BufferProgram.full_cycle_service"
+  ],
+  "LRX.GapComplementCoordinates": [
+   "LRX.PrunedLift.complementCoordinate",
+   "LRX.PrunedLift.complement_coordinate_bounds",
+   "LRX.PrunedLift.complement_coordinate_injective",
+   "LRX.PrunedLift.complement_coordinate_residue",
+   "LRX.PrunedLift.displacement_le_complement"
+  ],
+  "LRX.GapCostInversionDeficit": [
+   "LRX.FiniteCuts.inversion_number_le_choose_two"
+  ],
+  "LRX.Graph": [
+   "LRX.leftTranslate"
+  ],
+  "LRX.IsolatedGapSharpPayment": [
+   "LRX.FiniteCuts.joined_bridge_gap_sharp_word"
+  ],
+  "LRX.IsolatedGapWidths": [
+   "LRX.FiniteCuts.bridge_gap_isolated_width"
+  ],
+  "LRX.JoinedFillings": [
+   "LRX.FiniteCuts.joined_filling_displacement",
+   "LRX.FiniteCuts.joined_filling_permutation",
+   "LRX.FiniteCuts.joined_forward_outside_packets",
+   "LRX.FiniteCuts.joined_source_packets_invariant"
+  ],
+  "LRX.JoinedLoadInterval": [
+   "LRX.FiniteCuts.joined_load_positive_iff",
+   "LRX.FiniteCuts.joined_load_zero_outside"
+  ],
+  "LRX.JoinedPeakPacketFamily": [
+   "LRX.FiniteCuts.joined_peak_packet_family"
+  ],
+  "LRX.JointInternalExternalBudget": [
+   "LRX.FiniteWindow.joint_positive_windows_strict_budget"
+  ],
+  "LRX.LargeComponentWidthReserve": [
+   "LRX.FiniteCuts.large_component_width_reserve"
+  ],
+  "LRX.LiftedModel": [
+   "LRX.LiftedModel.displacement_balanced",
+   "LRX.LiftedModel.position_sum_run",
+   "LRX.LiftedModel.position_sum_step"
+  ],
+  "LRX.LiftedPair": [
+   "LRX.LiftedModel.pair_rename_involutive"
+  ],
+  "LRX.ListBridge": [
+   "LRX.ListBridge.run_ofFn"
+  ],
+  "LRX.LoadComponentSet": [
+   "LRX.CycleFootprint.component_keeps_core"
+  ],
+  "LRX.LoadComponents": [
+   "LRX.CycleFootprint.load_component_source_packet"
+  ],
+  "LRX.LocalPairSignCheck": [
+   "LRX.FiniteCuts.actual_pair_constraint_check"
+  ],
+  "LRX.LowerBoundFoldedTransport": [
+   "LRX.LowerBoundFoldedTransport.reflected_endpoints"
+  ],
+  "LRX.LowerBoundPaidProjection": [
+   "LRX.LowerBoundPaidProjection.physical_two_block_price_lower",
+   "LRX.LowerBoundPaidProjection.step_X_iff_physical",
+   "LRX.LowerBoundPaidProjection.trace_projection"
+  ],
+  "LRX.LowerBoundSwapGraph": [
+   "LRX.LowerBoundSwapGraph.far_from_balanced",
+   "LRX.LowerBoundSwapGraph.joint_budget_identity",
+   "LRX.LowerBoundSwapGraph.remaining_budget_iff"
+  ],
+  "LRX.ManyCountTwoReduction": [
+   "LRX.FiniteCuts.many_count_or_size_sharp_word"
+  ],
+  "LRX.MaximalCutManyRouting": [
+   "LRX.FiniteCuts.large_size_many_component_sharp_word",
+   "LRX.FiniteCuts.original_many_component_sharp_or_finite"
+  ],
+  "LRX.NarrowWindowLift": [
+   "LRX.FiniteWindow.majorized_window_left_line"
+  ],
+  "LRX.NormalizedPeakReserve": [
+   "LRX.FiniteCuts.normalized_peak_sharp_or_reserve"
+  ],
+  "LRX.OrbitChild": [
+   "LRX.BufferProgram.orbit_child_execution"
+  ],
+  "LRX.OrderedPortRoute": [
+   "LRX.RotationWords.exists_ordered_services",
+   "LRX.RotationWords.interval_route"
+  ],
+  "LRX.OriginalEnvelopeFilters": [
+   "LRX.FiniteCuts.original_unpaid_internal_square_min"
+  ],
+  "LRX.OriginalFillingResourceBudget": [
+   "LRX.FiniteCuts.original_unpaid_filling_resource_filters",
+   "LRX.FiniteCuts.original_unpaid_fixed_free_filling_filter"
+  ],
+  "LRX.OriginalShallowExteriorDeficit": [
+   "LRX.FiniteCuts.original_zero_energy_exterior_deficit"
+  ],
+  "LRX.OuterSupportBudget": [
+   "LRX.FiniteCuts.outer_gap_fixed_budget"
+  ],
+  "LRX.OutsideCycleServices": [
+   "LRX.ZeroGap.outside_cycle_left_service"
+  ],
+  "LRX.PacketComplementEnergy": [
+   "LRX.PrunedLift.core_complement_energy"
+  ],
+  "LRX.PacketCoverage": [
+   "LRX.PrunedLift.root_star_packet_cover"
+  ],
+  "LRX.PacketEnergyReserve": [
+   "LRX.PrunedLift.core_reserve_complement"
+  ],
+  "LRX.PacketGapAggregate": [
+   "LRX.FiniteGaps.complement_reserve_nonneg",
+   "LRX.FiniteGaps.gap_quadratic_cost"
+  ],
+  "LRX.PacketGapFilling": [
+   "LRX.FiniteWindow.geometric_gap_word_bound"
+  ],
+  "LRX.PacketGapMass": [
+   "LRX.FiniteGaps.gap_energy_nonneg"
+  ],
+  "LRX.PacketSquareEnvelope": [
+   "LRX.FiniteGaps.selected_gap_quadratic_envelope"
+  ],
+  "LRX.PaidRootService": [
+   "LRX.RotationWords.paid_root_service"
+  ],
+  "LRX.PeakFourSourceRigidity": [
+   "LRX.FiniteCuts.peak_four_one_extra_trace"
+  ],
+  "LRX.PeakProfileFour": [
+   "LRX.FinitePeak.Profile.precise_core_count_le_three"
+  ],
+  "LRX.PeakProfileInterval": [
+   "LRX.FinitePeak.Profile.intervalData_replace_holes"
+  ],
+  "LRX.PeakReserveBound": [
+   "LRX.FiniteCuts.large_component_peak_sharp_or_reserve"
+  ],
+  "LRX.PeriodicLift": [
+   "LRX.AffineLift.periodicEquiv",
+   "LRX.AffineLift.periodicMap",
+   "LRX.AffineLift.periodicMap_add",
+   "LRX.AffineLift.periodicMap_endpoint",
+   "LRX.AffineLift.periodicMap_fin",
+   "LRX.AffineLift.periodicMap_injective",
+   "LRX.AffineLift.periodicMap_surjective",
+   "LRX.AffineLift.residue_fin",
+   "LRX.AffineLift.residue_period"
+  ],
+  "LRX.PeriodicRemainingService": [
+   "LRX.PrunedLift.periodic_remaining_service"
+  ],
+  "LRX.PhysicalModel": [
+   "LRX.PhysicalModel.eval_of_realizes"
+  ],
+  "LRX.PhysicalRankTransfer": [
+   "LRX.PhysicalModel.rank_transfer_sorting_word",
+   "LRX.PhysicalModel.rank_transfer_word"
+  ],
+  "LRX.PortLoadMass": [
+   "LRX.RotationWords.port_load_mass",
+   "LRX.RotationWords.quotient_block_sum",
+   "LRX.RotationWords.signed_crossing_sum",
+   "LRX.RotationWords.single_arrow_load_mass"
+  ],
+  "LRX.PortRoute": [
+   "LRX.RotationWords.route_exchanges",
+   "LRX.RotationWords.route_length",
+   "LRX.RotationWords.route_permuted"
+  ],
+  "LRX.PositiveGapBoundary": [
+   "LRX.FiniteGaps.positive_boundary_gap_word"
+  ],
+  "LRX.PositiveLoadPacket": [
+   "LRX.CycleFootprint.positive_load_exact_service",
+   "LRX.CycleFootprint.positive_load_packet"
+  ],
+  "LRX.PrefixFillingResourceBudget": [
+   "LRX.FiniteCuts.original_unpaid_fixed_free_prefix_filter"
+  ],
+  "LRX.PrefixRankGaps": [
+   "LRX.FiniteCuts.prefix_rank_gap_filling"
+  ],
+  "LRX.PrunedLoad": [
+   "LRX.PrunedLift.canonical_pruned_port_load"
+  ],
+  "LRX.PrunedPartition": [
+   "LRX.PrunedLift.absolute_partition",
+   "LRX.PrunedLift.displacement_partition"
+  ],
+  "LRX.PrunedReachability": [
+   "LRX.PrunedLift.root_star_pruned"
+  ],
+  "LRX.PrunedService": [
+   "LRX.PrunedLift.pruned_service_price"
+  ],
+  "LRX.ReachableService": [
+   "LRX.BufferProgram.short_reachable_lift_service"
+  ],
+  "LRX.RecenteredLift": [
+   "LRX.RotationWords.wrap",
+   "LRX.RotationWords.wrap_eval",
+   "LRX.RotationWords.wrap_length",
+   "LRX.RotationWords.wrap_length_le"
+  ],
+  "LRX.ReducedPrice": [
+   "LRX.ReducedPrice.Affine",
+   "LRX.ReducedPrice.Affine.add",
+   "LRX.ReducedPrice.Affine.casesOn",
+   "LRX.ReducedPrice.Affine.constant",
+   "LRX.ReducedPrice.Affine.coord",
+   "LRX.ReducedPrice.Affine.eval",
+   "LRX.ReducedPrice.Affine.eval_add",
+   "LRX.ReducedPrice.Affine.mk",
+   "LRX.ReducedPrice.Affine.mk.noConfusion",
+   "LRX.ReducedPrice.Affine.negOne",
+   "LRX.ReducedPrice.Affine.noConfusion",
+   "LRX.ReducedPrice.Affine.one",
+   "LRX.ReducedPrice.Affine.rec",
+   "LRX.ReducedPrice.Affine.recOn",
+   "LRX.ReducedPrice.Affine.terms",
+   "LRX.ReducedPrice.Affine.zero",
+   "LRX.ReducedPrice.Core",
+   "LRX.ReducedPrice.Core.blockIndex",
+   "LRX.ReducedPrice.Core.casesOn",
+   "LRX.ReducedPrice.Core.ctorElim",
+   "LRX.ReducedPrice.Core.extra",
+   "LRX.ReducedPrice.Core.leftBlock",
+   "LRX.ReducedPrice.Core.leftBlock.elim",
+   "LRX.ReducedPrice.Core.leftBlock.noConfusion",
+   "LRX.ReducedPrice.Core.length_word",
+   "LRX.ReducedPrice.Core.noConfusion",
+   "LRX.ReducedPrice.Core.rec",
+   "LRX.ReducedPrice.Core.recOn",
+   "LRX.ReducedPrice.Core.rightBlock",
+   "LRX.ReducedPrice.Core.rightBlock.elim",
+   "LRX.ReducedPrice.Core.rightBlock.noConfusion",
+   "LRX.ReducedPrice.Core.single",
+   "LRX.ReducedPrice.Core.single.elim",
+   "LRX.ReducedPrice.Core.word",
+   "LRX.ReducedPrice.Token",
+   "LRX.ReducedPrice.Token.casesOn",
+   "LRX.ReducedPrice.Token.core",
+   "LRX.ReducedPrice.Token.core.elim",
+   "LRX.ReducedPrice.Token.core.noConfusion",
+   "LRX.ReducedPrice.Token.ctorElim",
+   "LRX.ReducedPrice.Token.noConfusion",
+   "LRX.ReducedPrice.Token.rec",
+   "LRX.ReducedPrice.Token.recOn",
+   "LRX.ReducedPrice.Token.rot",
+   "LRX.ReducedPrice.Token.rot.elim",
+   "LRX.ReducedPrice.Token.rot.noConfusion",
+   "LRX.ReducedPrice.Token.word",
+   "LRX.ReducedPrice.ValidStep",
+   "LRX.ReducedPrice.ValidWord",
+   "LRX.ReducedPrice.compile",
+   "LRX.ReducedPrice.compile_blocks",
+   "LRX.ReducedPrice.compile_core_count",
+   "LRX.ReducedPrice.compile_word",
+   "LRX.ReducedPrice.core_extras",
+   "LRX.ReducedPrice.cores",
+   "LRX.ReducedPrice.cores_append",
+   "LRX.ReducedPrice.gaps",
+   "LRX.ReducedPrice.macroTokens",
+   "LRX.ReducedPrice.macroTokens_word",
+   "LRX.ReducedPrice.normalize",
+   "LRX.ReducedPrice.normalize_length",
+   "LRX.ReducedPrice.normalize_length_le",
+   "LRX.ReducedPrice.normalize_semantics",
+   "LRX.ReducedPrice.reducedLift",
+   "LRX.ReducedPrice.reducedLift_correct",
+   "LRX.ReducedPrice.reducedLift_endpoint",
+   "LRX.ReducedPrice.reducedLift_length",
+   "LRX.ReducedPrice.reducedLift_length_le_raw",
+   "LRX.ReducedPrice.rotation",
+   "LRX.ReducedPrice.run_replicate",
+   "LRX.ReducedPrice.run_spin",
+   "LRX.ReducedPrice.spin_add",
+   "LRX.ReducedPrice.spin_length",
+   "LRX.ReducedPrice.spin_nat",
+   "LRX.ReducedPrice.spin_neg_nat",
+   "LRX.ReducedPrice.swapBlocks",
+   "LRX.ReducedPrice.tokensWord",
+   "LRX.ReducedPrice.xCount"
+  ],
+  "LRX.ReflectedClosedService": [
+   "LRX.WordReflection.exists_left_closed_service"
+  ],
+  "LRX.ReflectedLift": [
+   "LRX.WordReflection.crossing_reflected",
+   "LRX.WordReflection.inversion_count_reflected"
+  ],
+  "LRX.ReflectedPortLoad": [
+   "LRX.WordReflection.port_distance_neg"
+  ],
+  "LRX.ReflectionComponentCapacity": [
+   "LRX.FiniteCuts.majorized_canonical_large_component_capacity",
+   "LRX.FiniteCuts.majorized_large_component_capacity"
+  ],
+  "LRX.RotationWords": [
+   "LRX.RotationWords.spin_cursor",
+   "LRX.RotationWords.spin_exchanges"
+  ],
+  "LRX.ScalarIntervalCertificate": [
+   "ScalarIntervalCertificate.endpoints_alone_are_insufficient",
+   "ScalarIntervalCertificate.interval_exists_iff"
+  ],
+  "LRX.SelectedPartService": [
+   "LRX.CyclePart.selected_part_root_service"
+  ],
+  "LRX.ShallowRotation": [
+   "LRX.FiniteCuts.rotate_conjugate_is_cycle"
+  ],
+  "LRX.ShallowSelectedRankBound": [
+   "LRX.ContractionBlocks.System.shallow_selected_rank_bound",
+   "LRX.ContractionBlocks.System.threshold_rank_bound"
+  ],
+  "LRX.ShallowShellBoundaryJoin": [
+   "LRX.FiniteCuts.exists_shell_boundary_upper_map",
+   "LRX.FiniteCuts.exists_shell_boundary_upper_map_of_multiple_components"
+  ],
+  "LRX.ShellReservePayment": [
+   "LRX.ShellReservePayment.even_exterior_paid",
+   "LRX.ShellReservePayment.even_internal_dominant_paid",
+   "LRX.ShellReservePayment.even_nondominant_paid"
+  ],
+  "LRX.SingleCycleServices": [
+   "LRX.RotationWords.single_cycle_left_service",
+   "LRX.RotationWords.single_cycle_right_service"
+  ],
+  "LRX.Small": [
+   "LRX.sharp_diam_small"
+  ],
+  "LRX.SmallExteriorCatalogue": [
+   "LRX.FiniteCuts.actual_unpaid_window_mem_catalogue"
+  ],
+  "LRX.SourceReversalComponentCapacity": [
+   "LRX.FiniteCuts.source_gap_deficit_component_reserve",
+   "LRX.FiniteCuts.source_reversal_component_capacity"
+  ],
+  "LRX.SourceReversalComponentEquality": [
+   "LRX.FiniteCuts.source_reversal_component_eq"
+  ],
+  "LRX.StrictBandInversionCapacity": [
+   "LRX.FiniteCuts.finite_strict_band_inversion_capacity",
+   "LRX.FiniteCuts.majorized_canonical_inversion_capacity"
+  ],
+  "LRX.StrongPacketEventBudget": [
+   "LRX.ZeroGap.strong_packet_cycle_inversion_bound",
+   "LRX.ZeroGap.strong_packet_cycle_root_count"
+  ],
+  "LRX.ThreeComponentPacketRoute": [
+   "LRX.FiniteCuts.exceptional_three_component_sharp"
+  ],
+  "LRX.ThreeOuterTable": [
+   "LRX.FinitePeak.admissible_three_mem_table",
+   "LRX.FinitePeak.checked_three_outer_sound",
+   "LRX.FinitePeak.checked_three_outer_table",
+   "LRX.FinitePeak.instDecidableThreeOuter",
+   "LRX.FinitePeak.threeOuterRows",
+   "LRX.FinitePeak.three_outer_mem_table",
+   "LRX.FinitePeak.three_outer_mem_table_iff"
+  ],
+  "LRX.TwoArcPacketSymmetry": [
+   "LRX.RotationWords.admissible_packet_port_recenter",
+   "LRX.RotationWords.arbitrary_root_two_arc_word",
+   "LRX.RotationWords.arc_coordinate_shift"
+  ],
+  "LRX.TwoArcPacketWord": [
+   "LRX.RotationWords.admissible_packet_cursor_word",
+   "LRX.RotationWords.two_arc_packet_word"
+  ],
+  "LRX.TwoBlockReflectionBarrier": [
+   "LRX.FiniteCuts.two_block_reflection_component_span"
+  ],
+  "LRX.TwoComponentPeakReduction": [
+   "LRX.FiniteCuts.two_component_sharp_or_bounded_peak",
+   "LRX.FiniteCuts.two_component_unpaid_peak_bounds"
+  ],
+  "LRX.TwoComponentTightPeakBounds": [
+   "LRX.FiniteCuts.two_component_sharp_or_tight_peak"
+  ],
+  "LRX.TwoOuterTable": [
+   "LRX.FinitePeak.two_outer_mem_table_iff"
+  ],
+  "LRX.UpperReduction": [
+   "LRX.exact_diameter_of_nonzero_routing"
+  ],
+  "LRX.WindowComposition": [
+   "LRX.FiniteWindow.permutation_pairwise"
+  ],
+  "LRX.WindowFamilyFixedCount": [
+   "LRX.FiniteCuts.prefix_filling_fixed_count_le",
+   "LRX.FiniteCuts.prefix_fillings_fixed_free_of_isolated_count"
+  ],
+  "LRX.WindowReversalComponentEquality": [
+   "LRX.FiniteWindow.replace_reversal_component_eq",
+   "LRX.FiniteWindow.replace_reversal_load_path_iff"
+  ],
+  "LRX.WindowReversalComponents": [
+   "LRX.FiniteWindow.replace_reversal_component_subset"
+  ],
+  "LRX.WindowSignedSelection": [
+   "LRX.FiniteWindow.matching_window_negative_selection",
+   "LRX.FiniteWindow.matching_window_positive_selection"
+  ],
+  "LRX.WordMetric": [
+   "LRX.sharp_specification"
+  ],
+  "LRX.WordReflection": [
+   "LRX.WordReflection.mirror_exchanges",
+   "LRX.WordReflection.mirror_lower_bridge"
+  ],
+  "LRX.ZeroEnergyShallowPacket": [
+   "LRX.FiniteCuts.two_component_zero_energy_large_packet_geometry",
+   "LRX.FiniteCuts.two_component_zero_energy_shallow_packet"
+  ],
+  "LRX.ZeroEnergyTwoOddRegimes": [
+   "LRX.FiniteCuts.zero_energy_even_many_component_sharp_word"
+  ],
+  "LRX.ZeroGapEventGeometry": [
+   "LRX.ZeroGap.inside_translate"
+  ],
+  "LRX.ZeroGapEventGraph": [
+   "LRX.ZeroGap.event_component_invariant"
+  ],
+  "LRX.ZeroGapPacketConnected": [
+   "LRX.ZeroGap.core_card_le_events",
+   "LRX.ZeroGap.sorting_core_rank"
+  ],
+  "LRX.ZeroGapSorting": [
+   "LRX.ZeroGap.inversions_le_mass"
+  ],
+  "LRX.ZeroLoadCut": [
+   "LRX.CycleFootprint.zero_last_cut_balance"
+  ],
+  "Reachability": [
+   "LRX.GraphReachability.adjWord_length"
+  ],
+  "Research.CayleyPy.BalancedTwoBlockPorts": [
+   "BalancedTwoBlockPorts.balanced_quadratic_identity",
+   "BalancedTwoBlockPorts.boundary_pairs_disjoint",
+   "BalancedTwoBlockPorts.four_ports_cover"
+  ],
+  "Research.CayleyPy.ConnectedComplementCap": [
+   "CayleyPy.ConnectedComplementCap.complement_root_deficit",
+   "CayleyPy.ConnectedComplementCap.complementary_arcs_paid",
+   "CayleyPy.ConnectedComplementCap.full_circle_cases_paid",
+   "CayleyPy.ConnectedComplementCap.localized_energy",
+   "CayleyPy.ConnectedComplementCap.source_packet_exchange_reserve"
+  ],
+  "Research.CayleyPy.FiniteGapService": [
+   "FiniteGapService.finite_gap_service_unordered",
+   "FiniteGapService.finite_gap_service_with_inversions"
+  ],
+  "Research.CayleyPy.GapInversionBudget": [
+   "CayleyPy.GapInversionBudget.completion_budget",
+   "CayleyPy.GapInversionBudget.depth_with_cursor",
+   "CayleyPy.GapInversionBudget.internal_gap_paid",
+   "CayleyPy.GapInversionBudget.same_budget_identity",
+   "CayleyPy.GapInversionBudget.source_word_bound"
+  ],
+  "Research.CayleyPy.ManyComponentTailBudget": [
+   "CayleyPy.ManyComponentTailBudget.all_old_gaps_paid",
+   "CayleyPy.ManyComponentTailBudget.area_peak_payment",
+   "CayleyPy.ManyComponentTailBudget.bounded_arrow_certificate",
+   "CayleyPy.ManyComponentTailBudget.bridge_geometry_budget",
+   "CayleyPy.ManyComponentTailBudget.enough_bounded_components",
+   "CayleyPy.ManyComponentTailBudget.enough_unit_components",
+   "CayleyPy.ManyComponentTailBudget.fixed_gaps_paid",
+   "CayleyPy.ManyComponentTailBudget.general_forest_credit",
+   "CayleyPy.ManyComponentTailBudget.high_epsilon_activity",
+   "CayleyPy.ManyComponentTailBudget.hull_certificate",
+   "CayleyPy.ManyComponentTailBudget.peak_paid",
+   "CayleyPy.ManyComponentTailBudget.refined_activity_from_mass",
+   "CayleyPy.ManyComponentTailBudget.refined_hull_certificate",
+   "CayleyPy.ManyComponentTailBudget.refined_tail_peak",
+   "CayleyPy.ManyComponentTailBudget.signed_tail_reserve",
+   "CayleyPy.ManyComponentTailBudget.tail_threshold",
+   "CayleyPy.ManyComponentTailBudget.three_component_residual",
+   "CayleyPy.ManyComponentTailBudget.universal_fixed_gap_payment",
+   "CayleyPy.ManyComponentTailBudget.universal_old_gap_payment",
+   "CayleyPy.ManyComponentTailBudget.unpaid_component_count",
+   "CayleyPy.ManyComponentTailBudget.unpaid_cubic_component_count",
+   "CayleyPy.ManyComponentTailBudget.unpaid_fixed_positions",
+   "CayleyPy.ManyComponentTailBudget.unpaid_fixed_positions_refined"
+  ],
+  "Research.CayleyPy.RootGapArithmetic": [
+   "CayleyPy.RootGapArithmetic.allowance",
+   "CayleyPy.RootGapArithmetic.disparity_bound",
+   "CayleyPy.RootGapArithmetic.envelope_identity",
+   "CayleyPy.RootGapArithmetic.load_aware_payment",
+   "CayleyPy.RootGapArithmetic.necessary_failure",
+   "CayleyPy.RootGapArithmetic.necessary_gap_failure",
+   "CayleyPy.RootGapArithmetic.nondominant_payment",
+   "CayleyPy.RootGapArithmetic.nondominant_reversal_energy",
+   "CayleyPy.RootGapArithmetic.paid_of_disparity"
+  ],
+  "Research.CayleyPy.StrongIntervalCapCutoff": [
+   "CayleyPy.StrongIntervalCapCutoff.areaGap",
+   "CayleyPy.StrongIntervalCapCutoff.cap_volume",
+   "CayleyPy.StrongIntervalCapCutoff.certificate_table",
+   "CayleyPy.StrongIntervalCapCutoff.cutoff",
+   "CayleyPy.StrongIntervalCapCutoff.final_size",
+   "CayleyPy.StrongIntervalCapCutoff.finite_profile_envelope",
+   "CayleyPy.StrongIntervalCapCutoff.no_large_scalar",
+   "CayleyPy.StrongIntervalCapCutoff.parity_preserving_area",
+   "CayleyPy.StrongIntervalCapCutoff.pivot",
+   "CayleyPy.StrongIntervalCapCutoff.split_certificate",
+   "CayleyPy.StrongIntervalCapCutoff.strong_density",
+   "CayleyPy.StrongIntervalCapCutoff.width"
+  ]
+ },
+ "dropped_commands": 260,
+ "removed_declaration_count": 460
+}

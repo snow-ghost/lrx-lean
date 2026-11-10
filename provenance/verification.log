@@ -1,0 +1,14 @@
+# bash scripts/verify.sh — 2026-11-04T22:02:57+05:00 — Lean leanprover/lean4:v4.34.0
+== source integrity
+== forbidden constructs
+checked 1144 files, 0 forbidden tokens
+== build
+Build completed successfully (4273 jobs).
+== axiom audit
+PASS: 15866 theorems in 1138 package modules use only propext, Classical.choice, Quot.sound.
+LRX.exact_diameter_all : ∀ (n : ℕ) [inst : NeZero n], 4 ≤ n → (LRX.graph n).diam = n * (n - 1) / 2
+'LRX.exact_diameter_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.sharp_diameter_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.nonzero_lift_routing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRX.diam_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit status: 0
