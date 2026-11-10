@@ -1,4 +1,8 @@
-import LRX.TwoArcPacketWord
+module
+
+public import LRX.TwoArcPacketWord
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

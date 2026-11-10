@@ -1,4 +1,8 @@
-import LRX.FinitePeakProfile
+module
+
+public import LRX.FinitePeakProfile
+
+@[expose] public section
 
 namespace LRX.FinitePeak.Profile
 

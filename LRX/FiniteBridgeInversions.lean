@@ -1,4 +1,8 @@
-import LRX.FiniteBridgeCoordinates
+module
+
+public import LRX.FiniteBridgeCoordinates
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

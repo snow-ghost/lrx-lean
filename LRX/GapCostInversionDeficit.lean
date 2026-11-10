@@ -1,6 +1,10 @@
-import LRX.FiniteDepthSupport
-import LRX.FiniteSupportPeakBounds
-import Research.CayleyPy.GapInversionBudget
+module
+
+public import LRX.FiniteDepthSupport
+public import LRX.FiniteSupportPeakBounds
+public import Research.CayleyPy.GapInversionBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

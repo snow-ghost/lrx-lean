@@ -1,5 +1,9 @@
-import LRX.PositiveGapRecenter
-import LRX.OriginalCutGapReserve
+module
+
+public import LRX.PositiveGapRecenter
+public import LRX.OriginalCutGapReserve
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

@@ -1,5 +1,9 @@
-import LRX.IsolatedGapWidths
-import LRX.MaximumSeparatorBound
+module
+
+public import LRX.IsolatedGapWidths
+public import LRX.MaximumSeparatorBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

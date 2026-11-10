@@ -1,4 +1,8 @@
-import LRX.CapacityEqualityReflection
+module
+
+public import LRX.CapacityEqualityReflection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

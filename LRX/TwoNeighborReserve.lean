@@ -1,4 +1,8 @@
-import LRX.ShallowGeometricDeficit
+module
+
+public import LRX.ShallowGeometricDeficit
+
+@[expose] public section
 
 /-! M3, shallow shell with even root size: its two distinct rank-neighbor
 arrows give a linear exterior reserve, without selecting a dominant gap. -/

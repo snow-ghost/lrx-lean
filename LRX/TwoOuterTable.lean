@@ -1,4 +1,8 @@
-import LRX.TwoOuterTableData
+module
+
+public import LRX.TwoOuterTableData
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

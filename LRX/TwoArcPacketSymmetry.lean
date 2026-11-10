@@ -1,5 +1,9 @@
-import LRX.TwoArcPacketWord
-import LRX.PacketCoordinateSymmetry
+module
+
+public import LRX.TwoArcPacketWord
+public import LRX.PacketCoordinateSymmetry
+
+@[expose] public section
 
 /-! The geometric two-arc case is independent of the chosen packet root. -/
 namespace LRX.RotationWords

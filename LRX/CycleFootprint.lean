@@ -1,5 +1,9 @@
-import LRX.FootprintPacket
-import LRX.PeriodicTouches
+module
+
+public import LRX.FootprintPacket
+public import LRX.PeriodicTouches
+
+@[expose] public section
 
 /-! Actual finite footprints of lifted permutation cycles. Boundary vertices
 belong to the cycle support; internal vertices contain both circle neighbors. -/

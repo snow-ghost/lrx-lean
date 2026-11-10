@@ -1,5 +1,9 @@
-import LRX.SuffixComponentPartition
-import LRX.ComponentCrossMinimum
+module
+
+public import LRX.SuffixComponentPartition
+public import LRX.ComponentCrossMinimum
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,9 +1,13 @@
-import LRX.LowerBoundSwapBudget
-import LRX.Cycle11WordSymmetry
-import LRX.LowerBoundCyclicContiguity
-import Mathlib.Data.List.Rotate
-import Mathlib.Data.List.NodupEquivFin
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import LRX.LowerBoundSwapBudget
+public import LRX.Cycle11WordSymmetry
+public import LRX.LowerBoundCyclicContiguity
+public import Mathlib.Data.List.Rotate
+public import Mathlib.Data.List.NodupEquivFin
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+@[expose] public section
 
 /-! Explicit native list interpretation of the two-arc physical states.
 Includes shortest-word arc extraction, actual trace construction and endpoint

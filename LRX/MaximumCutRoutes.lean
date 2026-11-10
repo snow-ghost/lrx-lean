@@ -1,4 +1,8 @@
-import LRX.ZeroCutComponents
+module
+
+public import LRX.ZeroCutComponents
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,4 +1,8 @@
-import LRX.FiniteInversionBalance
+module
+
+public import LRX.FiniteInversionBalance
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

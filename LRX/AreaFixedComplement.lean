@@ -1,4 +1,8 @@
-import LRX.PrefixAreaCoverage
+module
+
+public import LRX.PrefixAreaCoverage
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

@@ -1,5 +1,9 @@
-import LRX.EnclosingCycleIncidentService
-import LRX.WeightedPacketAssembly
+module
+
+public import LRX.EnclosingCycleIncidentService
+public import LRX.WeightedPacketAssembly
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

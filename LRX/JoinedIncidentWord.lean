@@ -1,4 +1,8 @@
-import LRX.JoinedTwoArcBound
+module
+
+public import LRX.JoinedTwoArcBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,6 +1,10 @@
-import LRX.ActualOddWidthFiveMinArrow
-import LRX.ActualNonshortFillings
-import LRX.StrictFillingFamilyWidth
+module
+
+public import LRX.ActualOddWidthFiveMinArrow
+public import LRX.ActualNonshortFillings
+public import LRX.StrictFillingFamilyWidth
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

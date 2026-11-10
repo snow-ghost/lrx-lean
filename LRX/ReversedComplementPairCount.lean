@@ -1,5 +1,9 @@
-import LRX.ReversedWindowFixedCount
-import LRX.RootAndPairsCount
+module
+
+public import LRX.ReversedWindowFixedCount
+public import LRX.RootAndPairsCount
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

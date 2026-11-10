@@ -1,4 +1,8 @@
-import LRX.TwoWindowCycleDefect
+module
+
+public import LRX.TwoWindowCycleDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

@@ -1,4 +1,8 @@
-import LRX.ReducedWindowNormal
+module
+
+public import LRX.ReducedWindowNormal
+
+@[expose] public section
 
 namespace LRX.LiftedModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

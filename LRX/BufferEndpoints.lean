@@ -1,4 +1,8 @@
-import LRX.BufferMotion
+module
+
+public import LRX.BufferMotion
+
+@[expose] public section
 
 /-! Initial and final contracts for the periodic buffer compiler. Reconstruction
 is over integers, so a closed physical service cannot silently discard winding. -/

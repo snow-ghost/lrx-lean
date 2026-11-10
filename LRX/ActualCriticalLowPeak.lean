@@ -1,5 +1,9 @@
-import LRX.CriticalLowPeakExclusion
-import LRX.ActualStrictFillingWidth
+module
+
+public import LRX.CriticalLowPeakExclusion
+public import LRX.ActualStrictFillingWidth
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

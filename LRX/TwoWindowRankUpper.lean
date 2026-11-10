@@ -1,5 +1,9 @@
-import LRX.WindowReplacementRank
-import LRX.TwoWindowInternalRoute
+module
+
+public import LRX.WindowReplacementRank
+public import LRX.TwoWindowInternalRoute
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteRankOrder

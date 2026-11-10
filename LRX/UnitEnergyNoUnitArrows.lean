@@ -1,4 +1,8 @@
-import LRX.UnitEnergyUnitPeak
+module
+
+public import LRX.UnitEnergyUnitPeak
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

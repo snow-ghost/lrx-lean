@@ -1,5 +1,9 @@
-import LRX.BitonicComponentLoad
-import LRX.ActualPeakFourLocalCyclePeaks
+module
+
+public import LRX.BitonicComponentLoad
+public import LRX.ActualPeakFourLocalCyclePeaks
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ZeroGap FiniteWindow RotationWords

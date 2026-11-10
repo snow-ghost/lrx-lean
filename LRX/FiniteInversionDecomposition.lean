@@ -1,4 +1,8 @@
-import LRX.FiniteWindowInversions
+module
+
+public import LRX.FiniteWindowInversions
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

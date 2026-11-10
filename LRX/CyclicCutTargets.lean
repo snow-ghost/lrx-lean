@@ -1,4 +1,8 @@
-import LRX.PhaseZeroCutWindow
+module
+
+public import LRX.PhaseZeroCutWindow
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

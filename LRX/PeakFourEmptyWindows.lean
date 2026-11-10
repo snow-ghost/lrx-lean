@@ -1,5 +1,9 @@
-import LRX.BitonicNonshortDefect
-import LRX.ActualNonshortFillings
+module
+
+public import LRX.BitonicNonshortDefect
+public import LRX.ActualNonshortFillings
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

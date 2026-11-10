@@ -1,5 +1,9 @@
-import LRX.ActualEnergyOneDefectBudget
-import LRX.BitonicNonshortDefect
+module
+
+public import LRX.ActualEnergyOneDefectBudget
+public import LRX.BitonicNonshortDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ZeroGap RotationWords FiniteWindow

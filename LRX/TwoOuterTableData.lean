@@ -1,5 +1,9 @@
-import LRX.TwoOuterBounds
-import LRX.ThreeOuterTable
+module
+
+public import LRX.TwoOuterBounds
+public import LRX.ThreeOuterTable
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

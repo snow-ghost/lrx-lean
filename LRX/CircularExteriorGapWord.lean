@@ -1,6 +1,10 @@
-import LRX.FirstExteriorGapWord
-import LRX.TwoArcPacketSymmetry
-import LRX.ConsecutivePacketGap
+module
+
+public import LRX.FirstExteriorGapWord
+public import LRX.TwoArcPacketSymmetry
+public import LRX.ConsecutivePacketGap
+
+@[expose] public section
 
 namespace LRX.FiniteGaps
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

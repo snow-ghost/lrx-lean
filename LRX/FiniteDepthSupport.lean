@@ -1,4 +1,8 @@
-import LRX.FiniteDepthRank
+module
+
+public import LRX.FiniteDepthRank
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

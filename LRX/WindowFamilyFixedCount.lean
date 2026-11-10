@@ -1,4 +1,8 @@
-import LRX.FixedCorrectedDensity
+module
+
+public import LRX.FixedCorrectedDensity
+
+@[expose] public section
 
 /-! M4: exact local fixed-position bookkeeping for the actual area family.
 Internal and external fillings are kept distinct. -/

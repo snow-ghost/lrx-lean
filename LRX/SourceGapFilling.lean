@@ -1,6 +1,10 @@
-import LRX.CanonicalWindowTwoBoundary
-import LRX.OuterSupportBudget
-import LRX.FiniteWindowRestriction
+module
+
+public import LRX.CanonicalWindowTwoBoundary
+public import LRX.OuterSupportBudget
+public import LRX.FiniteWindowRestriction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

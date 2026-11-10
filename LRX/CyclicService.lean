@@ -1,5 +1,9 @@
-import LRX.FullCycleService
-import Mathlib.GroupTheory.Perm.Cycle.Concrete
+module
+
+public import LRX.FullCycleService
+public import Mathlib.GroupTheory.Perm.Cycle.Concrete
+
+@[expose] public section
 
 /-! Canonical cycle extraction eliminates the itinerary witness from the public
 service theorem. The constructed word covers a single cycle with full support.

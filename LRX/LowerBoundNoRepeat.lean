@@ -1,6 +1,10 @@
-import LRX.Cycle11StructuralBridge
-import LRX.Cycle11RigidPairMoves
-import Mathlib.Logic.Equiv.Basic
+module
+
+public import LRX.Cycle11StructuralBridge
+public import LRX.Cycle11RigidPairMoves
+public import Mathlib.Logic.Equiv.Basic
+
+@[expose] public section
 
 /-! Actual distinct-label LRX words: a shortest word cannot swap the same
 unordered pair of labels twice. Both swap events are read from the same

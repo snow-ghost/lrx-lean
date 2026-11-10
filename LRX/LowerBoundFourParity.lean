@@ -1,7 +1,11 @@
-import LRX.LowerBoundNoRepeat
-import Mathlib.Data.List.FinRange
-import Mathlib.Data.List.Rotate
-import Mathlib.Tactic.NormNum
+module
+
+public import LRX.LowerBoundNoRepeat
+public import Mathlib.Data.List.FinRange
+public import Mathlib.Data.List.Rotate
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! Parity of every paid generator at n=4. This is a symbolic invariant
 of arbitrary words; no word enumeration or native evaluation is used. -/

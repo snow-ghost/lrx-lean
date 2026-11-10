@@ -1,4 +1,8 @@
-import LRX.FiniteWindow
+module
+
+public import LRX.FiniteWindow
+
+@[expose] public section
 
 /-! Exact mass and cut-load identities for an embedded finite window. -/
 namespace LRX.FiniteWindow

@@ -1,5 +1,9 @@
-import LRX.CircularOrderedRoute
-import LRX.PacketCycleBudget
+module
+
+public import LRX.CircularOrderedRoute
+public import LRX.PacketCycleBudget
+
+@[expose] public section
 
 /-! Two actual service decompositions on complementary arcs give a sharp
 word once their combined rotation saving is supplied. -/

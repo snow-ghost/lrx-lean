@@ -1,4 +1,8 @@
-import Research.CayleyPy.BalancedTwoBlockPorts
+module
+
+public import Research.CayleyPy.BalancedTwoBlockPorts
+
+@[expose] public section
 
 namespace LRX.TwoBlockPorts
 open BalancedTwoBlockPorts

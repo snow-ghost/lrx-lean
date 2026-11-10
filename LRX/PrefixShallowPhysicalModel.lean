@@ -1,5 +1,9 @@
-import LRX.PrefixRootPacketSupport
-import LRX.ShallowGeometricDeficit
+module
+
+public import LRX.PrefixRootPacketSupport
+public import LRX.ShallowGeometricDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ContractionBlocks.System

@@ -1,6 +1,10 @@
-import LRX.CanonicalWindowBoundaryLoad
-import LRX.WindowCycleSelection
-import LRX.WindowRightCycleSelection
+module
+
+public import LRX.CanonicalWindowBoundaryLoad
+public import LRX.WindowCycleSelection
+public import LRX.WindowRightCycleSelection
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

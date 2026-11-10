@@ -1,5 +1,9 @@
-import LRX.StrictBandEquality
-import LRX.BalancedSubsetEnergy
+module
+
+public import LRX.StrictBandEquality
+public import LRX.BalancedSubsetEnergy
+
+@[expose] public section
 
 namespace LRX.AffineLift
 open scoped BigOperators

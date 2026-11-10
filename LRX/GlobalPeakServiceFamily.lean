@@ -1,6 +1,10 @@
-import LRX.WeightedPacketAssembly
-import LRX.FiniteExactAvailability
-import LRX.OutsideCyclePositivePort
+module
+
+public import LRX.WeightedPacketAssembly
+public import LRX.FiniteExactAvailability
+public import LRX.OutsideCyclePositivePort
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

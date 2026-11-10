@@ -1,4 +1,8 @@
-import LRX.OddWidthFiveWindowArrows
+module
+
+public import LRX.OddWidthFiveWindowArrows
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

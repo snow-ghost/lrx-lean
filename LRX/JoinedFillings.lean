@@ -1,4 +1,8 @@
-import LRX.JoinedSourceCore
+module
+
+public import LRX.JoinedSourceCore
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n k : ℕ} [NeZero n]

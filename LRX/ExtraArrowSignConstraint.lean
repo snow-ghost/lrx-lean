@@ -1,5 +1,9 @@
-import LRX.TwoWindowSignedSelection
-import LRX.ZeroEnergyUnitCapacity
+module
+
+public import LRX.TwoWindowSignedSelection
+public import LRX.ZeroEnergyUnitCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

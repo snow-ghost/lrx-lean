@@ -1,4 +1,8 @@
-import LRX.IsolatedBridgeBudget
+module
+
+public import LRX.IsolatedBridgeBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

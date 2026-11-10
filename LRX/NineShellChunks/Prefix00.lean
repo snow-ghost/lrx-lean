@@ -1,4 +1,8 @@
-import LRX.NineShellData
+module
+
+public import LRX.NineShellData
+
+@[expose] public section
 namespace LRX.NineShellCertificate
 open FiniteCuts FiniteWindow RotationWords
 set_option maxRecDepth 100000

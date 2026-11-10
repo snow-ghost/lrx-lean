@@ -1,4 +1,8 @@
-import LRX.TwoBlockRecenter
+module
+
+public import LRX.TwoBlockRecenter
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

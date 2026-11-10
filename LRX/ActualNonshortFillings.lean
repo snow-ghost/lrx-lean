@@ -1,5 +1,9 @@
-import LRX.ActualLargeComponentNoTwo
-import LRX.ActualNonunitComponentDefect
+module
+
+public import LRX.ActualLargeComponentNoTwo
+public import LRX.ActualNonunitComponentDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

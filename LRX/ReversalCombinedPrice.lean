@@ -1,6 +1,10 @@
-import LRX.ReversalPairCostSum
-import LRX.ReversedWindowInversionPrice
-import LRX.ShallowContraction
+module
+
+public import LRX.ReversalPairCostSum
+public import LRX.ReversedWindowInversionPrice
+public import LRX.ShallowContraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

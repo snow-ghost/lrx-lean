@@ -1,4 +1,8 @@
-import LRX.ShellWidthArithmetic
+module
+
+public import LRX.ShellWidthArithmetic
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 

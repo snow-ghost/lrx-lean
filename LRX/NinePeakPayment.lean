@@ -1,5 +1,9 @@
-import LRX.NinePeakReduction
-import LRX.NineShellActualWord
+module
+
+public import LRX.NinePeakReduction
+public import LRX.NineShellActualWord
+
+@[expose] public section
 
 namespace LRX
 open FiniteCuts RotationWords

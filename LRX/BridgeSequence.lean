@@ -1,4 +1,8 @@
-import LRX.OrderedComponentBridges
+module
+
+public import LRX.OrderedComponentBridges
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

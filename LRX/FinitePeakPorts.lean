@@ -1,4 +1,8 @@
-import LRX.FiniteIncidentPorts
+module
+
+public import LRX.FiniteIncidentPorts
+
+@[expose] public section
 
 /-! The finite left/right peak envelopes are attained at active incident ports,
 inside the corresponding portion of the interval. -/

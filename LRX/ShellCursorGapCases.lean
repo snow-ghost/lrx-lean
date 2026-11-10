@@ -1,5 +1,9 @@
-import LRX.ShellExteriorWindowData
-import LRX.EnclosingCursorCases
+module
+
+public import LRX.ShellExteriorWindowData
+public import LRX.EnclosingCursorCases
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

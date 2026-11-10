@@ -1,6 +1,10 @@
-import LRX.EventCoverEquality
-import LRX.EventTreeRankNeighbor
-import LRX.FullSupportShallowStep
+module
+
+public import LRX.EventCoverEquality
+public import LRX.EventTreeRankNeighbor
+public import LRX.FullSupportShallowStep
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

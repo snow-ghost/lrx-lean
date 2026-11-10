@@ -1,4 +1,8 @@
-import LRX.ZeroGapFactorization
+module
+
+public import LRX.ZeroGapFactorization
+
+@[expose] public section
 
 /-! Directed open arcs and the geometric condition satisfied by the ordered
 list of zero-gap exchanges. Later endpoints avoid each earlier open arc. -/

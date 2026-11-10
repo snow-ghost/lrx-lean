@@ -1,5 +1,9 @@
-import LRX.SourceSuffixDeficit
-import LRX.JointInternalExternalBudget
+module
+
+public import LRX.SourceSuffixDeficit
+public import LRX.JointInternalExternalBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

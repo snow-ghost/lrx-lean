@@ -1,7 +1,11 @@
-import LRX.SpanningEventSublist
-import LRX.MinimalEventCycle
-import LRX.EventSublistRankBound
-import LRX.FiniteCutLoad
+module
+
+public import LRX.SpanningEventSublist
+public import LRX.MinimalEventCycle
+public import LRX.EventSublistRankBound
+public import LRX.FiniteCutLoad
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped BigOperators

@@ -1,9 +1,13 @@
-import LRX.BlockExchange
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
-import Mathlib.Algebra.Order.BigOperators.Group.Finset
-import Mathlib.Tactic.Ring.Basic
-import Mathlib.Data.Fintype.BigOperators
+module
+
+public import LRX.BlockExchange
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Piecewise
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+public import Mathlib.Tactic.Ring.Basic
+public import Mathlib.Data.Fintype.BigOperators
+
+@[expose] public section
 
 /-! Concrete folded coordinates for B's pointed-block transport argument.
 All coordinates and windings are integers. No X on the external cut is allowed.

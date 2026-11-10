@@ -1,4 +1,8 @@
-import LRX.LowerBoundFoldedTransport
+module
+
+public import LRX.LowerBoundFoldedTransport
+
+@[expose] public section
 
 /-! Exact projection of paid physical cursor moves onto two fixed arcs.
 The state stores the actual within-arc label positions as permutations.

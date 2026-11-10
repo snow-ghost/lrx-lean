@@ -1,4 +1,8 @@
-import LRX.ContractionInversions
+module
+
+public import LRX.ContractionInversions
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,33 +1,37 @@
-import LRX.NineShellChunks.Prefix00
-import LRX.NineShellChunks.Prefix01
-import LRX.NineShellChunks.Prefix02
-import LRX.NineShellChunks.Prefix03
-import LRX.NineShellChunks.Prefix04
-import LRX.NineShellChunks.Prefix10
-import LRX.NineShellChunks.Prefix11
-import LRX.NineShellChunks.Prefix12
-import LRX.NineShellChunks.Prefix13
-import LRX.NineShellChunks.Prefix14
-import LRX.NineShellChunks.Prefix20
-import LRX.NineShellChunks.Prefix21
-import LRX.NineShellChunks.Prefix22
-import LRX.NineShellChunks.Prefix23
-import LRX.NineShellChunks.Prefix24
-import LRX.NineShellChunks.Prefix30
-import LRX.NineShellChunks.Prefix31
-import LRX.NineShellChunks.Prefix32
-import LRX.NineShellChunks.Prefix33
-import LRX.NineShellChunks.Prefix34
-import LRX.NineShellChunks.Prefix40
-import LRX.NineShellChunks.Prefix41
-import LRX.NineShellChunks.Prefix42
-import LRX.NineShellChunks.Prefix43
-import LRX.NineShellChunks.Prefix44
-import LRX.NineShellChunks.Prefix50
-import LRX.NineShellChunks.Prefix51
-import LRX.NineShellChunks.Prefix52
-import LRX.NineShellChunks.Prefix53
-import LRX.NineShellChunks.Prefix54
+module
+
+public import LRX.NineShellChunks.Prefix00
+public import LRX.NineShellChunks.Prefix01
+public import LRX.NineShellChunks.Prefix02
+public import LRX.NineShellChunks.Prefix03
+public import LRX.NineShellChunks.Prefix04
+public import LRX.NineShellChunks.Prefix10
+public import LRX.NineShellChunks.Prefix11
+public import LRX.NineShellChunks.Prefix12
+public import LRX.NineShellChunks.Prefix13
+public import LRX.NineShellChunks.Prefix14
+public import LRX.NineShellChunks.Prefix20
+public import LRX.NineShellChunks.Prefix21
+public import LRX.NineShellChunks.Prefix22
+public import LRX.NineShellChunks.Prefix23
+public import LRX.NineShellChunks.Prefix24
+public import LRX.NineShellChunks.Prefix30
+public import LRX.NineShellChunks.Prefix31
+public import LRX.NineShellChunks.Prefix32
+public import LRX.NineShellChunks.Prefix33
+public import LRX.NineShellChunks.Prefix34
+public import LRX.NineShellChunks.Prefix40
+public import LRX.NineShellChunks.Prefix41
+public import LRX.NineShellChunks.Prefix42
+public import LRX.NineShellChunks.Prefix43
+public import LRX.NineShellChunks.Prefix44
+public import LRX.NineShellChunks.Prefix50
+public import LRX.NineShellChunks.Prefix51
+public import LRX.NineShellChunks.Prefix52
+public import LRX.NineShellChunks.Prefix53
+public import LRX.NineShellChunks.Prefix54
+
+@[expose] public section
 
 namespace LRX.NineShellCertificate
 open FiniteCuts FiniteWindow RotationWords

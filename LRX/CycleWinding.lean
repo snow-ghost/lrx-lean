@@ -1,5 +1,9 @@
-import LRX.FullCycleService
-import LRX.BufferFrame
+module
+
+public import LRX.FullCycleService
+public import LRX.BufferFrame
+
+@[expose] public section
 
 /-! Integer winding identities for any invariant set of labels, including an
 entire recursive subtree. Balance of each separate cycle is not assumed. -/

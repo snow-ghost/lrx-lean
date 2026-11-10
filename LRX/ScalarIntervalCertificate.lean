@@ -1,13 +1,17 @@
-import Mathlib.Algebra.Ring.Fin
-import Mathlib.Combinatorics.SimpleGraph.Cayley
-import Mathlib.Combinatorics.SimpleGraph.Diam
-import Mathlib.Data.Finset.Sort
-import Mathlib.Data.Nat.Choose.Basic
-import Mathlib.GroupTheory.Perm.Cycle.Type
-import Mathlib.GroupTheory.Perm.Fin
-import Mathlib.Logic.Equiv.Fin.Rotate
-import Mathlib.Order.Interval.Finset.Fin
-import Mathlib.Tactic
+module
+
+public import Mathlib.Algebra.Ring.Fin
+public import Mathlib.Combinatorics.SimpleGraph.Cayley
+public import Mathlib.Combinatorics.SimpleGraph.Diam
+public import Mathlib.Data.Finset.Sort
+public import Mathlib.Data.Nat.Choose.Basic
+public import Mathlib.GroupTheory.Perm.Cycle.Type
+public import Mathlib.GroupTheory.Perm.Fin
+public import Mathlib.Logic.Equiv.Fin.Rotate
+public import Mathlib.Order.Interval.Finset.Fin
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! M4: reject an entire scalar x-interval using a constant-size certificate.
 The final density is concave on each side of h, but not globally concave.

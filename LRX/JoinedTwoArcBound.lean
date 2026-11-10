@@ -1,4 +1,8 @@
-import LRX.FillingPeakArcFamilies
+module
+
+public import LRX.FillingPeakArcFamilies
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

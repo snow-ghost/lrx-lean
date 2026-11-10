@@ -1,5 +1,9 @@
-import LRX.TwoWindowRankUpper
-import LRX.FiniteWindowRestriction
+module
+
+public import LRX.TwoWindowRankUpper
+public import LRX.FiniteWindowRestriction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

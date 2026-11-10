@@ -1,4 +1,8 @@
-import LRX.PacketPorts
+module
+
+public import LRX.PacketPorts
+
+@[expose] public section
 
 /-! Consecutive packet vertices confine all intermediate lifted endpoints.
 Thus the open gap has canonical finite displacements. -/

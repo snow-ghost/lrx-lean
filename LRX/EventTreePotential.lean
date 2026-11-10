@@ -1,4 +1,8 @@
-import LRX.CycleNeighborFromEvents
+module
+
+public import LRX.CycleNeighborFromEvents
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

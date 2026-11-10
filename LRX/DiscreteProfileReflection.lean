@@ -1,4 +1,8 @@
-import LRX.DiscreteLoadProfile
+module
+
+public import LRX.DiscreteLoadProfile
+
+@[expose] public section
 
 /-! Reflection preserves the area and peak of a discrete load profile. -/
 namespace LRX.DiscreteLoad

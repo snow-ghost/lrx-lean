@@ -1,5 +1,9 @@
-import LRX.FiniteRankOrder
-import LRX.FiniteReversalBounds
+module
+
+public import LRX.FiniteRankOrder
+public import LRX.FiniteReversalBounds
+
+@[expose] public section
 
 namespace LRX.FiniteRankOrder
 open scoped BigOperators

@@ -1,4 +1,8 @@
-import LRX.TwoVertexCoreFixedCount
+module
+
+public import LRX.TwoVertexCoreFixedCount
+
+@[expose] public section
 
 /-! The covered packet has enough remaining budget to pay every fixed
 position once n >= 7; the two-vertex exceptional case is excluded by gaps. -/

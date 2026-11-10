@@ -1,6 +1,10 @@
-import LRX.LowerBoundCyclicContiguity
-import LRX.LowerBoundPaidProjection
-import Mathlib.Tactic.NormNum
+module
+
+public import LRX.LowerBoundCyclicContiguity
+public import LRX.LowerBoundPaidProjection
+public import Mathlib.Tactic.NormNum
+
+@[expose] public section
 
 /-! B, LB-L0: exceptional color classes in the original paid list semantics.
 The counting assumptions below refer to actual pair exchanges, never to a

@@ -1,5 +1,9 @@
-import LRX.RecenteredLift
-import LRX.AffineReducedPrice
+module
+
+public import LRX.RecenteredLift
+public import LRX.AffineReducedPrice
+
+@[expose] public section
 
 /-! Reachable service at an arbitrary chosen port and final phase, with both
 external cursor moves paid by actual words. -/

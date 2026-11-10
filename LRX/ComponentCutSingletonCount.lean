@@ -1,6 +1,10 @@
-import LRX.MaximalCutBridgeBudget
-import LRX.PrefixComponentParameters
-import LRX.ComponentCutExtraction
+module
+
+public import LRX.MaximalCutBridgeBudget
+public import LRX.PrefixComponentParameters
+public import LRX.ComponentCutExtraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

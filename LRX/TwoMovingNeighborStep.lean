@@ -1,4 +1,8 @@
-import LRX.ExtremeEventBranch
+module
+
+public import LRX.ExtremeEventBranch
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

@@ -1,5 +1,9 @@
-import LRX.SmallOrUnitEnergyReduction
-import LRX.UnitEnergyMassExclusion
+module
+
+public import LRX.SmallOrUnitEnergyReduction
+public import LRX.UnitEnergyMassExclusion
+
+@[expose] public section
 
 namespace LRX
 open FiniteCuts RotationWords

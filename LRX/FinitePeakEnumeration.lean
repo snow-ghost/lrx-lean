@@ -1,4 +1,8 @@
-import LRX.PeakProfileLargeCount
+module
+
+public import LRX.PeakProfileLargeCount
+
+@[expose] public section
 
 /-! A computable bounded enumeration of the necessary scalar profiles.
 Completeness is proved from the predicate; no square-root pruning is trusted. -/

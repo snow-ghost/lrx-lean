@@ -1,4 +1,8 @@
-import LRX.JoinedSourceGapMinimum
+module
+
+public import LRX.JoinedSourceGapMinimum
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

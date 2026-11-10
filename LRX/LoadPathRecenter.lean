@@ -1,4 +1,8 @@
-import LRX.MaximumSeparatorBound
+module
+
+public import LRX.MaximumSeparatorBound
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

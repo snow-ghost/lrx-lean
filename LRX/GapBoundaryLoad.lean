@@ -1,18 +1,22 @@
-import LRX.CanonicalServiceFamily
-import LRX.FiniteCycleScan
-import LRX.FiniteDisplacementSum
-import LRX.FiniteExactAvailability
-import LRX.NarrowWindowLift
-import LRX.OrderedExactRoute
-import LRX.PacketWindowRoutes
-import LRX.PrunedLoad
-import LRX.ReflectedRootStar
-import LRX.RightRootLoad
-import LRX.RootChildrenAssembly
-import LRX.SelectedPartService
-import LRX.TurningRoute
-import LRX.WindowFamilyBridge
-import LRX.WindowRightCycleSelection
+module
+
+public import LRX.CanonicalServiceFamily
+public import LRX.FiniteCycleScan
+public import LRX.FiniteDisplacementSum
+public import LRX.FiniteExactAvailability
+public import LRX.NarrowWindowLift
+public import LRX.OrderedExactRoute
+public import LRX.PacketWindowRoutes
+public import LRX.PrunedLoad
+public import LRX.ReflectedRootStar
+public import LRX.RightRootLoad
+public import LRX.RootChildrenAssembly
+public import LRX.SelectedPartService
+public import LRX.TurningRoute
+public import LRX.WindowFamilyBridge
+public import LRX.WindowRightCycleSelection
+
+@[expose] public section
 
 /-! The two boundaries of an invariant finite gap have equal ambient load.
 Interior finite arrows cross neither boundary; external endpoints have the

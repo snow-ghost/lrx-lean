@@ -1,5 +1,9 @@
-import LRX.PrefixCoreEnergy
-import LRX.LargeComponentPeakCapacity
+module
+
+public import LRX.PrefixCoreEnergy
+public import LRX.LargeComponentPeakCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

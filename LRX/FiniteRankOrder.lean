@@ -1,4 +1,8 @@
-import LRX.Graph
+module
+
+public import LRX.Graph
+
+@[expose] public section
 
 /-! Prefix rank counts for finite target maps. Prefix lengths are natural
 numbers, so the empty prefix is included without a fictitious negative index. -/

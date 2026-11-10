@@ -1,5 +1,9 @@
-import LRX.ActualOddShellWidths
-import LRX.PrefixPacketPeakEnergy
+module
+
+public import LRX.ActualOddShellWidths
+public import LRX.PrefixPacketPeakEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

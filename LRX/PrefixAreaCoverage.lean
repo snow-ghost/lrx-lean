@@ -1,7 +1,11 @@
-import LRX.ActualAreaWindowFamily
-import LRX.FiniteOuterSource
-import LRX.PrefixComponentParameters
-import LRX.SourceGapComponent
+module
+
+public import LRX.ActualAreaWindowFamily
+public import LRX.FiniteOuterSource
+public import LRX.PrefixComponentParameters
+public import LRX.SourceGapComponent
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

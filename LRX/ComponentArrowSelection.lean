@@ -1,4 +1,8 @@
-import LRX.ComponentSignedArrows
+module
+
+public import LRX.ComponentSignedArrows
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

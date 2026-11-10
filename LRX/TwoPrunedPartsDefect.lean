@@ -1,4 +1,8 @@
-import LRX.PacketComponentDefectBound
+module
+
+public import LRX.PacketComponentDefectBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

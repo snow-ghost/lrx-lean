@@ -1,4 +1,8 @@
-import LRX.BufferTransfer
+module
+
+public import LRX.BufferTransfer
+
+@[expose] public section
 
 /-! Executable nonrepeating buffer itineraries. Compatibility is a local residue
 condition on successive named labels; validity of the emitted LRX program is

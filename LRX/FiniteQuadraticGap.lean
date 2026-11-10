@@ -1,5 +1,9 @@
-import LRX.DiscreteQuadraticGap
-import LRX.FiniteCycleProfile
+module
+
+public import LRX.DiscreteQuadraticGap
+public import LRX.FiniteCycleProfile
+
+@[expose] public section
 
 /-! Quadratic service bounds for the actual cuts and cycle discounts of a
 finite permutation. The nonnegative maximum bounds every boundary charge. -/

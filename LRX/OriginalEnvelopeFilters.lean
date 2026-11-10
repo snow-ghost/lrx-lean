@@ -1,7 +1,11 @@
-import LRX.ExternalFillingEnvelope
-import LRX.WindowFamilyExactEnergy
-import LRX.OriginalFillingScalarFilters
-import LRX.InternalFillingEnvelope
+module
+
+public import LRX.ExternalFillingEnvelope
+public import LRX.WindowFamilyExactEnergy
+public import LRX.OriginalFillingScalarFilters
+public import LRX.InternalFillingEnvelope
+
+@[expose] public section
 
 /-! M4: joint scalar filters from actual internal/external windows, C9/C10,
 and exact selected energy, all in the original unpaid-map coordinates. -/

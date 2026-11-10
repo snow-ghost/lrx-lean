@@ -1,6 +1,10 @@
-import LRX.FiniteRankInverse
-import LRX.PhysicalModel
-import LRX.AffineDeletion
+module
+
+public import LRX.FiniteRankInverse
+public import LRX.PhysicalModel
+public import LRX.AffineDeletion
+
+@[expose] public section
 
 namespace LRX.PhysicalModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

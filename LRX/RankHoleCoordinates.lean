@@ -1,4 +1,8 @@
-import LRX.ContractionCutCounts
+module
+
+public import LRX.ContractionCutCounts
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks
 open scoped BigOperators

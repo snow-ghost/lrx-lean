@@ -1,6 +1,10 @@
-import LRX.SelectedPartService
-import LRX.FiniteDisplacementSum
-import LRX.FiniteCycleScan
+module
+
+public import LRX.SelectedPartService
+public import LRX.FiniteDisplacementSum
+public import LRX.FiniteCycleScan
+
+@[expose] public section
 
 /-! Canonical disjoint services have the canonical displacement and mass of
 their product. These identities join finite children to a periodic root. -/

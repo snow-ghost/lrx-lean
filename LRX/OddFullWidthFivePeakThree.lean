@@ -1,5 +1,9 @@
-import LRX.ActualOddFullWidthFiveDefect
-import LRX.BitonicNonshortDefect
+module
+
+public import LRX.ActualOddFullWidthFiveDefect
+public import LRX.BitonicNonshortDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ZeroGap RotationWords FiniteWindow

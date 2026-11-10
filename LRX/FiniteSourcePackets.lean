@@ -1,4 +1,8 @@
-import LRX.BridgePacketClosure
+module
+
+public import LRX.BridgePacketClosure
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,5 +1,9 @@
-import LRX.DiscreteAreaBound
-import LRX.DiscreteProfileReflection
+module
+
+public import LRX.DiscreteAreaBound
+public import LRX.DiscreteProfileReflection
+
+@[expose] public section
 
 /-! The quadratic gap bound follows from actual discrete heights, slopes,
 and the two available boundary discounts. -/

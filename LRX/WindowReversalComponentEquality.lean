@@ -1,5 +1,9 @@
-import LRX.WindowReversalComponents
-import LRX.InvariantCutRecenter
+module
+
+public import LRX.WindowReversalComponents
+public import LRX.InvariantCutRecenter
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

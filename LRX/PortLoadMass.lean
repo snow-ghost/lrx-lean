@@ -1,5 +1,9 @@
-import LRX.PortLoad
-import Mathlib.Algebra.Order.Floor.BigOperators
+module
+
+public import LRX.PortLoad
+public import Mathlib.Algebra.Order.Floor.BigOperators
+
+@[expose] public section
 
 /-! The sum of all actual edge loads equals total absolute token displacement.
 This is proved from the integer crossing formula, without a geometric profile

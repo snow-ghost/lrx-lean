@@ -1,5 +1,9 @@
-import LRX.FiniteWindowLoad
-import LRX.ShortShallowCycleNeighbor
+module
+
+public import LRX.FiniteWindowLoad
+public import LRX.ShortShallowCycleNeighbor
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 variable {n b : ℕ}

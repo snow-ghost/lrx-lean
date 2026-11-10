@@ -1,4 +1,8 @@
-import LRX.ExternalUnitPairsNoUnit
+module
+
+public import LRX.ExternalUnitPairsNoUnit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

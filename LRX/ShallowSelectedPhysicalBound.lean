@@ -1,4 +1,8 @@
-import LRX.SelectedPhysicalLengths
+module
+
+public import LRX.SelectedPhysicalLengths
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

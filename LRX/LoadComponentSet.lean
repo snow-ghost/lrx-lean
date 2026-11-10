@@ -1,5 +1,9 @@
-import LRX.LoadComponents
-import LRX.ZeroCutBalance
+module
+
+public import LRX.LoadComponents
+public import LRX.ZeroCutBalance
+
+@[expose] public section
 
 /-! Physical load components are invariant under the permutation and closed
 under all service paths. -/

@@ -1,4 +1,8 @@
-import LRX.OriginalEnvelopeFilters
+module
+
+public import LRX.OriginalEnvelopeFilters
+
+@[expose] public section
 
 /-! The remaining two scalar envelope transitions used by the research search:
 exact-energy density and C9 with the piecewise J(x) bound. -/

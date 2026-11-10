@@ -1,4 +1,8 @@
-import LRX.PrunedService
+module
+
+public import LRX.PrunedService
+
+@[expose] public section
 
 /-! A finite cycle path crosses every position between two of its vertices.
 This supplies the geometric root star for a finite enclosing root cycle. -/

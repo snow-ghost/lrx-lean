@@ -1,5 +1,9 @@
-import LRX.PacketCoreBalance
-import LRX.NarrowWindowLift
+module
+
+public import LRX.PacketCoreBalance
+public import LRX.NarrowWindowLift
+
+@[expose] public section
 
 /-! A packet arrow visiting an open packet gap crosses its whole width.
 Majorization then bounds the size of every such internal gap. -/

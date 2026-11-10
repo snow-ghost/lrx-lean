@@ -1,4 +1,8 @@
-import LRX.SuffixComponentParameters
+module
+
+public import LRX.SuffixComponentParameters
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

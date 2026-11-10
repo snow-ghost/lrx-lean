@@ -1,4 +1,8 @@
-import LRX.GlobalPeakServiceFamily
+module
+
+public import LRX.GlobalPeakServiceFamily
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

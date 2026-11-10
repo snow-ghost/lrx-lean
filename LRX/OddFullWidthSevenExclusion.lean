@@ -1,4 +1,8 @@
-import LRX.OddFullWidthFivePayment
+module
+
+public import LRX.OddFullWidthFivePayment
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

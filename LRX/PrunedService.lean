@@ -1,5 +1,9 @@
-import LRX.PrunedReachability
-import LRX.AffineReducedPrice
+module
+
+public import LRX.PrunedReachability
+public import LRX.AffineReducedPrice
+
+@[expose] public section
 
 /-! The retained part of a root star has a literal service and exact price.
 Only geometric star coverage, cycle invariance, and retained balance are inputs. -/

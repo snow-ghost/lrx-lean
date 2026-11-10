@@ -1,5 +1,9 @@
-import LRX.RootChildrenAssembly
-import LRX.PrunedPacketService
+module
+
+public import LRX.RootChildrenAssembly
+public import LRX.PrunedPacketService
+
+@[expose] public section
 
 /-! Both full-target boundary routes for a multi-cycle retained root packet. -/
 namespace LRX.RotationWords

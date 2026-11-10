@@ -1,4 +1,8 @@
-import LRX.WindowSignedSelection
+module
+
+public import LRX.WindowSignedSelection
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

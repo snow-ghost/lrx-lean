@@ -1,4 +1,8 @@
-import LRX.JoinedLoadInterval
+module
+
+public import LRX.JoinedLoadInterval
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

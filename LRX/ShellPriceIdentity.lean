@@ -1,4 +1,8 @@
-import LRX.FirstGapSharpWord
+module
+
+public import LRX.FirstGapSharpWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 

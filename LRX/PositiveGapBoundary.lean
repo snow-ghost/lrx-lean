@@ -1,5 +1,9 @@
-import LRX.PartitionGapSharpWord
-import LRX.InternalGapLoad
+module
+
+public import LRX.PartitionGapSharpWord
+public import LRX.InternalGapLoad
+
+@[expose] public section
 
 /-! A positive load at a packet gap boundary supplies an actual packet arrow
 through the gap. This derives the internal-gap premise from physical load. -/

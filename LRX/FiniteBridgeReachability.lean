@@ -1,4 +1,8 @@
-import LRX.FiniteBridgeLoad
+module
+
+public import LRX.FiniteBridgeLoad
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

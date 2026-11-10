@@ -1,4 +1,8 @@
-import LRX.TurningRoute
+module
+
+public import LRX.TurningRoute
+
+@[expose] public section
 
 /-! Exact services can be ordered along either directed circular arc;
 the paid cursor walk costs at most the arc length. -/

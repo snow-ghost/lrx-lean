@@ -1,4 +1,8 @@
-import LRX.ExtremeNeighborInsertion
+module
+
+public import LRX.ExtremeNeighborInsertion
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

@@ -1,6 +1,10 @@
-import LRX.ZeroGapCycleRoots
-import LRX.FiniteCycleSupportBudget
-import Mathlib.GroupTheory.Perm.Cycle.Concrete
+module
+
+public import LRX.ZeroGapCycleRoots
+public import LRX.FiniteCycleSupportBudget
+public import Mathlib.GroupTheory.Perm.Cycle.Concrete
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped BigOperators

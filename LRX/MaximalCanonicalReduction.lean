@@ -1,6 +1,10 @@
-import LRX.PhaseMaximumRoutes
-import LRX.ConnectedLoadSharpWord
-import LRX.UpperReduction
+module
+
+public import LRX.PhaseMaximumRoutes
+public import LRX.ConnectedLoadSharpWord
+public import LRX.UpperReduction
+
+@[expose] public section
 
 namespace LRX
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

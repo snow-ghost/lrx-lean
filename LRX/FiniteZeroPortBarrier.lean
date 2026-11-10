@@ -1,4 +1,8 @@
-import LRX.JoinedInternalGapWord
+module
+
+public import LRX.JoinedInternalGapWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

@@ -1,4 +1,8 @@
-import LRX.ZeroGapExchange
+module
+
+public import LRX.ZeroGapExchange
+
+@[expose] public section
 
 /-! The inversion terms reversed by a zero-gap endpoint swap each drop from
 one to zero. Other endpoint terms are exchanged in pairs. -/

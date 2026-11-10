@@ -1,4 +1,8 @@
-import LRX.ExteriorUnitPairRigidity
+module
+
+public import LRX.ExteriorUnitPairRigidity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

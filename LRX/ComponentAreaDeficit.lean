@@ -1,5 +1,9 @@
-import LRX.AreaFixedComplement
-import LRX.LargeComponentInternalSharpWord
+module
+
+public import LRX.AreaFixedComplement
+public import LRX.LargeComponentInternalSharpWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

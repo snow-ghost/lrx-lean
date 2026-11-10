@@ -1,5 +1,9 @@
-import LRX.PackedWordCertificate
-import LRX.ActualShellPrice
+module
+
+public import LRX.PackedWordCertificate
+public import LRX.ActualShellPrice
+
+@[expose] public section
 
 namespace LRX.NineShellCertificate
 open FiniteCuts FiniteWindow RotationWords

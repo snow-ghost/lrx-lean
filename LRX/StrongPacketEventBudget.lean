@@ -1,5 +1,9 @@
-import LRX.SpanningEventForest
-import LRX.PeakActivityBound
+module
+
+public import LRX.SpanningEventForest
+public import LRX.PeakActivityBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords ZeroGap FiniteWindow

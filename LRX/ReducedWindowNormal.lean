@@ -1,5 +1,9 @@
-import LRX.NonwrappingRankTransfer
-import LRX.TraceInversions
+module
+
+public import LRX.NonwrappingRankTransfer
+public import LRX.TraceInversions
+
+@[expose] public section
 
 namespace LRX.LiftedModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,6 +1,10 @@
-import LRX.SuffixComponentWindowFamily
-import LRX.SourceGapReversalFamily
-import LRX.WindowFamilyAreaDeficit
+module
+
+public import LRX.SuffixComponentWindowFamily
+public import LRX.SourceGapReversalFamily
+public import LRX.WindowFamilyAreaDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

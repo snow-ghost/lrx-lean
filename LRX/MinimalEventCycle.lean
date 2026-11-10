@@ -1,5 +1,9 @@
-import LRX.SwapOrbitMerge
-import LRX.MinimalEventCarrier
+module
+
+public import LRX.SwapOrbitMerge
+public import LRX.MinimalEventCarrier
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

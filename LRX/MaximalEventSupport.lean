@@ -1,4 +1,8 @@
-import LRX.ZeroGapComponentCounting
+module
+
+public import LRX.ZeroGapComponentCounting
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

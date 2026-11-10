@@ -1,6 +1,10 @@
-import LRX.FiniteQuadraticGap
-import LRX.PacketGapFilling
-import LRX.PacketGapWidth
+module
+
+public import LRX.FiniteQuadraticGap
+public import LRX.PacketGapFilling
+public import LRX.PacketGapWidth
+
+@[expose] public section
 
 /-! A literal internal-gap word with a nonnegative service price satisfying
 the quadratic bound for the original gap displacements. -/

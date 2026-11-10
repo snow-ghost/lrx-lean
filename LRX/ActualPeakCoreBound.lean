@@ -1,6 +1,10 @@
-import LRX.ActualPeakProfileFilters
-import LRX.ActualPeakSupportBound
-import LRX.PeakProfileFour
+module
+
+public import LRX.ActualPeakProfileFilters
+public import LRX.ActualPeakSupportBound
+public import LRX.PeakProfileFour
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

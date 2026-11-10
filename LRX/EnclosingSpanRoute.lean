@@ -1,5 +1,9 @@
-import LRX.EnclosingBoundaryRoute
-import LRX.SpanRankTransfer
+module
+
+public import LRX.EnclosingBoundaryRoute
+public import LRX.SpanRankTransfer
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

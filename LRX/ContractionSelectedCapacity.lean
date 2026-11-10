@@ -1,4 +1,8 @@
-import LRX.ContractionBlockCapacity
+module
+
+public import LRX.ContractionBlockCapacity
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

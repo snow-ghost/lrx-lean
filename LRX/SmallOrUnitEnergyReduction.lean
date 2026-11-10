@@ -1,13 +1,17 @@
-import LRX.UnitEnergyBridgeOnePayment
-import LRX.UnitEnergyExactComponentDefects
-import LRX.UnitEnergySourceEquality
-import LRX.PacketComponentDefectBound
-import LRX.SourcePacketCyclePartition
-import LRX.PrefixSaturatedDefectNoFillings
-import LRX.Small
-import LRX.PackedSmall8
-import LRX.FinalPeakTwoReduction
-import LRX.OriginalZeroEnergyExceptEightNine
+module
+
+public import LRX.UnitEnergyBridgeOnePayment
+public import LRX.UnitEnergyExactComponentDefects
+public import LRX.UnitEnergySourceEquality
+public import LRX.PacketComponentDefectBound
+public import LRX.SourcePacketCyclePartition
+public import LRX.PrefixSaturatedDefectNoFillings
+public import LRX.Small
+public import LRX.PackedSmall8
+public import LRX.FinalPeakTwoReduction
+public import LRX.OriginalZeroEnergyExceptEightNine
+
+@[expose] public section
 
 namespace LRX
 open FiniteCuts RotationWords

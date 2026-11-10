@@ -1,4 +1,8 @@
-import LRX.PackedWordCertificate
+module
+
+public import LRX.PackedWordCertificate
+
+@[expose] public section
 
 namespace LRX.PackedSmall8.Block15
 set_option maxRecDepth 100000

@@ -1,7 +1,11 @@
-import LRX.EventSublistRankBound
-import LRX.SwapOrbitMerge
-import LRX.EventTreeBranchCounts
-import Mathlib.GroupTheory.Perm.Cycle.Type
+module
+
+public import LRX.EventSublistRankBound
+public import LRX.SwapOrbitMerge
+public import LRX.EventTreeBranchCounts
+public import Mathlib.GroupTheory.Perm.Cycle.Type
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

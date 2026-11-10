@@ -1,4 +1,8 @@
-import LRX.TwoBlockCutRoute
+module
+
+public import LRX.TwoBlockCutRoute
+
+@[expose] public section
 
 namespace LRX
 

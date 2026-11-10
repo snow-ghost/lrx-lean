@@ -1,4 +1,8 @@
-import LRX.TwoComponentLowEnergyCases
+module
+
+public import LRX.TwoComponentLowEnergyCases
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

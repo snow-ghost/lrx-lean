@@ -1,26 +1,30 @@
-import LRX.ShallowShellBoundaryData
-import LRX.ShallowShellBoundaryJoin
-import LRX.CircularRankTransfer
-import LRX.FiniteCycleScan
-import LRX.FiniteDisplacementSum
-import LRX.FiniteExactAvailability
-import LRX.FiniteRootRoute
-import LRX.OrderedExactRoute
-import LRX.PrunedLoad
-import LRX.ZeroGapCycleRoots
-import LRX.ExternalPairCycleJoin
-import LRX.FiniteRootStar
-import LRX.ReversalComplementCycles
-import LRX.TranspositionPeak
-import LRX.ExternalPairJoinPeak
-import LRX.RootAndPairsCount
-import LRX.ReversedComplementPairCount
-import LRX.ReversedWindowInversionPrice
-import LRX.ReversalCombinedPrice
-import LRX.EnclosingTwoArcWord
-import LRX.ShellInternalWindowData
-import LRX.ShellExteriorWindowData
-import LRX.ShellAllCursorAssembly
+module
+
+public import LRX.ShallowShellBoundaryData
+public import LRX.ShallowShellBoundaryJoin
+public import LRX.CircularRankTransfer
+public import LRX.FiniteCycleScan
+public import LRX.FiniteDisplacementSum
+public import LRX.FiniteExactAvailability
+public import LRX.FiniteRootRoute
+public import LRX.OrderedExactRoute
+public import LRX.PrunedLoad
+public import LRX.ZeroGapCycleRoots
+public import LRX.ExternalPairCycleJoin
+public import LRX.FiniteRootStar
+public import LRX.ReversalComplementCycles
+public import LRX.TranspositionPeak
+public import LRX.ExternalPairJoinPeak
+public import LRX.RootAndPairsCount
+public import LRX.ReversedComplementPairCount
+public import LRX.ReversedWindowInversionPrice
+public import LRX.ReversalCombinedPrice
+public import LRX.EnclosingTwoArcWord
+public import LRX.ShellInternalWindowData
+public import LRX.ShellExteriorWindowData
+public import LRX.ShellAllCursorAssembly
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow FiniteRankOrder

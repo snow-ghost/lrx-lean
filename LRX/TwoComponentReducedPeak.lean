@@ -1,4 +1,8 @@
-import LRX.FourFixedPeakPayment
+module
+
+public import LRX.FourFixedPeakPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

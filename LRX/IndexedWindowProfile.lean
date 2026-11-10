@@ -1,5 +1,9 @@
-import LRX.AreaWindowSizeBounds
-import Research.CayleyPy.StrongIntervalCapCutoff
+module
+
+public import LRX.AreaWindowSizeBounds
+public import Research.CayleyPy.StrongIntervalCapCutoff
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

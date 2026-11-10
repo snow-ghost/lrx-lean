@@ -1,4 +1,8 @@
-import LRX.PrunedPartition
+module
+
+public import LRX.PrunedPartition
+
+@[expose] public section
 
 /-! A selected union of cycles agrees with the original permutation on its
 support. Its complement is invariant and composes back to the full target. -/

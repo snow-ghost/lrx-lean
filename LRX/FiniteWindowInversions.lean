@@ -1,5 +1,9 @@
-import LRX.FiniteWindowLoad
-import LRX.ZeroGapInversionTerms
+module
+
+public import LRX.FiniteWindowLoad
+public import LRX.ZeroGapInversionTerms
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

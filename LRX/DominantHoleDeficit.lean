@@ -1,4 +1,8 @@
-import LRX.SelectedEnergyDeficit
+module
+
+public import LRX.SelectedEnergyDeficit
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

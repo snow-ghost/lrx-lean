@@ -1,6 +1,10 @@
-import LRX.ExtractedPacketDefect
-import LRX.FiniteReachableExactService
-import LRX.FinitePeakPorts
+module
+
+public import LRX.ExtractedPacketDefect
+public import LRX.FiniteReachableExactService
+public import LRX.FinitePeakPorts
+
+@[expose] public section
 
 /-! M4: a real extracted strong packet has one exact service at its full
 peak, without an IsCycle assumption or supplied service-reachability. -/

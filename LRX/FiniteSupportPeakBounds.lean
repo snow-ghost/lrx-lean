@@ -1,5 +1,9 @@
-import LRX.FiniteCycleSupportBudget
-import LRX.FiniteQuadraticGap
+module
+
+public import LRX.FiniteCycleSupportBudget
+public import LRX.FiniteQuadraticGap
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

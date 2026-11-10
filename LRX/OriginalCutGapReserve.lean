@@ -1,5 +1,9 @@
-import LRX.ActualPeakCutoff
-import LRX.LargeComponentWidthReserve
+module
+
+public import LRX.ActualPeakCutoff
+public import LRX.LargeComponentWidthReserve
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

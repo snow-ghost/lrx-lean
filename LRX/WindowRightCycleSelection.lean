@@ -1,6 +1,10 @@
-import LRX.FiniteRootRoute
-import LRX.FiniteCycleProfile
-import LRX.CyclePartSelection
+module
+
+public import LRX.FiniteRootRoute
+public import LRX.FiniteCycleProfile
+public import LRX.CyclePartSelection
+
+@[expose] public section
 
 /-! Select exactly the finite cycles with a positive available right peak.
 Their total discount equals the full cycle-profile right load. -/

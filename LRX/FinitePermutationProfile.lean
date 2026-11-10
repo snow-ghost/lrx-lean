@@ -1,5 +1,9 @@
-import LRX.FiniteCutRegularity
-import Research.CayleyPy.FiniteGapService
+module
+
+public import LRX.FiniteCutRegularity
+public import Research.CayleyPy.FiniteGapService
+
+@[expose] public section
 
 /-! A cut profile constructed from a real finite permutation. The left/right
 values are maxima of actual cut loads; this is a scalar envelope, not a claim

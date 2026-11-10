@@ -1,4 +1,8 @@
-import LRX.PhysicalRankTransfer
+module
+
+public import LRX.PhysicalRankTransfer
+
+@[expose] public section
 
 namespace LRX.PhysicalModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

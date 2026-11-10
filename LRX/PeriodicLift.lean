@@ -1,4 +1,8 @@
-import LRX.AffineLift
+module
+
+public import LRX.AffineLift
+
+@[expose] public section
 
 /-! Turn the finite balanced lift into a genuine periodic bijection of integers.
 This supplies the object on which affine crossings and routing are defined. -/

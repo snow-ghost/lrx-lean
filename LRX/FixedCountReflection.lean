@@ -1,4 +1,8 @@
-import LRX.ShiftedAdjacentPairs
+module
+
+public import LRX.ShiftedAdjacentPairs
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.NatCast Fin.CommRing

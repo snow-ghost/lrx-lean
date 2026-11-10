@@ -1,4 +1,8 @@
-import LRX.WindowReplacementDisplacement
+module
+
+public import LRX.WindowReplacementDisplacement
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

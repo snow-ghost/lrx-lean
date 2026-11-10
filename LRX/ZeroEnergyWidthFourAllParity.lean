@@ -1,5 +1,9 @@
-import LRX.OddZeroWidthFourCatalogue
-import LRX.ZeroEnergyWidthFourPayment
+module
+
+public import LRX.OddZeroWidthFourCatalogue
+public import LRX.ZeroEnergyWidthFourPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

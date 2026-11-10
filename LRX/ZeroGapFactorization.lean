@@ -1,5 +1,9 @@
-import LRX.ZeroGapSorting
-import LRX.ClosedReachableService
+module
+
+public import LRX.ZeroGapSorting
+public import LRX.ClosedReachableService
+
+@[expose] public section
 
 /-! Recentring in a sorting trace only conjugates its endpoint transpositions.
 The original finite permutation has exactly the traced number of swap factors. -/

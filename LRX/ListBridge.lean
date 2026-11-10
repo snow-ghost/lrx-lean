@@ -1,5 +1,9 @@
-import LRX.WordMetric
-import GraphLower
+module
+
+public import LRX.WordMetric
+public import GraphLower
+
+@[expose] public section
 
 namespace LRX.ListBridge
 open BlockExchange

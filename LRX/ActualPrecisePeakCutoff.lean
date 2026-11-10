@@ -1,6 +1,10 @@
-import LRX.PrecisePeakCutoff
-import LRX.ActualCutoffEnvelope
-import LRX.CanonicalActivityDeficit
+module
+
+public import LRX.PrecisePeakCutoff
+public import LRX.ActualCutoffEnvelope
+public import LRX.CanonicalActivityDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

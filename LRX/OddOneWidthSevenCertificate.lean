@@ -1,10 +1,14 @@
-import LRX.WidthSevenChecks.Case25
-import LRX.WidthSevenChecks.Case34
-import LRX.WidthSevenChecks.Case43
-import LRX.WidthSevenChecks.Case52
-import LRX.OffsetExtraArrowSignConstraint
-import LRX.OddWidthFiveWindowArrows
-import LRX.ZeroEnergyEmptyCatalogues
+module
+
+public import LRX.WidthSevenChecks.Case25
+public import LRX.WidthSevenChecks.Case34
+public import LRX.WidthSevenChecks.Case43
+public import LRX.WidthSevenChecks.Case52
+public import LRX.OffsetExtraArrowSignConstraint
+public import LRX.OddWidthFiveWindowArrows
+public import LRX.ZeroEnergyEmptyCatalogues
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

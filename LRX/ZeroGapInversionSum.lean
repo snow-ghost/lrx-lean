@@ -1,4 +1,8 @@
-import LRX.ZeroGapInversionRows
+module
+
+public import LRX.ZeroGapInversionRows
+
+@[expose] public section
 
 /-! Summing the zero-gap row identities gives the exact inversion decrease. -/
 namespace LRX.ZeroGap

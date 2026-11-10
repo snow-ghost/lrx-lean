@@ -1,5 +1,9 @@
-import LRX.TwoBlockReflectionBarrier
-import LRX.LoadComponentCardRecenter
+module
+
+public import LRX.TwoBlockReflectionBarrier
+public import LRX.LoadComponentCardRecenter
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

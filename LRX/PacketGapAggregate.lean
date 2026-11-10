@@ -1,4 +1,8 @@
-import LRX.PacketPartitionWidths
+module
+
+public import LRX.PacketPartitionWidths
+
+@[expose] public section
 
 /-! Actual packet gaps supply the mass identity and all local energy bounds
 used by the connected-branch square envelope. -/

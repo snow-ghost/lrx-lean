@@ -1,5 +1,9 @@
-import LRX.ShellCursorGapCases
-import LRX.EnclosingCoincidentCursorWord
+module
+
+public import LRX.ShellCursorGapCases
+public import LRX.EnclosingCoincidentCursorWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

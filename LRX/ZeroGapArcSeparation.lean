@@ -1,4 +1,8 @@
-import LRX.ZeroGapEventGraph
+module
+
+public import LRX.ZeroGapEventGraph
+
+@[expose] public section
 
 /-! The ordered event condition gives a barrier: a different event component
 cannot cross either endpoint of a chosen open event arc. -/

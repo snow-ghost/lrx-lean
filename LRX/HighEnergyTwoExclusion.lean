@@ -1,10 +1,14 @@
-import LRX.HighEnergyTwoChunks.Chunk0
-import LRX.HighEnergyTwoChunks.Chunk1
-import LRX.HighEnergyTwoChunks.Chunk2
-import LRX.HighEnergyTwoChunks.Chunk3
-import LRX.HighEnergyTwoChunks.Chunk4
-import LRX.HighEnergyTwoChunks.Chunk5
-import LRX.HighEnergyTwoChunks.Chunk6
+module
+
+public import LRX.HighEnergyTwoChunks.Chunk0
+public import LRX.HighEnergyTwoChunks.Chunk1
+public import LRX.HighEnergyTwoChunks.Chunk2
+public import LRX.HighEnergyTwoChunks.Chunk3
+public import LRX.HighEnergyTwoChunks.Chunk4
+public import LRX.HighEnergyTwoChunks.Chunk5
+public import LRX.HighEnergyTwoChunks.Chunk6
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

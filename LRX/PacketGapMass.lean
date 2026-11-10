@@ -1,5 +1,9 @@
-import LRX.PacketGapWindows
-import LRX.PacketEnergyReserve
+module
+
+public import LRX.PacketGapWindows
+public import LRX.PacketEnergyReserve
+
+@[expose] public section
 
 /-! The total displacement mass splits exactly into the packet and its finite
 fillings. Gaps unvisited by packet arrows have zero displacement. -/

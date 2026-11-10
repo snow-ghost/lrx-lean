@@ -1,7 +1,11 @@
-import LRX.FiniteGapSums
-import LRX.PacketCoreBalance
-import LRX.FiniteWindowRestriction
-import LRX.FiniteQuadraticGap
+module
+
+public import LRX.FiniteGapSums
+public import LRX.PacketCoreBalance
+public import LRX.FiniteWindowRestriction
+public import LRX.FiniteQuadraticGap
+
+@[expose] public section
 
 /-! Every gap in the actual packet partition is invariant and has a canonical
 finite filling, including the last interval ending at n. -/

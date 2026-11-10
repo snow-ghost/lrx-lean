@@ -1,4 +1,8 @@
-import LRX.EventTreeHeadSplit
+module
+
+public import LRX.EventTreeHeadSplit
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

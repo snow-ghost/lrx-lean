@@ -1,4 +1,8 @@
-import LRX.FiniteShallowMatching
+module
+
+public import LRX.FiniteShallowMatching
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

@@ -1,4 +1,8 @@
-import LRX.RankNeighborCutGeometry
+module
+
+public import LRX.RankNeighborCutGeometry
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

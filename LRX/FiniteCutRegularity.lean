@@ -1,4 +1,8 @@
-import LRX.FiniteCutLoad
+module
+
+public import LRX.FiniteCutLoad
+
+@[expose] public section
 
 /-! Moving a cut past one source and one target changes half-load by at most one. -/
 namespace LRX.FiniteCuts

@@ -1,4 +1,8 @@
-import LRX.ZeroGapPacketConnected
+module
+
+public import LRX.ZeroGapPacketConnected
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

@@ -1,7 +1,11 @@
-import LRX.InnermostEventComponent
-import LRX.StrongPacketEventBudget
-import LRX.LinearSortingTrace
-import LRX.ActualGlobalNonshortDefect
+module
+
+public import LRX.InnermostEventComponent
+public import LRX.StrongPacketEventBudget
+public import LRX.LinearSortingTrace
+public import LRX.ActualGlobalNonshortDefect
+
+@[expose] public section
 
 /-! M4, even zero-energy exterior width four, U=4.
 Equality in the actual budget reduces the event slack from two to one. -/

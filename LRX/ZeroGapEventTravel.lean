@@ -1,4 +1,8 @@
-import LRX.ZeroGapEventGeometry
+module
+
+public import LRX.ZeroGapEventGeometry
+
+@[expose] public section
 
 /-! Weighted paths retain the signed integer motion of tokens through the
 endpoint events; their weights do not identify coordinates modulo n. -/

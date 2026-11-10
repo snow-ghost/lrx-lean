@@ -1,5 +1,9 @@
-import LRX.EventComponentCycleBudget
-import LRX.FiniteCycleLoads
+module
+
+public import LRX.EventComponentCycleBudget
+public import LRX.FiniteCycleLoads
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open FiniteCuts

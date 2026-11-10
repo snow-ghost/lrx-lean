@@ -1,5 +1,9 @@
-import LRX.ActualShellInternalPayment
-import LRX.OddShellArithmetic
+module
+
+public import LRX.ActualShellInternalPayment
+public import LRX.OddShellArithmetic
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

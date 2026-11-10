@@ -1,5 +1,9 @@
-import LRX.LowerBoundCyclicContiguity
-import LRX.LowerBoundPaidProjection
+module
+
+public import LRX.LowerBoundCyclicContiguity
+public import LRX.LowerBoundPaidProjection
+
+@[expose] public section
 
 namespace LRX.LowerBoundExceptionalCount
 open LRX.BlockExchange LRX.LowerBoundSwapCount LRX.LowerBoundPairParity

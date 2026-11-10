@@ -1,5 +1,9 @@
-import LRX.FiniteRetainedIncidentPacket
-import LRX.GlobalPeakServiceFamily
+module
+
+public import LRX.FiniteRetainedIncidentPacket
+public import LRX.GlobalPeakServiceFamily
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

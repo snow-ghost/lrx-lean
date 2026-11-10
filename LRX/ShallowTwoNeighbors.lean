@@ -1,4 +1,8 @@
-import LRX.RankGapCut
+module
+
+public import LRX.RankGapCut
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

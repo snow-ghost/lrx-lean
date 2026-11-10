@@ -1,5 +1,9 @@
-import LRX.BufferFrame
-import LRX.PeriodicBuffer
+module
+
+public import LRX.BufferFrame
+public import LRX.PeriodicBuffer
+
+@[expose] public section
 
 /-! The motion scanner visits contracted ports at both ends as well as in the
 interior. The splitting theorem is an equality of actual command lists. -/

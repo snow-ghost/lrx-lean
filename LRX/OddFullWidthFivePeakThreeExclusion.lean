@@ -1,5 +1,9 @@
-import LRX.OddFullWidthFivePeakThree
-import LRX.FinitePeakProfile
+module
+
+public import LRX.OddFullWidthFivePeakThree
+public import LRX.FinitePeakProfile
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

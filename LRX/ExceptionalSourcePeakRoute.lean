@@ -1,7 +1,11 @@
-import LRX.ComponentPacketPeak
-import LRX.ThreeComponentPacketRoute
-import LRX.PeakActivityBound
-import LRX.MaximalCutManyRouting
+module
+
+public import LRX.ComponentPacketPeak
+public import LRX.ThreeComponentPacketRoute
+public import LRX.PeakActivityBound
+public import LRX.MaximalCutManyRouting
+
+@[expose] public section
 
 /-! M4's terminal scalar rows now supply their own packet geometry.
 An unpaid actual peak forces absence of fillings; global U selects a real packet. -/

@@ -1,5 +1,9 @@
-import LRX.FiniteRemovalBalance
-import LRX.PrunedLoad
+module
+
+public import LRX.FiniteRemovalBalance
+public import LRX.PrunedLoad
+
+@[expose] public section
 
 /-! The full root lift may be periodic. Removing canonical finite leaf cycles
 preserves both balance and its original root-port load. -/

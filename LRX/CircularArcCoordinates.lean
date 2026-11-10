@@ -1,4 +1,8 @@
-import LRX.PacketReflectionSymmetry
+module
+
+public import LRX.PacketReflectionSymmetry
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

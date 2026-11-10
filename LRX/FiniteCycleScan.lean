@@ -1,5 +1,9 @@
-import LRX.FiniteCycleProfile
-import LRX.OrderedPortRoute
+module
+
+public import LRX.FiniteCycleProfile
+public import LRX.OrderedPortRoute
+
+@[expose] public section
 
 /-! A paid monotone scan of the finite cycles accessible from the left.
 The list contains actual disjoint cycles and every service word is constructed. -/

@@ -1,5 +1,9 @@
-import LRX.PeriodicTouches
-import LRX.ReducedServiceRoute
+module
+
+public import LRX.PeriodicTouches
+public import LRX.ReducedServiceRoute
+
+@[expose] public section
 
 /-! Root-star coverage is preserved when coordinates are recentered at a
 chosen port. No reachability certificate at the new port is assumed. -/

@@ -1,6 +1,10 @@
-import LRX.PacketWindowProfiles
-import LRX.PacketPorts
-import LRX.GapBoundaryLoad
+module
+
+public import LRX.PacketWindowProfiles
+public import LRX.PacketPorts
+public import LRX.GapBoundaryLoad
+
+@[expose] public section
 
 /-! The full finite-gap word bound for a root packet with arbitrarily many
 cycles. Boundary vertices need only belong to the same strong component. -/

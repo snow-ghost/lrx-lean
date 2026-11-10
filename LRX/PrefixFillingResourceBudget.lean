@@ -1,5 +1,9 @@
-import LRX.OriginalFillingResourceBudget
-import LRX.PositiveFillingResourceMonotone
+module
+
+public import LRX.OriginalFillingResourceBudget
+public import LRX.PositiveFillingResourceMonotone
+
+@[expose] public section
 
 /-! M4: apply the derived scalar budget to the actual internal windows of
 the large component, without replacing them by the full-map window family. -/

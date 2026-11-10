@@ -1,8 +1,12 @@
-import LRX.EnclosingSelectedArcWord
-import LRX.PeakServiceArcPartition
-import LRX.GlobalPeakServiceFamily
-import LRX.TwoArcServiceWord
-import LRX.CyclePartSelection
+module
+
+public import LRX.EnclosingSelectedArcWord
+public import LRX.PeakServiceArcPartition
+public import LRX.GlobalPeakServiceFamily
+public import LRX.TwoArcServiceWord
+public import LRX.CyclePartSelection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

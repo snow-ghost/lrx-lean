@@ -1,5 +1,9 @@
-import LRX.PacketSquareEnvelope
-import LRX.InternalGapLoad
+module
+
+public import LRX.PacketSquareEnvelope
+public import LRX.InternalGapLoad
+
+@[expose] public section
 
 /-! Every actual internal-gap price is paid once the packet exchange reserve
 is established. All geometric and quadratic premises are derived from the lift. -/

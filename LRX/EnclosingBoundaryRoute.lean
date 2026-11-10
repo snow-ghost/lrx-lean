@@ -1,4 +1,8 @@
-import LRX.EnclosingSelectedArcWord
+module
+
+public import LRX.EnclosingSelectedArcWord
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped BigOperators

@@ -1,4 +1,8 @@
-import LRX.FiniteSupportPeakBounds
+module
+
+public import LRX.FiniteSupportPeakBounds
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

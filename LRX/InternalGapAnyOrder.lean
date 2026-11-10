@@ -1,5 +1,9 @@
-import LRX.CircularInternalGapWord
-import LRX.CircularArcCoordinates
+module
+
+public import LRX.CircularInternalGapWord
+public import LRX.CircularArcCoordinates
+
+@[expose] public section
 
 /-! Both cursor orders in an internal packet gap have the sharp word bound.
 Reflection reverses the order and preserves every letter count. -/

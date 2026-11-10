@@ -1,5 +1,9 @@
-import LRX.RecenteredRootStar
-import LRX.ReflectedExactService
+module
+
+public import LRX.RecenteredRootStar
+public import LRX.ReflectedExactService
+
+@[expose] public section
 
 /-! Reflection preserves the geometric root-star condition, so the left
 incident service is available for any balanced short root star. -/

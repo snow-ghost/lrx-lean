@@ -1,6 +1,10 @@
-import LRX.LoadedFootprint
-import LRX.FootprintPathCover
-import LRX.PacketExactService
+module
+
+public import LRX.LoadedFootprint
+public import LRX.FootprintPathCover
+public import LRX.PacketExactService
+
+@[expose] public section
 
 /-! Positive load around the whole circle gives a concrete root packet and
 an exact service, with no packet-existence hypothesis. -/

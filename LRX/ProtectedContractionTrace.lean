@@ -1,4 +1,8 @@
-import LRX.ProtectedShallowStep
+module
+
+public import LRX.ProtectedShallowStep
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 variable {m : ℕ} {P : State (m+1)}

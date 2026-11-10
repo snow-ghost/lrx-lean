@@ -1,6 +1,10 @@
-import LRX.LargeComponentNumericReserve
-import LRX.SourceGapSharpPayment
-import LRX.JoinedTwoArcBound
+module
+
+public import LRX.LargeComponentNumericReserve
+public import LRX.SourceGapSharpPayment
+public import LRX.JoinedTwoArcBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

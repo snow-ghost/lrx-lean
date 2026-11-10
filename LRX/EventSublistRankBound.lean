@@ -1,4 +1,8 @@
-import LRX.EventSublistRepair
+module
+
+public import LRX.EventSublistRepair
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

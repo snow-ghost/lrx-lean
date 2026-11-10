@@ -1,6 +1,10 @@
-import LRX.GapBoundaryLoad
-import LRX.ArrowLoadPaths
-import LRX.PortLoadBalance
+module
+
+public import LRX.GapBoundaryLoad
+public import LRX.ArrowLoadPaths
+public import LRX.PortLoadBalance
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

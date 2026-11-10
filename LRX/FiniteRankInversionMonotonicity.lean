@@ -1,6 +1,10 @@
-import LRX.FiniteRankSorting
-import LRX.FiniteAdjacentInversions
-import Mathlib.Data.Fin.Tuple.Sort
+module
+
+public import LRX.FiniteRankSorting
+public import LRX.FiniteAdjacentInversions
+public import Mathlib.Data.Fin.Tuple.Sort
+
+@[expose] public section
 
 namespace LRX.FiniteRankOrder
 open FiniteCuts

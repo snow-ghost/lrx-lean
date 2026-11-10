@@ -1,4 +1,8 @@
-import LRX.InversionSet
+module
+
+public import LRX.InversionSet
+
+@[expose] public section
 
 /-! The exact affine X price agrees with the crossing data derived from lifts. -/
 namespace LRX.LiftedModel

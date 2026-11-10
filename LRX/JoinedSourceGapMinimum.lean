@@ -1,4 +1,8 @@
-import LRX.JoinedSourceSpanWord
+module
+
+public import LRX.JoinedSourceSpanWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

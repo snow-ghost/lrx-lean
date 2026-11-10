@@ -1,5 +1,9 @@
-import LRX.PacketExchangeReserve
-import LRX.ConnectedLoadWord
+module
+
+public import LRX.PacketExchangeReserve
+public import LRX.ConnectedLoadWord
+
+@[expose] public section
 
 /-! A cursor already at a packet vertex can execute its closed service
 within the sharp budget. This also covers zero-width packet gaps. -/

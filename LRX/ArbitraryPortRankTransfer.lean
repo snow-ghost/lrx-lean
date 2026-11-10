@@ -1,4 +1,8 @@
-import LRX.FiniteServiceRankTransfer
+module
+
+public import LRX.FiniteServiceRankTransfer
+
+@[expose] public section
 
 namespace LRX.LiftedModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

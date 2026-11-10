@@ -1,8 +1,12 @@
-import LRX.PeakProfileFive
-import LRX.UnpaidPrecisePeakCutoff
-import LRX.ActualPeakProfileFilters
-import LRX.MaximalCutManyRouting
-import LRX.PeakProfileLargeCount
+module
+
+public import LRX.PeakProfileFive
+public import LRX.UnpaidPrecisePeakCutoff
+public import LRX.ActualPeakProfileFilters
+public import LRX.MaximalCutManyRouting
+public import LRX.PeakProfileLargeCount
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

@@ -1,5 +1,9 @@
-import LRX.OffsetExtraArrowSignConstraint
-import LRX.ZeroEnergyEmptyCatalogues
+module
+
+public import LRX.OffsetExtraArrowSignConstraint
+public import LRX.ZeroEnergyEmptyCatalogues
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

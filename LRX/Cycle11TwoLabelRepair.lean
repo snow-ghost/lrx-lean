@@ -1,4 +1,8 @@
-import LRX.BlockExchange
+module
+
+public import LRX.BlockExchange
+
+@[expose] public section
 
 namespace LRX.Cycle11TwoLabelRepair
 open LRX.BlockExchange

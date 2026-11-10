@@ -1,5 +1,9 @@
-import LRX.InvariantCutRecenter
-import LRX.FiniteSupportPeakBounds
+module
+
+public import LRX.InvariantCutRecenter
+public import LRX.FiniteSupportPeakBounds
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

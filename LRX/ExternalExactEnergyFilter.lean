@@ -1,4 +1,8 @@
-import LRX.ActualPeakProfileFilters
+module
+
+public import LRX.ActualPeakProfileFilters
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

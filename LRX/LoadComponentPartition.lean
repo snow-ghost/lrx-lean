@@ -1,5 +1,9 @@
-import LRX.LoadComponentSet
-import LRX.GapCostInversionDeficit
+module
+
+public import LRX.LoadComponentSet
+public import LRX.GapCostInversionDeficit
+
+@[expose] public section
 
 namespace LRX.CycleFootprint
 open scoped BigOperators

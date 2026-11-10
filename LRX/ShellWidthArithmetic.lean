@@ -1,4 +1,8 @@
-import LRX.ShellPriceIdentity
+module
+
+public import LRX.ShellPriceIdentity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

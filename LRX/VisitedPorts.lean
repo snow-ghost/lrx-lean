@@ -1,5 +1,9 @@
-import LRX.ProgramFootprint
-import LRX.BufferScan
+module
+
+public import LRX.ProgramFootprint
+public import LRX.BufferScan
+
+@[expose] public section
 
 /-! Visited head classes are preserved by insertion of a disjoint child call.
 Both endpoints of every program are included in the visit predicate. -/

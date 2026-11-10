@@ -1,5 +1,9 @@
-import LRX.PrefixComponentParameters
-import LRX.LargeComponentNumericReserve
+module
+
+public import LRX.PrefixComponentParameters
+public import LRX.LargeComponentNumericReserve
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

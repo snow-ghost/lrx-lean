@@ -1,4 +1,8 @@
-import LRX.ZeroLoadCut
+module
+
+public import LRX.ZeroLoadCut
+
+@[expose] public section
 
 /-! Arbitrary zero cuts supply a finite coordinate potential. Every invariant
 union of cycles therefore has zero total displacement. -/

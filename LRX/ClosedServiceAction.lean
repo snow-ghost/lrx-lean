@@ -1,5 +1,9 @@
-import LRX.ServiceAction
-import LRX.ExactClosedService
+module
+
+public import LRX.ServiceAction
+public import LRX.ExactClosedService
+
+@[expose] public section
 
 /-! Complete state action of a closed service: the physical token permutation
 is multiplied by its target, and the integer cursor is restored. -/

@@ -1,4 +1,8 @@
-import LRX.FiniteCycleAvailability
+module
+
+public import LRX.FiniteCycleAvailability
+
+@[expose] public section
 
 /-! Extend a finite permutation to a contiguous window of a larger ambient
 permutation, fixing every external label. No ambient size is changed. -/

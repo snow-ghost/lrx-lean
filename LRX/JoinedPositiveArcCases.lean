@@ -1,4 +1,8 @@
-import LRX.FiniteMarkedGap
+module
+
+public import LRX.FiniteMarkedGap
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

@@ -1,5 +1,9 @@
-import LRX.EnergyOneCriticalPeakFour
-import LRX.FinitePeakProfile
+module
+
+public import LRX.EnergyOneCriticalPeakFour
+public import LRX.FinitePeakProfile
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

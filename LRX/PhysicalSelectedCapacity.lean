@@ -1,4 +1,8 @@
-import LRX.SelectedMajorization
+module
+
+public import LRX.SelectedMajorization
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

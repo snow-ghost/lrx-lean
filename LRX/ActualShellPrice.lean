@@ -1,5 +1,9 @@
-import LRX.ShallowShellSquarePrice
-import LRX.ShellPriceIdentity
+module
+
+public import LRX.ShallowShellSquarePrice
+public import LRX.ShellPriceIdentity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

@@ -1,4 +1,8 @@
-import LRX.BridgeSequenceReach
+module
+
+public import LRX.BridgeSequenceReach
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n k : ℕ} [NeZero n]

@@ -1,5 +1,9 @@
-import LRX.ActualShellInternalPayment
-import LRX.ActualEvenExteriorExceptions
+module
+
+public import LRX.ActualShellInternalPayment
+public import LRX.ActualEvenExteriorExceptions
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

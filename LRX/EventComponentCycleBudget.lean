@@ -1,5 +1,9 @@
-import LRX.StrongPacketEventBudget
-import LRX.LinearSortingTrace
+module
+
+public import LRX.StrongPacketEventBudget
+public import LRX.LinearSortingTrace
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped BigOperators

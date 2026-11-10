@@ -1,6 +1,10 @@
-import LRX.CanonicalPacketPeakService
-import LRX.GlobalPeakServiceFamily
-import LRX.ThreePortRoute
+module
+
+public import LRX.CanonicalPacketPeakService
+public import LRX.GlobalPeakServiceFamily
+public import LRX.ThreePortRoute
+
+@[expose] public section
 
 /-! Extract the services required by M4 directly from three canonical packets.
 The exceptional structural classification is not assumed proved here. -/

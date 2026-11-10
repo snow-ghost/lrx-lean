@@ -1,4 +1,8 @@
-import LRX.BoundaryComponentRoot
+module
+
+public import LRX.BoundaryComponentRoot
+
+@[expose] public section
 
 namespace LRX.CycleFootprint
 variable {n : ℕ} [NeZero n]

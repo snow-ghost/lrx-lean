@@ -1,4 +1,8 @@
-import LRX.ZeroEnergyShallowPacket
+module
+
+public import LRX.ZeroEnergyShallowPacket
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

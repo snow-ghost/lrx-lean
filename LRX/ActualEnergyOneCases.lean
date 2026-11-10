@@ -1,6 +1,10 @@
-import LRX.EnergyOneOuterCases
-import LRX.ActualTwoSizeCutoff
-import LRX.SignedSelectionDeficit
+module
+
+public import LRX.EnergyOneOuterCases
+public import LRX.ActualTwoSizeCutoff
+public import LRX.SignedSelectionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

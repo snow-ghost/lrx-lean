@@ -1,5 +1,9 @@
-import LRX.JoinedOuterPorts
-import LRX.ExteriorCursorWord
+module
+
+public import LRX.JoinedOuterPorts
+public import LRX.ExteriorCursorWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

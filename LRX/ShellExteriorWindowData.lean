@@ -1,4 +1,8 @@
-import LRX.ShellInternalWindowData
+module
+
+public import LRX.ShellInternalWindowData
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

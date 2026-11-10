@@ -1,5 +1,9 @@
-import LRX.OriginalFillingFixedBudget
-import LRX.PrefixFillingSize
+module
+
+public import LRX.OriginalFillingFixedBudget
+public import LRX.PrefixFillingSize
+
+@[expose] public section
 
 /-! M4 filters expressed with actual x=L-R0 and f-a, not independent
 width or fixed-position certificates. -/

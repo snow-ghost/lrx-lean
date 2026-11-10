@@ -1,4 +1,8 @@
-import LRX.BufferEndpoints
+module
+
+public import LRX.BufferEndpoints
+
+@[expose] public section
 
 /-! The total contracted displacement vanishes for every balanced finite phase-zero
 lift. Consequently a program reaching all target logical coordinates closes its

@@ -1,5 +1,9 @@
-import LRX.OddFullWidthFiveLowExclusion
-import LRX.OddFullWidthFiveArrowCertificate
+module
+
+public import LRX.OddFullWidthFiveLowExclusion
+public import LRX.OddFullWidthFiveArrowCertificate
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

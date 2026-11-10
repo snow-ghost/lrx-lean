@@ -1,5 +1,9 @@
-import LRX.EnclosingWindowLeftRoute
-import LRX.WindowRightCycleSelection
+module
+
+public import LRX.EnclosingWindowLeftRoute
+public import LRX.WindowRightCycleSelection
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators Fin.CommRing

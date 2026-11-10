@@ -1,4 +1,8 @@
-import LRX.EventTreePotential
+module
+
+public import LRX.EventTreePotential
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

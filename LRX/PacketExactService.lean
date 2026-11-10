@@ -1,4 +1,8 @@
-import LRX.PacketPortSymmetry
+module
+
+public import LRX.PacketPortSymmetry
+
+@[expose] public section
 
 /-! Both incident exact services for a balanced root packet with several cycles. -/
 namespace LRX.RotationWords

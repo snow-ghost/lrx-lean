@@ -1,4 +1,8 @@
-import LRX.JoinedPeakArcPorts
+module
+
+public import LRX.JoinedPeakArcPorts
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

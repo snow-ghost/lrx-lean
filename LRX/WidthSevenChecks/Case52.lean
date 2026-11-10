@@ -1,4 +1,8 @@
-import LRX.WidthSevenCaseSplit
+module
+
+public import LRX.WidthSevenCaseSplit
+
+@[expose] public section
 namespace LRX.FiniteCuts
 set_option maxHeartbeats 0
 set_option maxRecDepth 10000

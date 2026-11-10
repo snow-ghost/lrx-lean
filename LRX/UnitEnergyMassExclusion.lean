@@ -1,5 +1,9 @@
-import LRX.UnitEnergyAllComponentSources
-import LRX.MatchedWindowPeakBound
+module
+
+public import LRX.UnitEnergyAllComponentSources
+public import LRX.MatchedWindowPeakBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

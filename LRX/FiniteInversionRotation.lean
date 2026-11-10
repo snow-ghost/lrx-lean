@@ -1,4 +1,8 @@
-import LRX.FiniteInversionDecomposition
+module
+
+public import LRX.FiniteInversionDecomposition
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

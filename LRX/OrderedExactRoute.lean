@@ -1,5 +1,9 @@
-import LRX.ReducedServiceRoute
-import LRX.OrderedPortRoute
+module
+
+public import LRX.ReducedServiceRoute
+public import LRX.OrderedPortRoute
+
+@[expose] public section
 
 /-! Sorting exact services preserves their lifted endpoint and permits an
 interval bound after affine deletion of the combined route. -/

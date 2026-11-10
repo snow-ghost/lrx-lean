@@ -1,6 +1,10 @@
-import LRX.ManyComponentFinalPayment
-import LRX.LargeComponentReduction
-import LRX.TwoComponentPeakTwo
+module
+
+public import LRX.ManyComponentFinalPayment
+public import LRX.LargeComponentReduction
+public import LRX.TwoComponentPeakTwo
+
+@[expose] public section
 
 namespace LRX
 open FiniteCuts RotationWords

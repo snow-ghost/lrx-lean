@@ -1,4 +1,8 @@
-import LRX.Graph
+module
+
+public import LRX.Graph
+
+@[expose] public section
 
 /-! Connected footprints with boundaries in their cycle supports. Avoiding
 another cycle's support at an intersection forces strict footprint inclusion. -/

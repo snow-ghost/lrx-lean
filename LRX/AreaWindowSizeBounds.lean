@@ -1,4 +1,8 @@
-import LRX.LargeSourceCoreSize
+module
+
+public import LRX.LargeSourceCoreSize
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

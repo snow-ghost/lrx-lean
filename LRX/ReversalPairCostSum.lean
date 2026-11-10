@@ -1,5 +1,9 @@
-import LRX.ReversalPairDecomposition
-import LRX.GapCostInversionDeficit
+module
+
+public import LRX.ReversalPairDecomposition
+public import LRX.GapCostInversionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

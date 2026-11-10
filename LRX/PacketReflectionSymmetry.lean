@@ -1,4 +1,8 @@
-import LRX.PacketCoordinateSymmetry
+module
+
+public import LRX.PacketCoordinateSymmetry
+
+@[expose] public section
 
 namespace LRX.PrunedLift
 variable {n : ℕ} [NeZero n]

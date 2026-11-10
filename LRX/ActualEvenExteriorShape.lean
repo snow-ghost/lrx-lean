@@ -1,5 +1,9 @@
-import LRX.ShellReservePayment
-import LRX.ActualShellPrice
+module
+
+public import LRX.ShellReservePayment
+public import LRX.ActualShellPrice
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ContractionBlocks.System

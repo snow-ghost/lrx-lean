@@ -1,4 +1,8 @@
-import LRX.EventTreeBranchCounts
+module
+
+public import LRX.EventTreeBranchCounts
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

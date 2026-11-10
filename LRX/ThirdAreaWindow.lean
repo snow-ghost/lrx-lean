@@ -1,5 +1,9 @@
-import LRX.ActualWindowEnvelope
-import LRX.ActualPeakSupportBound
+module
+
+public import LRX.ActualWindowEnvelope
+public import LRX.ActualPeakSupportBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

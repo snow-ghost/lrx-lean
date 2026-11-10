@@ -1,4 +1,8 @@
-import LRX.WindowPairExactService
+module
+
+public import LRX.WindowPairExactService
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators Fin.NatCast Fin.CommRing

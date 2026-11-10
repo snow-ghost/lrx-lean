@@ -1,5 +1,9 @@
-import LRX.ShallowShellBoundaryJoin
-import LRX.EnclosingGapWord
+module
+
+public import LRX.ShallowShellBoundaryJoin
+public import LRX.EnclosingGapWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

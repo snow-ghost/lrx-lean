@@ -1,5 +1,9 @@
-import LRX.ZeroEnergyTwoOddRegimes
-import LRX.OddFullWidthSevenExclusion
+module
+
+public import LRX.ZeroEnergyTwoOddRegimes
+public import LRX.OddFullWidthSevenExclusion
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

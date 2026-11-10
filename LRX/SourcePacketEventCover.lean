@@ -1,5 +1,9 @@
-import LRX.OriginalPeakCutoff
-import LRX.ConnectedEventDefect
+module
+
+public import LRX.OriginalPeakCutoff
+public import LRX.ConnectedEventDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords ZeroGap

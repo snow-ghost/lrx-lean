@@ -1,4 +1,8 @@
-import LRX.ShortLiftUniqueness
+module
+
+public import LRX.ShortLiftUniqueness
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.NatCast Fin.CommRing

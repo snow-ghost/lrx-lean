@@ -1,5 +1,9 @@
-import LRX.TwoSizeCoverage
-import LRX.ManyCountTwoReduction
+module
+
+public import LRX.TwoSizeCoverage
+public import LRX.ManyCountTwoReduction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

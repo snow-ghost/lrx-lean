@@ -1,5 +1,9 @@
-import LRX.LoadComponents
-import LRX.MaximalFootprintRoot
+module
+
+public import LRX.LoadComponents
+public import LRX.MaximalFootprintRoot
+
+@[expose] public section
 
 namespace LRX.CycleFootprint
 variable {n : ℕ} [NeZero n]

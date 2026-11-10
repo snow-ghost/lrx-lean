@@ -1,4 +1,8 @@
-import LRX.ExteriorHoleDeficit
+module
+
+public import LRX.ExteriorHoleDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {r : ℕ}

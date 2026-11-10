@@ -1,5 +1,9 @@
-import LRX.FillingPeakRecenter
-import LRX.SourcePacketCyclePartition
+module
+
+public import LRX.FillingPeakRecenter
+public import LRX.SourcePacketCyclePartition
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

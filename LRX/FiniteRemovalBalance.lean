@@ -1,6 +1,10 @@
-import LRX.FiniteRootStar
-import LRX.ReducedServiceRoute
-import LRX.PrunedPartition
+module
+
+public import LRX.FiniteRootStar
+public import LRX.ReducedServiceRoute
+public import LRX.PrunedPartition
+
+@[expose] public section
 
 /-! Removing finite canonical cycles from a balanced periodic lift leaves a
 balanced root lift; balance need not be assumed again for the retained part. -/

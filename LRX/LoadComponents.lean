@@ -1,7 +1,11 @@
-import LRX.ArrowLoadPaths
-import LRX.PositiveLoadPacket
-import LRX.GeometricPacket
-import LRX.PacketPorts
+module
+
+public import LRX.ArrowLoadPaths
+public import LRX.PositiveLoadPacket
+public import LRX.GeometricPacket
+public import LRX.PacketPorts
+
+@[expose] public section
 
 /-! The physical positive-load components coincide with components of cycle
 footprints, including when some circle edges have zero load. -/

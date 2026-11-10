@@ -1,5 +1,9 @@
-import LRX.JoinedPacketCover
-import LRX.PacketIncidentLoad
+module
+
+public import LRX.JoinedPacketCover
+public import LRX.PacketIncidentLoad
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

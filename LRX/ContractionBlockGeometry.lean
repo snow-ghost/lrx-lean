@@ -1,4 +1,8 @@
-import LRX.ContractionSelectedArrows
+module
+
+public import LRX.ContractionSelectedArrows
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks
 variable {m k : ℕ}

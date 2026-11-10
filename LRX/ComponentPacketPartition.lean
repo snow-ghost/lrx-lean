@@ -1,6 +1,10 @@
-import LRX.CanonicalPacketPeakService
-import LRX.SourcePacketEventCover
-import LRX.FiniteGlobalPeak
+module
+
+public import LRX.CanonicalPacketPeakService
+public import LRX.SourcePacketEventCover
+public import LRX.FiniteGlobalPeak
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

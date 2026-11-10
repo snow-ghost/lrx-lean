@@ -1,10 +1,14 @@
-import LRX.ListBridge
-import LRX.Small
-import LRX.Graph
-import GraphLower
-import LRX.Cycle11WordSymmetry
-import LRX.LowerBoundNativeComplete
-import LRX.ReducedPrice
+module
+
+public import LRX.ListBridge
+public import LRX.Small
+public import LRX.Graph
+public import GraphLower
+public import LRX.Cycle11WordSymmetry
+public import LRX.LowerBoundNativeComplete
+public import LRX.ReducedPrice
+
+@[expose] public section
 
 namespace LRX
 

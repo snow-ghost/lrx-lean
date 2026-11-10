@@ -1,5 +1,9 @@
-import LRX.PeakReserveBound
-import LRX.ComponentCutPeakInvariant
+module
+
+public import LRX.PeakReserveBound
+public import LRX.ComponentCutPeakInvariant
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

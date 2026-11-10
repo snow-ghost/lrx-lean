@@ -1,4 +1,8 @@
-import LRX.MaximumZeroCut
+module
+
+public import LRX.MaximumZeroCut
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

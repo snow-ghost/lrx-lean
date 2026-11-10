@@ -1,4 +1,8 @@
-import LRX.ContractionBlockGeometry
+module
+
+public import LRX.ContractionBlockGeometry
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 variable {m k : ℕ} {P : State m} {q : State k}

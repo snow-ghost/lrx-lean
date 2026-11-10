@@ -1,4 +1,8 @@
-import LRX.MaximumCutRoutes
+module
+
+public import LRX.MaximumCutRoutes
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

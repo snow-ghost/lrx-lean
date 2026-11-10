@@ -1,4 +1,8 @@
-import LRX.IncidentArcPorts
+module
+
+public import LRX.IncidentArcPorts
+
+@[expose] public section
 
 /-! Both arcs need only contain incident packet ports. One positive port
 anywhere on the circle supplies the combined saving needed by the budget. -/

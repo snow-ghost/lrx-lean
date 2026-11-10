@@ -1,5 +1,9 @@
-import LRX.SuffixWindowLoad
-import LRX.CanonicalPositivePaths
+module
+
+public import LRX.SuffixWindowLoad
+public import LRX.CanonicalPositivePaths
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

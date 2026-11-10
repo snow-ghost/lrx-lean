@@ -1,7 +1,11 @@
-import LRX.FinitePeakProfile
-import LRX.OriginalRefinedEnvelopeFilters
-import LRX.ActualPeakCutoff
-import LRX.PrefixCoreBalancedEnergy
+module
+
+public import LRX.FinitePeakProfile
+public import LRX.OriginalRefinedEnvelopeFilters
+public import LRX.ActualPeakCutoff
+public import LRX.PrefixCoreBalancedEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,4 +1,8 @@
-import LRX.DiscreteLoadProfile
+module
+
+public import LRX.DiscreteLoadProfile
+
+@[expose] public section
 
 /-! Superlevel widths are bounded by the endpoint slopes. Above a prefix
 cap, their left endpoint is shifted by the distance from that prefix. -/

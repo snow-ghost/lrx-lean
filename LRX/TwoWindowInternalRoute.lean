@@ -1,4 +1,8 @@
-import LRX.WindowReversalFamilyOrder
+module
+
+public import LRX.WindowReversalFamilyOrder
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

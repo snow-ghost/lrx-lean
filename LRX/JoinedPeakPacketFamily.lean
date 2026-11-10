@@ -1,5 +1,9 @@
-import LRX.FiniteWeightedPacketFamily
-import LRX.JoinedOutsideCycles
+module
+
+public import LRX.FiniteWeightedPacketFamily
+public import LRX.JoinedOutsideCycles
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

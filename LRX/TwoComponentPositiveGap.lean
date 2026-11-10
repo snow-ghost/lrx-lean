@@ -1,4 +1,8 @@
-import LRX.MaximalCutManyRouting
+module
+
+public import LRX.MaximalCutManyRouting
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

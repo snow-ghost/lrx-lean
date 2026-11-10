@@ -1,8 +1,12 @@
-import LRX.FiniteRootStar
-import LRX.ReflectedRootStar
-import LRX.ZeroGapCycleRoots
-import LRX.FiniteCycleLoads
-import LRX.CyclePart
+module
+
+public import LRX.FiniteRootStar
+public import LRX.ReflectedRootStar
+public import LRX.ZeroGapCycleRoots
+public import LRX.FiniteCycleLoads
+public import LRX.CyclePart
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.CommRing

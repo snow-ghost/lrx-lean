@@ -1,4 +1,8 @@
-import LRX.LiftedRename
+module
+
+public import LRX.LiftedRename
+
+@[expose] public section
 
 /-! A lifted pair is a pair of finite labels together with an integer relative
 copy offset. Equal pair events implement the same periodic involution. -/

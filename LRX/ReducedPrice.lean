@@ -1,5 +1,9 @@
-import LRX.BlockExchange
-import Mathlib.GroupTheory.Perm.Basic
+module
+
+public import LRX.BlockExchange
+public import Mathlib.GroupTheory.Perm.Basic
+
+@[expose] public section
 
 namespace LRX.ReducedPrice
 open BlockExchange

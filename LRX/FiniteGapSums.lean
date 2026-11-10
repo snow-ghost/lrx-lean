@@ -1,4 +1,8 @@
-import LRX.FiniteGapPartition
+module
+
+public import LRX.FiniteGapPartition
+
+@[expose] public section
 
 /-! Exact cardinality and sum identities for the partition into finite gaps. -/
 namespace LRX.FiniteGaps

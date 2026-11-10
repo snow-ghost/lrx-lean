@@ -1,4 +1,8 @@
-import LRX.RecenteredCrossings
+module
+
+public import LRX.RecenteredCrossings
+
+@[expose] public section
 
 /-! Every nonzero balanced displacement vector has an oppositely signed pair
 with no nonzero displacement in the open forward arc between its endpoints. -/

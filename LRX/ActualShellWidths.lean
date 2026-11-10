@@ -1,5 +1,9 @@
-import LRX.ActualShellEvenPayment
-import LRX.ShellWidthArithmetic
+module
+
+public import LRX.ActualShellEvenPayment
+public import LRX.ShellWidthArithmetic
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

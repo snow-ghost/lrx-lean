@@ -1,4 +1,8 @@
-import LRX.ActualTwoNeighborReserve
+module
+
+public import LRX.ActualTwoNeighborReserve
+
+@[expose] public section
 
 /-! Scalar consequences for manuscript E4/E5. E is the prospective shell
 word's upper excess, not the original peakExcess. Constructing that word

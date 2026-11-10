@@ -1,4 +1,8 @@
-import LRX.CycleFootprint
+module
+
+public import LRX.CycleFootprint
+
+@[expose] public section
 
 /-! Integer intervals project to connected paths on the physical circle. -/
 namespace LRX.CycleFootprint

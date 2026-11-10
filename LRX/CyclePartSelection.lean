@@ -1,6 +1,10 @@
-import LRX.CyclePart
-import LRX.WindowComposition
-import Mathlib.GroupTheory.Perm.Cycle.Factors
+module
+
+public import LRX.CyclePart
+public import LRX.WindowComposition
+public import Mathlib.GroupTheory.Perm.Cycle.Factors
+
+@[expose] public section
 
 /-! Products of selected disjoint cycles remain parts of the original target.
 Window extension and inversion preserve this relation. -/

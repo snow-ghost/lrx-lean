@@ -1,5 +1,9 @@
-import LRX.BitonicNonshortDefect
-import LRX.FiniteFillingResource
+module
+
+public import LRX.BitonicNonshortDefect
+public import LRX.FiniteFillingResource
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

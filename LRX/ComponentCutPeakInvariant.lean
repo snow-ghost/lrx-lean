@@ -1,5 +1,9 @@
-import LRX.ComponentCutBlockCount
-import LRX.PrefixCoreEnergy
+module
+
+public import LRX.ComponentCutBlockCount
+public import LRX.PrefixCoreEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

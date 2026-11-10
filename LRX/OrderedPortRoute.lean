@@ -1,5 +1,9 @@
-import LRX.PortRoute
-import Mathlib.Data.List.Sort
+module
+
+public import LRX.PortRoute
+public import Mathlib.Data.List.Sort
+
+@[expose] public section
 
 /-! A monotone traversal of service ports pays at most the length of the
 containing interval. Services may be reordered because their targets commute. -/

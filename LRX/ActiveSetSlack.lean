@@ -1,4 +1,8 @@
-import LRX.ExchangeReserveNonnegative
+module
+
+public import LRX.ExchangeReserveNonnegative
+
+@[expose] public section
 
 /-! The active-set energy cap supplies the parity-correct fixed-point slack
 used in the connected and multiple-component routing budgets. -/

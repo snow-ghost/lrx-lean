@@ -1,5 +1,9 @@
-import LRX.OutsideCyclePositivePort
-import LRX.CanonicalServiceFamily
+module
+
+public import LRX.OutsideCyclePositivePort
+public import LRX.CanonicalServiceFamily
+
+@[expose] public section
 
 /-! A selected list of actual outside cycles supplies canonical exact
 services, one per cycle, each with a rotation saving of at least two. -/

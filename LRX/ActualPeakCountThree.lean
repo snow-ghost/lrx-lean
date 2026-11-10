@@ -1,5 +1,9 @@
-import LRX.ActualPeakCountFour
-import LRX.ActualPeakCoreBound
+module
+
+public import LRX.ActualPeakCountFour
+public import LRX.ActualPeakCoreBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

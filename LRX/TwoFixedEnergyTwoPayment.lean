@@ -1,5 +1,9 @@
-import LRX.ThreeFixedPeakPayment
-import LRX.TwoFixedEnergyTwoGeometry
+module
+
+public import LRX.ThreeFixedPeakPayment
+public import LRX.TwoFixedEnergyTwoGeometry
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 namespace LRX.FiniteCuts

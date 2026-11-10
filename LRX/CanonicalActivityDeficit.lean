@@ -1,5 +1,9 @@
-import LRX.ComponentShortArrowDeficit
-import LRX.ExchangeReserveNonnegative
+module
+
+public import LRX.ComponentShortArrowDeficit
+public import LRX.ExchangeReserveNonnegative
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

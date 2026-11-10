@@ -1,6 +1,10 @@
-import LRX.ComponentInterval
-import LRX.ReversalWindowFamily
-import LRX.FiniteWindowRestriction
+module
+
+public import LRX.ComponentInterval
+public import LRX.ReversalWindowFamily
+public import LRX.FiniteWindowRestriction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

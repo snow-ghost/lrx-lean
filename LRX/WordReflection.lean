@@ -1,6 +1,10 @@
-import LRX.ClosedReachableService
-import LRX.Cycle11WordSymmetry
-import LRX.ListBridge
+module
+
+public import LRX.ClosedReachableService
+public import LRX.Cycle11WordSymmetry
+public import LRX.ListBridge
+
+@[expose] public section
 
 /-! Reflection in the edge between positions zero and one. It exchanges L/R,
 fixes X, and agrees with the word symmetry already used by the lower proof. -/

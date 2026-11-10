@@ -1,5 +1,9 @@
-import LRX.ZeroGapTravelCoverage
-import LRX.ZeroGapArcSeparation
+module
+
+public import LRX.ZeroGapTravelCoverage
+public import LRX.ZeroGapArcSeparation
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

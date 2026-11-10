@@ -1,6 +1,10 @@
-import LRX.AllSourceGapCrossReserve
-import LRX.ComponentCutExtraction
-import LRX.JointInternalExternalBudget
+module
+
+public import LRX.AllSourceGapCrossReserve
+public import LRX.ComponentCutExtraction
+public import LRX.JointInternalExternalBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

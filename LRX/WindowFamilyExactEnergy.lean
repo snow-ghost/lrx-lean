@@ -1,4 +1,8 @@
-import LRX.WindowFamilySelectedEnergy
+module
+
+public import LRX.WindowFamilySelectedEnergy
+
+@[expose] public section
 
 /-! Exact local energy sums retain the sharper balanced-subset square filter. -/
 namespace LRX.FiniteWindow

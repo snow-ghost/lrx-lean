@@ -1,4 +1,8 @@
-import LRX.DominantHoleSelection
+module
+
+public import LRX.DominantHoleSelection
+
+@[expose] public section
 
 namespace LRX.AffineLift
 open scoped BigOperators

@@ -1,4 +1,8 @@
-import LRX.AreaWindowSizeBounds
+module
+
+public import LRX.AreaWindowSizeBounds
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

@@ -1,5 +1,9 @@
-import LRX.RecenteredLift
-import LRX.InversionCrossings
+module
+
+public import LRX.RecenteredLift
+public import LRX.InversionCrossings
+
+@[expose] public section
 
 /-! Choosing a different root cyclically relabels crossing data and preserves
 the exact affine exchange price. -/

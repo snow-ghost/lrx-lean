@@ -1,5 +1,9 @@
-import LRX.MajorizedExtremeCount
-import LRX.FinitePairCycles
+module
+
+public import LRX.MajorizedExtremeCount
+public import LRX.FinitePairCycles
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

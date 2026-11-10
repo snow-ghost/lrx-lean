@@ -1,4 +1,8 @@
-import LRX.ReachableService
+module
+
+public import LRX.ReachableService
+
+@[expose] public section
 
 /-! Restrict a permutation and its lift to an invariant union of cycles.
 Balance of the retained lift is stated separately from invariance. -/

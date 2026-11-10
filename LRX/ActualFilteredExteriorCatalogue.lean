@@ -1,4 +1,8 @@
-import LRX.FilteredExteriorCatalogue
+module
+
+public import LRX.FilteredExteriorCatalogue
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

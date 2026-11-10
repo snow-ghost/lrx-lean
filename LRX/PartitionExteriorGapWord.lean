@@ -1,5 +1,9 @@
-import LRX.CircularExteriorGapWord
-import LRX.PartitionCircularCoordinates
+module
+
+public import LRX.CircularExteriorGapWord
+public import LRX.PartitionCircularCoordinates
+
+@[expose] public section
 
 /-! A zero-load fixed gap of the actual packet partition has a sharp word,
 including the final gap ending at the coordinate cut. -/

@@ -1,4 +1,8 @@
-import LRX.FiniteEntryContraction
+module
+
+public import LRX.FiniteEntryContraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

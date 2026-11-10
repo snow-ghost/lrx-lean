@@ -1,5 +1,9 @@
-import LRX.ReversalWindowFamily
-import LRX.WindowReplacementRank
+module
+
+public import LRX.ReversalWindowFamily
+public import LRX.WindowReplacementRank
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteRankOrder

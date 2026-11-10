@@ -1,7 +1,11 @@
-import LRX.PacketExactService
-import LRX.PeriodicRemainingService
-import LRX.RightRootLoad
-import LRX.SelectedPartService
+module
+
+public import LRX.PacketExactService
+public import LRX.PeriodicRemainingService
+public import LRX.RightRootLoad
+public import LRX.SelectedPartService
+
+@[expose] public section
 
 /-! Remove finite children while retaining every vertex of the root strong
 component. Both boundary services preserve the original root discount. -/

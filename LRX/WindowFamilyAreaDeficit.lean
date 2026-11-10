@@ -1,4 +1,8 @@
-import LRX.WindowFamilySelectedEnergy
+module
+
+public import LRX.WindowFamilySelectedEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

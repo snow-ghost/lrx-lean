@@ -1,4 +1,8 @@
-import LRX.TwoSizeCertificate
+module
+
+public import LRX.TwoSizeCertificate
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

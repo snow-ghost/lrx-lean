@@ -1,5 +1,9 @@
-import LRX.BufferItinerary
-import LRX.BufferBalance
+module
+
+public import LRX.BufferItinerary
+public import LRX.BufferBalance
+
+@[expose] public section
 
 /-! An actual buffer-service word for a supplied complete cyclic order of labels.
 The order follows the physical target permutation. Correctness, closed integer

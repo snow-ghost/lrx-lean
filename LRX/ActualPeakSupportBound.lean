@@ -1,6 +1,10 @@
-import LRX.ComponentDensityBound
-import LRX.AreaWindowSizeBounds
-import LRX.CoupledPeakCutoff
+module
+
+public import LRX.ComponentDensityBound
+public import LRX.AreaWindowSizeBounds
+public import LRX.CoupledPeakCutoff
+
+@[expose] public section
 
 /-! The new all-size support estimate instantiated on the actual C5 windows
 of an initial large component. Only epsilon's unpaid bound remains explicit;

@@ -1,4 +1,8 @@
-import LRX.FiniteCycleLoads
+module
+
+public import LRX.FiniteCycleLoads
+
+@[expose] public section
 
 /-! Displacements and their absolute mass add over disjoint finite cycles. -/
 namespace LRX.FiniteCuts

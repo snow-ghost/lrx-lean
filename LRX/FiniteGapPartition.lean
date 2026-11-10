@@ -1,4 +1,8 @@
-import LRX.FiniteWindow
+module
+
+public import LRX.FiniteWindow
+
+@[expose] public section
 
 /-! The open intervals following a finite set of marked vertices partition
 its complement. The interval after the last mark ends at n. -/

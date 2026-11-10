@@ -1,4 +1,8 @@
-import LRX.CircularRankTransfer
+module
+
+public import LRX.CircularRankTransfer
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

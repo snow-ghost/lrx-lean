@@ -1,4 +1,8 @@
-import LRX.LinearRankTransfer
+module
+
+public import LRX.LinearRankTransfer
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

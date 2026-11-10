@@ -1,4 +1,8 @@
-import LRX.Cycle11PairEncounter
+module
+
+public import LRX.Cycle11PairEncounter
+
+@[expose] public section
 
 namespace LRX.Cycle11RigidPairMoves
 open LRX.BlockExchange

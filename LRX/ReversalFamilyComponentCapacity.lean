@@ -1,4 +1,8 @@
-import LRX.SourceReversalComponentCapacity
+module
+
+public import LRX.SourceReversalComponentCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

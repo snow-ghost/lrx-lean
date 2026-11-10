@@ -1,4 +1,8 @@
-import LRX.FiniteCycleSupportBudget
+module
+
+public import LRX.FiniteCycleSupportBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

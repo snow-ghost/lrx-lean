@@ -1,5 +1,9 @@
-import LRX.ActualEvenWidthSixDefect
-import LRX.BitonicNonshortDefect
+module
+
+public import LRX.ActualEvenWidthSixDefect
+public import LRX.BitonicNonshortDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ZeroGap RotationWords FiniteWindow

@@ -1,4 +1,8 @@
-import LRX.ActualOddOneWidthSevenLowPeak
+module
+
+public import LRX.ActualOddOneWidthSevenLowPeak
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

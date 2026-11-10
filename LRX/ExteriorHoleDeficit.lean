@@ -1,4 +1,8 @@
-import LRX.DominantHoleDeficit
+module
+
+public import LRX.DominantHoleDeficit
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

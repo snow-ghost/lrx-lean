@@ -1,6 +1,10 @@
-import LRX.ActualShellPrice
-import LRX.ShellReservePayment
-import LRX.PrefixFillingSize
+module
+
+public import LRX.ActualShellPrice
+public import LRX.ShellReservePayment
+public import LRX.PrefixFillingSize
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

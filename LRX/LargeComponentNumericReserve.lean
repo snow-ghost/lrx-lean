@@ -1,5 +1,9 @@
-import LRX.SuffixComponentParameters
-import Research.CayleyPy.ManyComponentTailBudget
+module
+
+public import LRX.SuffixComponentParameters
+public import Research.CayleyPy.ManyComponentTailBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

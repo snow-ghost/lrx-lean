@@ -1,5 +1,9 @@
-import LRX.TwoArcCoreWord
-import LRX.PartitionGapSharpWord
+module
+
+public import LRX.TwoArcCoreWord
+public import LRX.PartitionGapSharpWord
+
+@[expose] public section
 
 namespace LRX.FiniteGaps
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

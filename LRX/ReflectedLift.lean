@@ -1,4 +1,8 @@
-import LRX.WordReflection
+module
+
+public import LRX.WordReflection
+
+@[expose] public section
 
 /-! Reflection transports balanced phase lifts and preserves their affine price. -/
 namespace LRX.WordReflection

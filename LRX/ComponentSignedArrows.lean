@@ -1,5 +1,9 @@
-import LRX.ComponentRootCorrespondence
-import LRX.SelectedMajorization
+module
+
+public import LRX.ComponentRootCorrespondence
+public import LRX.SelectedMajorization
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

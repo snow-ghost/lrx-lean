@@ -1,4 +1,8 @@
-import LRX.ExteriorGapRecenter
+module
+
+public import LRX.ExteriorGapRecenter
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

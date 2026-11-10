@@ -1,5 +1,9 @@
-import LRX.CyclePartSelection
-import LRX.PeriodicRemainingService
+module
+
+public import LRX.CyclePartSelection
+public import LRX.PeriodicRemainingService
+
+@[expose] public section
 
 /-! Exact removal and service of a selected finite part of a periodic lift. -/
 namespace LRX.CyclePart

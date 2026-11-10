@@ -1,4 +1,8 @@
-import LRX.ComponentArrowSelection
+module
+
+public import LRX.ComponentArrowSelection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

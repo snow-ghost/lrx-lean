@@ -1,6 +1,10 @@
-import LRX.ZeroEnergyEmptyCatalogues
-import LRX.ZeroEnergyWidthFourAllParity
-import LRX.OddWidthFivePayment
+module
+
+public import LRX.ZeroEnergyEmptyCatalogues
+public import LRX.ZeroEnergyWidthFourAllParity
+public import LRX.OddWidthFivePayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

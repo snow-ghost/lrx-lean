@@ -1,5 +1,9 @@
-import LRX.ReflectionTwoBlockNormalization
-import LRX.FiniteZeroPortBarrier
+module
+
+public import LRX.ReflectionTwoBlockNormalization
+public import LRX.FiniteZeroPortBarrier
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.NatCast Fin.CommRing

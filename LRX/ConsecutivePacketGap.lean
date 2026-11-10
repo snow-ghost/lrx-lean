@@ -1,4 +1,8 @@
-import LRX.PacketExchangeReserve
+module
+
+public import LRX.PacketExchangeReserve
+
+@[expose] public section
 
 namespace LRX.FiniteGaps
 variable {n : ℕ} [NeZero n]

@@ -1,4 +1,8 @@
-import LRX.ProtectedHoleLengths
+module
+
+public import LRX.ProtectedHoleLengths
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

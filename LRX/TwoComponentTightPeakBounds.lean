@@ -1,4 +1,8 @@
-import LRX.BridgeExteriorBudget
+module
+
+public import LRX.BridgeExteriorBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

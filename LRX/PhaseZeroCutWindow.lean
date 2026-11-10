@@ -1,6 +1,10 @@
-import LRX.CanonicalMultiComponentRoutes
-import LRX.TwoArcPacketSymmetry
-import LRX.ZeroLoadCut
+module
+
+public import LRX.CanonicalMultiComponentRoutes
+public import LRX.TwoArcPacketSymmetry
+public import LRX.ZeroLoadCut
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

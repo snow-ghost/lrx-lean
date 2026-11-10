@@ -1,4 +1,8 @@
-import LRX.OrderedArcMembership
+module
+
+public import LRX.OrderedArcMembership
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

@@ -1,5 +1,9 @@
-import LRX.WindowReplacementRank
-import LRX.ReducedServiceRoute
+module
+
+public import LRX.WindowReplacementRank
+public import LRX.ReducedServiceRoute
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,5 +1,9 @@
-import LRX.ShallowShellRankWord
-import LRX.FiniteRankInversionMonotonicity
+module
+
+public import LRX.ShallowShellRankWord
+public import LRX.FiniteRankInversionMonotonicity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

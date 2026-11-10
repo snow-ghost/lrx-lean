@@ -1,5 +1,9 @@
-import LRX.PacketCursorDichotomy
-import LRX.PositiveGapBoundary
+module
+
+public import LRX.PacketCursorDichotomy
+public import LRX.PositiveGapBoundary
+
+@[expose] public section
 
 /-! All cursor pairs for a covered packet are reduced to an explicitly
 zero-load, fixed interior gap, or already admit a sharp literal word. -/

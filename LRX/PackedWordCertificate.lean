@@ -1,4 +1,8 @@
-import LRX.PermutationCode
+module
+
+public import LRX.PermutationCode
+
+@[expose] public section
 
 namespace LRX
 

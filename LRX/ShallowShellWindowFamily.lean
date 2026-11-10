@@ -1,6 +1,10 @@
-import LRX.ActualShallowInternalDeficit
-import LRX.OriginalShallowExteriorDeficit
-import LRX.ReversalFamilyRank
+module
+
+public import LRX.ActualShallowInternalDeficit
+public import LRX.OriginalShallowExteriorDeficit
+public import LRX.ReversalFamilyRank
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow FiniteRankOrder

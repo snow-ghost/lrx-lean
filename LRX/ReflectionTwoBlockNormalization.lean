@@ -1,4 +1,8 @@
-import LRX.TwoBlockReflectionCoordinates
+module
+
+public import LRX.TwoBlockReflectionCoordinates
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

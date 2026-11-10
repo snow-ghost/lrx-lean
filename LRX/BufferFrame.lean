@@ -1,4 +1,8 @@
-import LRX.BufferItinerary
+module
+
+public import LRX.BufferItinerary
+
+@[expose] public section
 
 /-! A frame rule for suspended buffer services. A nested call may change
 unprotected labels and shift the integer head by a multiple of n-1. A parent

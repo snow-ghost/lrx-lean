@@ -1,4 +1,8 @@
-import LRX.ComponentCutSingletonCount
+module
+
+public import LRX.ComponentCutSingletonCount
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

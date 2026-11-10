@@ -1,5 +1,9 @@
-import LRX.FiniteComponentExtrema
-import LRX.FiniteLoadIntervals
+module
+
+public import LRX.FiniteComponentExtrema
+public import LRX.FiniteLoadIntervals
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

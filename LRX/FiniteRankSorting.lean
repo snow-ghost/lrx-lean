@@ -1,4 +1,8 @@
-import LRX.FiniteRankComparator
+module
+
+public import LRX.FiniteRankComparator
+
+@[expose] public section
 
 namespace LRX.FiniteRankOrder
 open scoped BigOperators

@@ -1,5 +1,9 @@
-import LRX.FiniteOuterSource
-import LRX.ExteriorBoundaryPorts
+module
+
+public import LRX.FiniteOuterSource
+public import LRX.ExteriorBoundaryPorts
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

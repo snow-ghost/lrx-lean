@@ -1,5 +1,9 @@
-import LRX.CanonicalCycleEvents
-import LRX.FiniteCutLoad
+module
+
+public import LRX.CanonicalCycleEvents
+public import LRX.FiniteCutLoad
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped BigOperators

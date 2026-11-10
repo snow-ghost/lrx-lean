@@ -1,6 +1,10 @@
-import LRX.Small4
-import LRX.Small5
-import LRX.Small6
+module
+
+public import LRX.Small4
+public import LRX.Small5
+public import LRX.Small6
+
+@[expose] public section
 
 namespace LRX
 

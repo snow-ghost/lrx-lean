@@ -1,4 +1,8 @@
-import LRX.WindowSelectedEnergy
+module
+
+public import LRX.WindowSelectedEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

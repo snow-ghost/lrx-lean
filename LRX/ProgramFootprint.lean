@@ -1,4 +1,8 @@
-import LRX.OrbitChild
+module
+
+public import LRX.OrbitChild
+
+@[expose] public section
 
 /-! A program using a set of buffer labels preserves every coordinate outside
 that set, at all prefixes. This allows insertion of disjoint child cycles. -/

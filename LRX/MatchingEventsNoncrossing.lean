@@ -1,5 +1,9 @@
-import LRX.MaximalEventSupport
-import LRX.LinearEventComponents
+module
+
+public import LRX.MaximalEventSupport
+public import LRX.LinearEventComponents
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

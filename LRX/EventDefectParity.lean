@@ -1,4 +1,8 @@
-import LRX.PaddedSortingEvents
+module
+
+public import LRX.PaddedSortingEvents
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ}

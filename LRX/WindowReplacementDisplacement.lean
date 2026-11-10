@@ -1,5 +1,9 @@
-import LRX.WindowReversalLoad
-import LRX.ReflectionComponentCapacity
+module
+
+public import LRX.WindowReversalLoad
+public import LRX.ReflectionComponentCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

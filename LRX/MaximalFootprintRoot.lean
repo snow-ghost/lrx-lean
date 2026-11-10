@@ -1,4 +1,8 @@
-import LRX.FootprintGeometry
+module
+
+public import LRX.FootprintGeometry
+
+@[expose] public section
 
 /-! A footprint maximal in its overlap component reaches every footprint in
 that component. The argument follows directed paths backwards through strict

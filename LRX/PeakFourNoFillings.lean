@@ -1,4 +1,8 @@
-import LRX.TwoVertexSourceCover
+module
+
+public import LRX.TwoVertexSourceCover
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

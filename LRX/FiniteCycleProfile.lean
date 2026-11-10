@@ -1,4 +1,8 @@
-import LRX.FiniteCycleLoads
+module
+
+public import LRX.FiniteCycleLoads
+
+@[expose] public section
 
 /-! Aggregate discounts are sums of peaks of the actual disjoint cycles.
 Each positive summand is attained by a closed service (FiniteCycleAvailability).

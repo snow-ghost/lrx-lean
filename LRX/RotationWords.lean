@@ -1,4 +1,8 @@
-import LRX.BufferProgram
+module
+
+public import LRX.BufferProgram
+
+@[expose] public section
 
 /-! Paid signed rotations and shortest cyclic offsets. No change of cursor is
 introduced without an explicit L/R word and its length. -/
