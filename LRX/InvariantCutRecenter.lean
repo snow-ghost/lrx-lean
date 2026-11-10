@@ -1,6 +1,10 @@
-import LRX.TwoBlockReverseRoute
-import LRX.CyclicCutTargets
-import LRX.RecenteredCrossings
+module
+
+public import LRX.TwoBlockReverseRoute
+public import LRX.CyclicCutTargets
+public import LRX.RecenteredCrossings
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

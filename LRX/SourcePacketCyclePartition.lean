@@ -1,5 +1,9 @@
-import LRX.PacketComponentDefectBound
-import LRX.ComponentPacketPartition
+module
+
+public import LRX.PacketComponentDefectBound
+public import LRX.ComponentPacketPartition
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

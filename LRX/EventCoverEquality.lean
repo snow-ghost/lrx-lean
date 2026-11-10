@@ -1,5 +1,9 @@
-import LRX.SpanningEventSublist
-import LRX.ZeroGapCycleRoots
+module
+
+public import LRX.SpanningEventSublist
+public import LRX.ZeroGapCycleRoots
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

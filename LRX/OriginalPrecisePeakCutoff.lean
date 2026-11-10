@@ -1,5 +1,9 @@
-import LRX.NormalizedPeakReserve
-import LRX.ActualPrecisePeakCutoff
+module
+
+public import LRX.NormalizedPeakReserve
+public import LRX.ActualPrecisePeakCutoff
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

@@ -1,4 +1,8 @@
-import LRX.LiftedModel
+module
+
+public import LRX.LiftedModel
+
+@[expose] public section
 
 /-! Periodic renaming of lifted tokens commutes with physical execution. The
 integer offset is retained, so this symmetry records winding as well as labels. -/

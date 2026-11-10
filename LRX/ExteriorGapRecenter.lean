@@ -1,4 +1,8 @@
-import LRX.TwoComponentGapRouting
+module
+
+public import LRX.TwoComponentGapRouting
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

@@ -1,5 +1,9 @@
-import LRX.InternalGapPayment
-import LRX.QuadraticGapWord
+module
+
+public import LRX.InternalGapPayment
+public import LRX.QuadraticGapWord
+
+@[expose] public section
 
 /-! A sharp word for the first nonempty internal packet gap. The remaining
 exchange-reserve inequality is an explicit hypothesis. -/

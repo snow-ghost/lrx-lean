@@ -1,5 +1,9 @@
-import LRX.ZeroGapEventGraph
-import LRX.PeriodicTouches
+module
+
+public import LRX.ZeroGapEventGraph
+public import LRX.PeriodicTouches
+
+@[expose] public section
 
 /-! Integer motion along events covers every periodically touched vertex of
 its total displacement, within the same event component. -/

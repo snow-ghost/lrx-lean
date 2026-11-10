@@ -1,4 +1,8 @@
-import LRX.JoinedComponentReach
+module
+
+public import LRX.JoinedComponentReach
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

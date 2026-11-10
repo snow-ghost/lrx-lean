@@ -1,5 +1,9 @@
-import LRX.FiniteCutMass
-import LRX.PortLoadMass
+module
+
+public import LRX.FiniteCutMass
+public import LRX.PortLoadMass
+
+@[expose] public section
 
 /-! Finite cut counts agree with the integer edge-crossing load used by actual
 LRX services. The canonical finite lift has no hidden winding. -/

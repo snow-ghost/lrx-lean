@@ -1,6 +1,10 @@
-import LRX.ActualEvenExteriorShape
-import LRX.ActualOddShellPayment
-import LRX.ActualShellInternalPayment
+module
+
+public import LRX.ActualEvenExteriorShape
+public import LRX.ActualOddShellPayment
+public import LRX.ActualShellInternalPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

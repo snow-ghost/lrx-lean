@@ -1,4 +1,8 @@
-import LRX.ZeroGapEventEdgeCount
+module
+
+public import LRX.ZeroGapEventEdgeCount
+
+@[expose] public section
 
 /-! Every connected component of the event graph uses at least one fewer
 exchange events than its number of vertices. -/

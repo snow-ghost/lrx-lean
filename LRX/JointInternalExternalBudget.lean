@@ -1,6 +1,10 @@
-import LRX.JointReversalBudget
-import LRX.PositiveWindowWidth
-import LRX.FiniteWindowRestriction
+module
+
+public import LRX.JointReversalBudget
+public import LRX.PositiveWindowWidth
+public import LRX.FiniteWindowRestriction
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

@@ -1,4 +1,8 @@
-import LRX.IndexedWindowProfile
+module
+
+public import LRX.IndexedWindowProfile
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

@@ -1,4 +1,8 @@
-import LRX.PortLoadMass
+module
+
+public import LRX.PortLoadMass
+
+@[expose] public section
 
 /-! Every cut of a balanced permutation lift has zero net signed flow.
 Consequently its actual load is even, and a positive load is at least two. -/

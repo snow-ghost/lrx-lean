@@ -1,6 +1,10 @@
-import LRX.ProtectedBlockOrder
-import LRX.CutNeighborUnique
-import LRX.ShallowTwoNeighbors
+module
+
+public import LRX.ProtectedBlockOrder
+public import LRX.CutNeighborUnique
+public import LRX.ShallowTwoNeighbors
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 variable {m k : ℕ} {P : State (m+1)} {q : State (k+1)}

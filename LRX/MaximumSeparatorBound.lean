@@ -1,4 +1,8 @@
-import LRX.RecenteredSupportWidth
+module
+
+public import LRX.RecenteredSupportWidth
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

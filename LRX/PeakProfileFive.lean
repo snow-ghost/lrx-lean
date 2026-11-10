@@ -1,5 +1,9 @@
-import LRX.PeakProfileLargeCount
-import LRX.CoupledPeakCutoff
+module
+
+public import LRX.PeakProfileLargeCount
+public import LRX.CoupledPeakCutoff
+
+@[expose] public section
 
 namespace LRX.FinitePeak.Profile
 

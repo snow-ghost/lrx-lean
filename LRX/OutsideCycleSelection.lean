@@ -1,5 +1,9 @@
-import LRX.OutsideCycleServiceFamily
-import LRX.PacketRetainedIncidentService
+module
+
+public import LRX.OutsideCycleServiceFamily
+public import LRX.PacketRetainedIncidentService
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open RotationWords

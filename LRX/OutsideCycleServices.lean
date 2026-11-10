@@ -1,6 +1,10 @@
-import LRX.ZeroGapCycleRoots
-import LRX.FiniteCycleAvailability
-import LRX.ReflectedExactService
+module
+
+public import LRX.ZeroGapCycleRoots
+public import LRX.FiniteCycleAvailability
+public import LRX.ReflectedExactService
+
+@[expose] public section
 
 /-! Every cycle outside the packet has the canonical finite displacement
 in the original coordinates, and both incident exact services are available. -/

@@ -1,5 +1,9 @@
-import LRX.FinitePeakPorts
-import LRX.SingleCycleServices
+module
+
+public import LRX.FinitePeakPorts
+public import LRX.SingleCycleServices
+
+@[expose] public section
 
 /-! A single finite cycle has actual closed services attaining the left/right
 peak discounts in their allowed regions. No reachability premise is required. -/

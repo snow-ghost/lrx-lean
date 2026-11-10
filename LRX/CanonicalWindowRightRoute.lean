@@ -1,4 +1,8 @@
-import LRX.CanonicalWindowLeftRoute
+module
+
+public import LRX.CanonicalWindowLeftRoute
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

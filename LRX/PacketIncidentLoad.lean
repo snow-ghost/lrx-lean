@@ -1,6 +1,10 @@
-import LRX.PacketCoreBalance
-import LRX.PacketPorts
-import LRX.LoadedFootprint
+module
+
+public import LRX.PacketCoreBalance
+public import LRX.PacketPorts
+public import LRX.LoadedFootprint
+
+@[expose] public section
 
 /-! Retaining the whole strong packet preserves the load at both incident
 ports of every packet vertex, independently of the chosen coordinate cut. -/

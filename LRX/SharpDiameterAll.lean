@@ -1,5 +1,9 @@
-import LRX.NinePeakPayment
-import LRX.ExactDiameter
+module
+
+public import LRX.NinePeakPayment
+public import LRX.ExactDiameter
+
+@[expose] public section
 
 namespace LRX
 

@@ -1,5 +1,9 @@
-import LRX.LoadComponentPartition
-import LRX.LargeComponentCrossReserve
+module
+
+public import LRX.LoadComponentPartition
+public import LRX.LargeComponentCrossReserve
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

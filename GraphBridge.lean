@@ -1,5 +1,9 @@
-import LRX.Cycle11StructuralBridge
-import Mathlib.Combinatorics.SimpleGraph.Metric
+module
+
+public import LRX.Cycle11StructuralBridge
+public import Mathlib.Combinatorics.SimpleGraph.Metric
+
+@[expose] public section
 
 namespace LRX.GraphBridge
 open LRX.BlockExchange LRX.Cycle11StructuralBridge LRX.ReducedPrice

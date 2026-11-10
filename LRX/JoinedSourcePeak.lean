@@ -1,5 +1,9 @@
-import LRX.FiniteGlobalPeak
-import LRX.JoinedOutsideCycles
+module
+
+public import LRX.FiniteGlobalPeak
+public import LRX.JoinedOutsideCycles
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

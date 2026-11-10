@@ -1,4 +1,8 @@
-import LRX.PhysicalSelectedCapacity
+module
+
+public import LRX.PhysicalSelectedCapacity
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

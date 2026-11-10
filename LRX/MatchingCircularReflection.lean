@@ -1,4 +1,8 @@
-import LRX.TwoFixedMatchingReflection
+module
+
+public import LRX.TwoFixedMatchingReflection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.NatCast Fin.CommRing

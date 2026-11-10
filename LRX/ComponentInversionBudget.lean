@@ -1,7 +1,11 @@
-import LRX.TwoBlockSharpPayment
-import LRX.InvariantCutRecenter
-import LRX.FiniteComponentExtrema
-import LRX.FiniteInversionBalance
+module
+
+public import LRX.TwoBlockSharpPayment
+public import LRX.InvariantCutRecenter
+public import LRX.FiniteComponentExtrema
+public import LRX.FiniteInversionBalance
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

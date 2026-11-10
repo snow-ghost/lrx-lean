@@ -1,5 +1,9 @@
-import LRX.ComponentPacketPartition
-import LRX.JoinedSourcePeak
+module
+
+public import LRX.ComponentPacketPartition
+public import LRX.JoinedSourcePeak
+
+@[expose] public section
 
 /-! M4: the global source half-peak belongs to a real component packet.
 This connects numerical U to the exact services already constructed. -/

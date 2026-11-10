@@ -1,4 +1,8 @@
-import LRX.CyclicCutTargets
+module
+
+public import LRX.CyclicCutTargets
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

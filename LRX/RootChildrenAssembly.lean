@@ -1,6 +1,10 @@
-import LRX.CanonicalServiceFamily
-import LRX.OrderedExactRoute
-import LRX.TurningRoute
+module
+
+public import LRX.CanonicalServiceFamily
+public import LRX.OrderedExactRoute
+public import LRX.TurningRoute
+
+@[expose] public section
 
 /-! Common assembly of exact retained-root and finite-child services. -/
 namespace LRX.RotationWords

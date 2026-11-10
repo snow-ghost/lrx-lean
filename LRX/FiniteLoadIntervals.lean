@@ -1,4 +1,8 @@
-import LRX.FiniteComponentExtrema
+module
+
+public import LRX.FiniteComponentExtrema
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

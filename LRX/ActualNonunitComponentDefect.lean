@@ -1,5 +1,9 @@
-import LRX.ZeroDefectUnitArrow
-import LRX.UnitEnergyNoUnitArrows
+module
+
+public import LRX.ZeroDefectUnitArrow
+public import LRX.UnitEnergyNoUnitArrows
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

@@ -1,4 +1,8 @@
-import LRX.JoinedIncidentWord
+module
+
+public import LRX.JoinedIncidentWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

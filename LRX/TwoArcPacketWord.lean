@@ -1,5 +1,9 @@
-import LRX.ArcCycleSelection
-import LRX.PacketIncidentSharpWord
+module
+
+public import LRX.ArcCycleSelection
+public import LRX.PacketIncidentSharpWord
+
+@[expose] public section
 
 /-! Geometric two-arc routing: positive incident packet ports on the two
 arcs suffice. Service families and their total saving are constructed. -/

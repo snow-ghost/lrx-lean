@@ -1,7 +1,11 @@
-import LRX.MatchingWindowDefect
-import LRX.OddFullWidthFiveArrowCertificate
-import LRX.ActualNonunitComponentDefect
-import LRX.OriginalShallowExteriorDeficit
+module
+
+public import LRX.MatchingWindowDefect
+public import LRX.OddFullWidthFiveArrowCertificate
+public import LRX.ActualNonunitComponentDefect
+public import LRX.OriginalShallowExteriorDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

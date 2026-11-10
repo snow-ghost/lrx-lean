@@ -1,5 +1,9 @@
-import LRX.ExternalPairCycleJoin
-import LRX.GlobalPeakServiceFamily
+module
+
+public import LRX.ExternalPairCycleJoin
+public import LRX.GlobalPeakServiceFamily
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

@@ -1,7 +1,11 @@
-import LRX.ComponentPacketPartition
-import LRX.ThreeCanonicalPackets
-import LRX.TwoWindowCycleDefect
-import LRX.SourceGapSharpPayment
+module
+
+public import LRX.ComponentPacketPartition
+public import LRX.ThreeCanonicalPackets
+public import LRX.TwoWindowCycleDefect
+public import LRX.SourceGapSharpPayment
+
+@[expose] public section
 
 /-! M4: extract the three services from the actual component decomposition.
 Only the exceptional structural classification and numerical data remain. -/

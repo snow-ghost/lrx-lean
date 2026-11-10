@@ -1,7 +1,11 @@
-import LRX.FiniteServiceRankTransfer
-import LRX.ExactServiceRoute
-import LRX.FiniteDisplacementSum
-import LRX.FiniteCycleScan
+module
+
+public import LRX.FiniteServiceRankTransfer
+public import LRX.ExactServiceRoute
+public import LRX.FiniteDisplacementSum
+public import LRX.FiniteCycleScan
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

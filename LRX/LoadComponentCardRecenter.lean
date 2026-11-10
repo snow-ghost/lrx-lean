@@ -1,4 +1,8 @@
-import LRX.LoadPathRecenter
+module
+
+public import LRX.LoadPathRecenter
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

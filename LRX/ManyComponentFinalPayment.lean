@@ -1,4 +1,8 @@
-import LRX.EnergyOnePayment
+module
+
+public import LRX.EnergyOnePayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

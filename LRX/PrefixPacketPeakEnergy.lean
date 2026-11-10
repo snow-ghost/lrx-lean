@@ -1,5 +1,9 @@
-import LRX.ActualShellPrice
-import LRX.PrefixCoreEnergy
+module
+
+public import LRX.ActualShellPrice
+public import LRX.PrefixCoreEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

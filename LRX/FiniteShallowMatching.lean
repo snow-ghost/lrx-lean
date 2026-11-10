@@ -1,6 +1,10 @@
-import LRX.MatchingEventsNoncrossing
-import LRX.StrictBandEqualityPairs
-import LRX.ShallowContraction
+module
+
+public import LRX.MatchingEventsNoncrossing
+public import LRX.StrictBandEqualityPairs
+public import LRX.ShallowContraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

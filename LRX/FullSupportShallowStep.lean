@@ -1,5 +1,9 @@
-import LRX.ShallowRankCompression
-import LRX.ShallowCycleNeighbor
+module
+
+public import LRX.ShallowRankCompression
+public import LRX.ShallowCycleNeighbor
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

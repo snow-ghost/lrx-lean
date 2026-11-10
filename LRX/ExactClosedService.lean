@@ -1,4 +1,8 @@
-import LRX.PortEndpoints
+module
+
+public import LRX.PortEndpoints
+
+@[expose] public section
 
 /-! Closed reachable services retain their exact integer endpoint contract
 at the physical port, for every integer representative of the cursor. -/

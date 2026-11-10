@@ -1,4 +1,8 @@
-import LRX.LinearMatchingGeometry
+module
+
+public import LRX.LinearMatchingGeometry
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

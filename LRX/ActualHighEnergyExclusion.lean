@@ -1,6 +1,10 @@
-import LRX.HighEnergyTwoExclusion
-import LRX.ActualTwoSizeCutoff
-import LRX.SignedSelectionDeficit
+module
+
+public import LRX.HighEnergyTwoExclusion
+public import LRX.ActualTwoSizeCutoff
+public import LRX.SignedSelectionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

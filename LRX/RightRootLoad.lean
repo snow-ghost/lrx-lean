@@ -1,5 +1,9 @@
-import LRX.PrunedLoad
-import LRX.ReflectedRootStar
+module
+
+public import LRX.PrunedLoad
+public import LRX.ReflectedRootStar
+
+@[expose] public section
 
 /-! Canonical finite cycles strictly to the left of a root vertex do not
 contribute to its left incident port. Pruning them preserves that discount. -/

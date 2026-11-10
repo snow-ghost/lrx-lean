@@ -1,4 +1,8 @@
-import LRX.CycleDefectMonotonicity
+module
+
+public import LRX.CycleDefectMonotonicity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

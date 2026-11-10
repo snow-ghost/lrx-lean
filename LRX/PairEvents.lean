@@ -1,4 +1,8 @@
-import LRX.LiftedPair
+module
+
+public import LRX.LiftedPair
+
+@[expose] public section
 
 /-! Canonical keys of lifted pair events. The stored shift is n times the copy
 index, avoiding any loss through integer division. Order reversal negates it. -/

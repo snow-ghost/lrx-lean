@@ -1,4 +1,8 @@
-import LRX.ShallowCutShift
+module
+
+public import LRX.ShallowCutShift
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

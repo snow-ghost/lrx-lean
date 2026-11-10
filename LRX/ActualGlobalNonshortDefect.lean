@@ -1,6 +1,10 @@
-import LRX.MatchingWindowDefect
-import LRX.ActualLargeComponentNoTwo
-import LRX.OriginalShallowExteriorDeficit
+module
+
+public import LRX.MatchingWindowDefect
+public import LRX.ActualLargeComponentNoTwo
+public import LRX.OriginalShallowExteriorDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

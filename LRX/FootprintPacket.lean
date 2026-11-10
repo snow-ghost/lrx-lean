@@ -1,4 +1,8 @@
-import LRX.MaximalFootprintRoot
+module
+
+public import LRX.MaximalFootprintRoot
+
+@[expose] public section
 
 /-! Every reachable footprint is directly covered by the source strong
 component. This is the graph form of the root-packet service contract. -/

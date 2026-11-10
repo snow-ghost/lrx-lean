@@ -1,4 +1,8 @@
-import LRX.FiniteInversionRotation
+module
+
+public import LRX.FiniteInversionRotation
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

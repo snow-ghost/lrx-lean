@@ -1,5 +1,9 @@
-import LRX.FiniteReversalRank
-import LRX.WindowReplacement
+module
+
+public import LRX.FiniteReversalRank
+public import LRX.WindowReplacement
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

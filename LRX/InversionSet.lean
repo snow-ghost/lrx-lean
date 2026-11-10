@@ -1,4 +1,8 @@
-import LRX.InversionIndices
+module
+
+public import LRX.InversionIndices
+
+@[expose] public section
 
 /-! A finite set of all affine inversions, with its explicit double-sum cardinality. -/
 namespace LRX.LiftedModel

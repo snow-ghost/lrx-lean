@@ -1,5 +1,9 @@
-import LRX.IsolatedGapSharpPayment
-import LRX.JoinedSourceGapMinimum
+module
+
+public import LRX.IsolatedGapSharpPayment
+public import LRX.JoinedSourceGapMinimum
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,4 +1,8 @@
-import LRX.FinitePermutationProfile
+module
+
+public import LRX.FinitePermutationProfile
+
+@[expose] public section
 
 /-! Every positive finite cut load is available at an incident active port on
 either side. Maxima can therefore be moved to genuine cycle vertices. -/

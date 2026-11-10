@@ -1,5 +1,9 @@
-import LRX.FilteredExteriorCatalogue
-import LRX.OffsetExtraArrowSignConstraint
+module
+
+public import LRX.FilteredExteriorCatalogue
+public import LRX.OffsetExtraArrowSignConstraint
+
+@[expose] public section
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords
 set_option maxHeartbeats 0

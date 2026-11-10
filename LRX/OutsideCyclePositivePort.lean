@@ -1,6 +1,10 @@
-import LRX.OutsideCycleServices
-import LRX.ArrowLoadPaths
-import LRX.PortLoadBalance
+module
+
+public import LRX.OutsideCycleServices
+public import LRX.ArrowLoadPaths
+public import LRX.PortLoadBalance
+
+@[expose] public section
 
 /-! The least moved vertex of a finite cycle moves right, so its right port
 has positive even load. Every outside cycle therefore supplies a saving of two. -/

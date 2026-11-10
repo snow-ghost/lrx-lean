@@ -1,4 +1,8 @@
-import LRX.ShallowSignOrientation
+module
+
+public import LRX.ShallowSignOrientation
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

@@ -1,7 +1,11 @@
-import LRX.ComponentCutPeakInvariant
-import LRX.IsolatedGapSharpPayment
-import LRX.LargeComponentWidthReserve
-import LRX.ZeroSourceGapSharpWord
+module
+
+public import LRX.ComponentCutPeakInvariant
+public import LRX.IsolatedGapSharpPayment
+public import LRX.LargeComponentWidthReserve
+public import LRX.ZeroSourceGapSharpWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

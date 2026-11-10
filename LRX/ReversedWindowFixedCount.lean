@@ -1,4 +1,8 @@
-import LRX.WindowFamilyFixedCount
+module
+
+public import LRX.WindowFamilyFixedCount
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

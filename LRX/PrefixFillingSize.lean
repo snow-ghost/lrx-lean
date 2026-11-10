@@ -1,4 +1,8 @@
-import LRX.ShallowShellWindowFamily
+module
+
+public import LRX.ShallowShellWindowFamily
+
+@[expose] public section
 
 /-! M4: the scalar internal-hole size x is exactly the sum of the actual
 positive prefix window widths, not the size of the larger C9 family. -/

@@ -1,6 +1,10 @@
-import LRX.ZeroGapComponentOrder
-import LRX.PacketCoreBalance
-import LRX.ZeroGapComponentSize
+module
+
+public import LRX.ZeroGapComponentOrder
+public import LRX.PacketCoreBalance
+public import LRX.ZeroGapComponentSize
+
+@[expose] public section
 
 /-! Every strongly connected service packet lies in one component of the
 actual zero-gap sorting events. -/

@@ -1,4 +1,8 @@
-import LRX.TwoFixedEnergyTwoPayment
+module
+
+public import LRX.TwoFixedEnergyTwoPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

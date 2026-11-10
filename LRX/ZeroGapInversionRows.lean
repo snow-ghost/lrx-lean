@@ -1,4 +1,8 @@
-import LRX.ZeroGapInversionTerms
+module
+
+public import LRX.ZeroGapInversionTerms
+
+@[expose] public section
 
 /-! Pair the two endpoint rows so all exterior inversion terms cancel. -/
 namespace LRX.ZeroGap

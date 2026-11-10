@@ -1,4 +1,8 @@
-import LRX.ComponentInterval
+module
+
+public import LRX.ComponentInterval
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

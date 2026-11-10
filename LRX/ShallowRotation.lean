@@ -1,4 +1,8 @@
-import LRX.FiniteEnergyRotation
+module
+
+public import LRX.FiniteEnergyRotation
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

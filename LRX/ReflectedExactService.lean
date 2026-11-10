@@ -1,5 +1,9 @@
-import LRX.LiftedReflection
-import LRX.ReducedServiceRoute
+module
+
+public import LRX.LiftedReflection
+public import LRX.ReducedServiceRoute
+
+@[expose] public section
 
 /-! Left services preserve exact integer endpoints by reflection of execution. -/
 namespace LRX.WordReflection

@@ -1,5 +1,9 @@
-import LRX.PacketCoverage
-import LRX.FiniteWindowLoad
+module
+
+public import LRX.PacketCoverage
+public import LRX.FiniteWindowLoad
+
+@[expose] public section
 
 /-! An invariant window with canonical finite arrows is closed under service
 reachability. A root outside it cannot lie in the same strong component. -/

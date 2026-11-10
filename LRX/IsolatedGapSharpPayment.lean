@@ -1,5 +1,9 @@
-import LRX.IsolatedGapWidths
-import LRX.SourceGapSharpPayment
+module
+
+public import LRX.IsolatedGapWidths
+public import LRX.SourceGapSharpPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

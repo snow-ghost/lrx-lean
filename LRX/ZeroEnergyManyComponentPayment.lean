@@ -1,5 +1,9 @@
-import LRX.ZeroEnergyLastRegime
-import LRX.OddOneWidthSevenPayment
+module
+
+public import LRX.ZeroEnergyLastRegime
+public import LRX.OddOneWidthSevenPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

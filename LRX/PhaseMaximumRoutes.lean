@@ -1,4 +1,8 @@
-import LRX.PhaseDisconnectedWindow
+module
+
+public import LRX.PhaseDisconnectedWindow
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

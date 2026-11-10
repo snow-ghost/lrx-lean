@@ -1,8 +1,12 @@
-import LRX.FiniteCycleScan
-import LRX.FiniteDisplacementSum
-import LRX.FiniteExactAvailability
-import LRX.OrderedExactRoute
-import LRX.PrunedLoad
+module
+
+public import LRX.FiniteCycleScan
+public import LRX.FiniteDisplacementSum
+public import LRX.FiniteExactAvailability
+public import LRX.OrderedExactRoute
+public import LRX.PrunedLoad
+
+@[expose] public section
 
 /-! A complete finite-root route directly from a permutation, using its
 canonical cycle factorization and an automatic choice of child services. -/

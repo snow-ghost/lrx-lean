@@ -1,5 +1,9 @@
-import LRX.WindowComposition
-import LRX.FiniteInversionBalance
+module
+
+public import LRX.WindowComposition
+public import LRX.FiniteInversionBalance
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 variable {n b : ℕ}

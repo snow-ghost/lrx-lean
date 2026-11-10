@@ -1,5 +1,9 @@
-import LRX.ZeroGapComponentSize
-import Mathlib.Data.List.Dedup
+module
+
+public import LRX.ZeroGapComponentSize
+public import Mathlib.Data.List.Dedup
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ}

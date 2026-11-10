@@ -1,4 +1,8 @@
-import LRX.PeriodicLift
+module
+
+public import LRX.PeriodicLift
+
+@[expose] public section
 
 /-! Signed affine crossing data obtained from an actual balanced phase lift.
 The row-sum identity is proved from bijectivity of endpoint residues. -/

@@ -1,13 +1,17 @@
-import LRX.CanonicalServiceFamily
-import LRX.FiniteCycleScan
-import LRX.FiniteDisplacementSum
-import LRX.FiniteExactAvailability
-import LRX.OrderedExactRoute
-import LRX.PacketWindowRoutes
-import LRX.PrunedLoad
-import LRX.RootChildrenAssembly
-import LRX.WindowCycleSelection
-import LRX.WindowFamilyBridge
+module
+
+public import LRX.CanonicalServiceFamily
+public import LRX.FiniteCycleScan
+public import LRX.FiniteDisplacementSum
+public import LRX.FiniteExactAvailability
+public import LRX.OrderedExactRoute
+public import LRX.PacketWindowRoutes
+public import LRX.PrunedLoad
+public import LRX.RootChildrenAssembly
+public import LRX.WindowCycleSelection
+public import LRX.WindowFamilyBridge
+
+@[expose] public section
 
 /-! In a window no wider than half the circle, a strictly short lift has the
 canonical finite displacements. The no-winding premise is derived here. -/

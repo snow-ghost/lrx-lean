@@ -1,4 +1,8 @@
-import LRX.ZeroGapEventTravel
+module
+
+public import LRX.ZeroGapEventTravel
+
+@[expose] public section
 
 /-! The sorting trace yields an ordered event list in the original physical
 coordinates, together with factorization and noncrossing certificates. -/

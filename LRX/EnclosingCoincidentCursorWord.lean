@@ -1,5 +1,9 @@
-import LRX.EnclosingSelectedArcWord
-import LRX.EnclosingCycleLoads
+module
+
+public import LRX.EnclosingSelectedArcWord
+public import LRX.EnclosingCycleLoads
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.CommRing

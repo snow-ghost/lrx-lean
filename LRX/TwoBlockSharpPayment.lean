@@ -1,5 +1,9 @@
-import LRX.TwoBlockArbitraryPorts
-import LRX.GapCostInversionDeficit
+module
+
+public import LRX.TwoBlockArbitraryPorts
+public import LRX.GapCostInversionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

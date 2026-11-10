@@ -1,4 +1,8 @@
-import LRX.ActualPeakProfile
+module
+
+public import LRX.ActualPeakProfile
+
+@[expose] public section
 
 /-! Connect every computable envelope filter to the original unpaid map.
 The resulting necessary predicate is ready for a trusted finite classifier. -/

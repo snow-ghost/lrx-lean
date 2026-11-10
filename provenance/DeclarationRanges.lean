@@ -1,6 +1,10 @@
+module
+
 /- Run in the ORIGINAL development repository. Writes declaration ranges (ranges.tsv)
 of all project constants; input of extract_package.py. -/
-import LRX.SharpDiameterAll
+public import LRX.SharpDiameterAll
+
+@[expose] public section
 open Lean Elab Command
 
 run_cmd do

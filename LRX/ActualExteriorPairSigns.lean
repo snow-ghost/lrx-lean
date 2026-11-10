@@ -1,5 +1,9 @@
-import LRX.TwoWindowSignedSelection
-import LRX.ActualTwoSizeCutoff
+module
+
+public import LRX.TwoWindowSignedSelection
+public import LRX.ActualTwoSizeCutoff
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

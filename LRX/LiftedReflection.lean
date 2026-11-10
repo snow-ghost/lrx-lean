@@ -1,5 +1,9 @@
-import LRX.ExactServiceRoute
-import LRX.ReflectedClosedService
+module
+
+public import LRX.ExactServiceRoute
+public import LRX.ReflectedClosedService
+
+@[expose] public section
 
 /-! Reflection of full integer execution, with a label-dependent offset
 which fixes the canonical integer positions at every initial port. -/

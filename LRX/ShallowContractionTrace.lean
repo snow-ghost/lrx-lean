@@ -1,5 +1,9 @@
-import LRX.ContractionArrowSigns
-import LRX.FullSupportShallowStep
+module
+
+public import LRX.ContractionArrowSigns
+public import LRX.FullSupportShallowStep
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 variable {m : ℕ} {P : State m}

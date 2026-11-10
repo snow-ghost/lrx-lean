@@ -1,5 +1,9 @@
-import LRX.Cycle11TwoLabelRepair
-import LRX.ReducedPrice
+module
+
+public import LRX.Cycle11TwoLabelRepair
+public import LRX.ReducedPrice
+
+@[expose] public section
 
 namespace LRX.Cycle11PairEncounter
 open LRX.BlockExchange

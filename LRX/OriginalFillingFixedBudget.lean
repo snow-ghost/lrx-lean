@@ -1,5 +1,9 @@
-import LRX.WindowFamilyFixedCount
-import LRX.PrefixFillingResourceBudget
+module
+
+public import LRX.WindowFamilyFixedCount
+public import LRX.PrefixFillingResourceBudget
+
+@[expose] public section
 
 /-! M4: replace local fixed counts by the actual scalar f-a and obtain the
 energy filter with indicator 1[f>a], including f=a>0. -/

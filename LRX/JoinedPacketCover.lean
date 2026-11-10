@@ -1,4 +1,8 @@
-import LRX.JoinedFillings
+module
+
+public import LRX.JoinedFillings
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n k : ℕ} [NeZero n]

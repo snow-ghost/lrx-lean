@@ -1,4 +1,8 @@
-import LRX.ComponentBridgeFamily
+module
+
+public import LRX.ComponentBridgeFamily
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

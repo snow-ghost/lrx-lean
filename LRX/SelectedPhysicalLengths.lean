@@ -1,4 +1,8 @@
-import LRX.RankHoleCoordinates
+module
+
+public import LRX.RankHoleCoordinates
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks
 open scoped BigOperators

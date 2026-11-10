@@ -1,6 +1,10 @@
-import LRX.PrefixSaturatedDefectNoFillings
-import LRX.FillingCycleCountRecenter
-import LRX.ComponentCutSingletonCount
+module
+
+public import LRX.PrefixSaturatedDefectNoFillings
+public import LRX.FillingCycleCountRecenter
+public import LRX.ComponentCutSingletonCount
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

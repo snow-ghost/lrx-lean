@@ -1,4 +1,8 @@
-import LRX.ComponentAreaDeficit
+module
+
+public import LRX.ComponentAreaDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

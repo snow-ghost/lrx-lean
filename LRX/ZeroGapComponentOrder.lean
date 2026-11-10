@@ -1,4 +1,8 @@
-import LRX.ZeroGapTouchedInterior
+module
+
+public import LRX.ZeroGapTouchedInterior
+
+@[expose] public section
 
 /-! The final event index in each component strictly decreases whenever an
 arrow touches a different component. -/

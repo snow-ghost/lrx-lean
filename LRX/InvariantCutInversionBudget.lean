@@ -1,5 +1,9 @@
-import LRX.ComponentInversionBudget
-import LRX.FiniteReversalBounds
+module
+
+public import LRX.ComponentInversionBudget
+public import LRX.FiniteReversalBounds
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

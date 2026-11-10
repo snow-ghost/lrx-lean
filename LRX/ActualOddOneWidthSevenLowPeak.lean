@@ -1,5 +1,9 @@
-import LRX.OddOneWidthSevenLowExclusion
-import LRX.ActualOddOneWidthSevenDefect
+module
+
+public import LRX.OddOneWidthSevenLowExclusion
+public import LRX.ActualOddOneWidthSevenDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

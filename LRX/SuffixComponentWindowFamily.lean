@@ -1,5 +1,9 @@
-import LRX.ComponentFillingWindow
-import LRX.SuffixComponentParameters
+module
+
+public import LRX.ComponentFillingWindow
+public import LRX.SuffixComponentParameters
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

@@ -1,5 +1,9 @@
-import LRX.ZeroGapCycleRoots
-import LRX.ActiveSetSlack
+module
+
+public import LRX.ZeroGapCycleRoots
+public import LRX.ActiveSetSlack
+
+@[expose] public section
 
 /-! Reflection-rank and packet-cycle bounds come from the actual sorting
 events. Combined with majorization they pay the two-arc numerical budget. -/

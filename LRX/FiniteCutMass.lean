@@ -1,4 +1,8 @@
-import LRX.FiniteCuts
+module
+
+public import LRX.FiniteCuts
+
+@[expose] public section
 
 /-! Double counting actual finite cut crossings gives the exact footrule. -/
 namespace LRX.FiniteCuts

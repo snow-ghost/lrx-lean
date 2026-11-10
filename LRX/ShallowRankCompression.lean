@@ -1,4 +1,8 @@
-import LRX.ShallowContraction
+module
+
+public import LRX.ShallowContraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

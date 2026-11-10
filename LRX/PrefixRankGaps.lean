@@ -1,4 +1,8 @@
-import LRX.PrefixShallowPhysicalModel
+module
+
+public import LRX.PrefixShallowPhysicalModel
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n r : ℕ} [NeZero n]

@@ -1,6 +1,10 @@
-import LRX.PeakFourSourceRigidity
-import LRX.WindowCyclePeakFamily
-import LRX.FillingPeakRecenter
+module
+
+public import LRX.PeakFourSourceRigidity
+public import LRX.WindowCyclePeakFamily
+public import LRX.FillingPeakRecenter
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

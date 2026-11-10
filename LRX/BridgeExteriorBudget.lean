@@ -1,4 +1,8 @@
-import LRX.TwoComponentPeakReduction
+module
+
+public import LRX.TwoComponentPeakReduction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,8 +1,12 @@
-import LRX.IncidentPacketWord
-import LRX.ExteriorBoundaryPorts
-import LRX.TurningRoute
-import LRX.PacketPorts
-import LRX.PacketCoreBalance
+module
+
+public import LRX.IncidentPacketWord
+public import LRX.ExteriorBoundaryPorts
+public import LRX.TurningRoute
+public import LRX.PacketPorts
+public import LRX.PacketCoreBalance
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

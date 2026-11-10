@@ -1,4 +1,8 @@
-import LRX.CoveredPacketSharpWord
+module
+
+public import LRX.CoveredPacketSharpWord
+
+@[expose] public section
 
 namespace LRX.CycleFootprint
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

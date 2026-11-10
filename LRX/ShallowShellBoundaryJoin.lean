@@ -1,5 +1,9 @@
-import LRX.ShallowShellWindowFamily
-import LRX.AdjacentBoundaryPrice
+module
+
+public import LRX.ShallowShellWindowFamily
+public import LRX.AdjacentBoundaryPrice
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow FiniteRankOrder

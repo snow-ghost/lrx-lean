@@ -1,4 +1,8 @@
-import LRX.GapComplementCoordinates
+module
+
+public import LRX.GapComplementCoordinates
+
+@[expose] public section
 
 /-! The complementary interval of a packet gap bounds the packet energy by
 2*l*(n-b-l), with l the half-size of the actual packet support. -/

@@ -1,5 +1,9 @@
-import LRX.ThreeFixedPeakGeometry
-import LRX.ActualTwoComponentPeakGeometry
+module
+
+public import LRX.ThreeFixedPeakGeometry
+public import LRX.ActualTwoComponentPeakGeometry
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 namespace LRX.FiniteCuts

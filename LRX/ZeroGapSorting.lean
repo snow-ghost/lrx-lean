@@ -1,4 +1,8 @@
-import LRX.ZeroGapDescent
+module
+
+public import LRX.ZeroGapDescent
+
+@[expose] public section
 
 /-! Termination of the zero-gap sorting process and its exact number of
 endpoint transpositions. Recentring is part of the mathematical trace. -/

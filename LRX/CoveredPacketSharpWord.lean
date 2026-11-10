@@ -1,7 +1,11 @@
-import LRX.PartitionExteriorGapWord
-import LRX.PacketExteriorReduction
-import LRX.Small
-import LRX.WordMetric
+module
+
+public import LRX.PartitionExteriorGapWord
+public import LRX.PacketExteriorReduction
+public import LRX.Small
+public import LRX.WordMetric
+
+@[expose] public section
 
 /-! Sharp words for every cursor pair under the explicit packet cover hypothesis.
 The hypothesis is retained: this does not yet prove NonzeroLiftRouting. -/

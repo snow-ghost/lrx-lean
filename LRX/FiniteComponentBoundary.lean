@@ -1,6 +1,10 @@
-import LRX.BoundaryComponentRoot
-import LRX.ArbitraryFiniteRouteTransfer
-import LRX.FiniteReachableExactService
+module
+
+public import LRX.BoundaryComponentRoot
+public import LRX.ArbitraryFiniteRouteTransfer
+public import LRX.FiniteReachableExactService
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,5 +1,9 @@
-import LRX.PacketPortSymmetry
-import LRX.ReflectedRootStar
+module
+
+public import LRX.PacketPortSymmetry
+public import LRX.ReflectedRootStar
+
+@[expose] public section
 
 /-! Any mutually reachable packet vertex is an admissible root of the same
 packet. Reachability from a moving root preserves nonzero displacement. -/

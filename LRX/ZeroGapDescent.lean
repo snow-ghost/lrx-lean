@@ -1,4 +1,8 @@
-import LRX.ZeroGapInversionSum
+module
+
+public import LRX.ZeroGapInversionSum
+
+@[expose] public section
 
 /-! Every nonzero short balanced lift has a genuine endpoint-transposition
 step with exact displacement and affine-inversion decreases. -/

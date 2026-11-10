@@ -1,4 +1,8 @@
-import LRX.VisitedPorts
+module
+
+public import LRX.VisitedPorts
+
+@[expose] public section
 
 /-! Every arrow of a cycle service visits every contracted class of its lifted
 segment. Together with visit preservation this supports finite saturation. -/

@@ -1,5 +1,9 @@
-import LRX.LiftedRename
-import LRX.RotationWords
+module
+
+public import LRX.LiftedRename
+public import LRX.RotationWords
+
+@[expose] public section
 
 /-! Spatial translation commutes with literal execution, retaining the integer
 positions and cursor. The finite and integer shifts are kept separate. -/

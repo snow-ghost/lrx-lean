@@ -1,4 +1,8 @@
-import LRX.ClockwiseLiftCount
+module
+
+public import LRX.ClockwiseLiftCount
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

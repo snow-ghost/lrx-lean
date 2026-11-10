@@ -1,4 +1,8 @@
-import LRX.ThirdAreaWindow
+module
+
+public import LRX.ThirdAreaWindow
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

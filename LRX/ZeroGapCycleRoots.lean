@@ -1,5 +1,9 @@
-import LRX.ZeroGapRootCoverCount
-import LRX.ZeroGapPacketConnected
+module
+
+public import LRX.ZeroGapRootCoverCount
+public import LRX.ZeroGapPacketConnected
+
+@[expose] public section
 
 /-! Cycle representatives and fixed points give a root cover of the sorting
 event graph; all cycles inside the packet can share one root. -/

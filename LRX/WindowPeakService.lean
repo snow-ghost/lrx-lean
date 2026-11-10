@@ -1,5 +1,9 @@
-import LRX.FiniteWindowLoad
-import LRX.ReflectedExactService
+module
+
+public import LRX.FiniteWindowLoad
+public import LRX.ReflectedExactService
+
+@[expose] public section
 
 /-! Local peak discounts are realized by exact services in the ambient graph.
 The mass and discount use the window width, while the literal word uses n. -/

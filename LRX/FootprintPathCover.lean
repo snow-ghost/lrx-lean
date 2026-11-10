@@ -1,4 +1,8 @@
-import LRX.FootprintPacket
+module
+
+public import LRX.FootprintPacket
+
+@[expose] public section
 
 /-! A path whose edges lie in footprints induces an overlap path. -/
 namespace LRX.FootprintGeometry

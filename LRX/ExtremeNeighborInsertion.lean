@@ -1,4 +1,8 @@
-import LRX.TwoMovingNeighborStep
+module
+
+public import LRX.TwoMovingNeighborStep
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

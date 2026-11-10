@@ -1,4 +1,8 @@
-import LRX.ReflectedLift
+module
+
+public import LRX.ReflectedLift
+
+@[expose] public section
 
 /-! Reflection sends the right port of the reflected root to the original left
 port and preserves its actual load and both paid cursor distances. -/

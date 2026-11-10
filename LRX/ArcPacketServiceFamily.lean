@@ -1,6 +1,10 @@
-import LRX.OutsideCycleSelection
-import LRX.PaidPacketAssembly
-import LRX.CircularOrderedRoute
+module
+
+public import LRX.OutsideCycleSelection
+public import LRX.PaidPacketAssembly
+public import LRX.CircularOrderedRoute
+
+@[expose] public section
 
 /-! Build all services on one arc by separating its selected outside cycles
 and retaining the rest in one packet service at a positive incident port. -/

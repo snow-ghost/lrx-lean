@@ -1,8 +1,12 @@
-import LRX.FillingFamilyResource
-import LRX.SourceGapReversalFamily
-import LRX.FiniteWindowSupport
-import LRX.FiniteRootRoute
-import LRX.ShallowShellWindowFamily
+module
+
+public import LRX.FillingFamilyResource
+public import LRX.SourceGapReversalFamily
+public import LRX.FiniteWindowSupport
+public import LRX.FiniteRootRoute
+public import LRX.ShallowShellWindowFamily
+
+@[expose] public section
 
 /-! M4: inject actual window cycles into the original filling cycles.
 Only a lower bound on the ambient peak is needed for the resource budget. -/

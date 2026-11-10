@@ -1,4 +1,8 @@
-import LRX.FinitePermutationProfile
+module
+
+public import LRX.FinitePermutationProfile
+
+@[expose] public section
 
 /-! Integer load profiles and their exact area as a sum of superlevel widths. -/
 namespace LRX.DiscreteLoad

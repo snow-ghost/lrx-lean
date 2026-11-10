@@ -1,5 +1,9 @@
-import LRX.ExtraArrowSignConstraint
-import LRX.ZeroEnergyEmptyCatalogues
+module
+
+public import LRX.ExtraArrowSignConstraint
+public import LRX.ZeroEnergyEmptyCatalogues
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

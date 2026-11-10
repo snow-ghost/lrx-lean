@@ -1,5 +1,9 @@
-import LRX.FiniteBridgeReachability
-import LRX.PacketCoordinateSymmetry
+module
+
+public import LRX.FiniteBridgeReachability
+public import LRX.PacketCoordinateSymmetry
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

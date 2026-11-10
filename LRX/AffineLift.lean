@@ -1,4 +1,8 @@
-import LRX.Graph
+module
+
+public import LRX.Graph
+
+@[expose] public section
 
 /-!
 A balanced phase lift of an actual permutation, with subset majorization.

@@ -1,5 +1,9 @@
-import LRX.ShallowShellBoundaryData
-import LRX.ExternalPairCycleJoin
+module
+
+public import LRX.ShallowShellBoundaryData
+public import LRX.ExternalPairCycleJoin
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

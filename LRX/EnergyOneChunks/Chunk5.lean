@@ -1,4 +1,8 @@
-import LRX.EnergyOneRows
+module
+
+public import LRX.EnergyOneRows
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 set_option maxRecDepth 10000

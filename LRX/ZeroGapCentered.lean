@@ -1,4 +1,8 @@
-import LRX.ZeroGapPair
+module
+
+public import LRX.ZeroGapPair
+
+@[expose] public section
 
 /-! Recenter the zero-gap pair and derive the required endpoint inequalities
 from injectivity of the actual target permutation. -/

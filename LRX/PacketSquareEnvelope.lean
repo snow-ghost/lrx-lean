@@ -1,4 +1,8 @@
-import LRX.GapFamilySquareCap
+module
+
+public import LRX.GapFamilySquareCap
+
+@[expose] public section
 
 /-! The square envelope cap is derived from the original majorized lift and
 the actual partition of its source packet. -/

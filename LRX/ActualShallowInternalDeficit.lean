@@ -1,5 +1,9 @@
-import LRX.PrefixRankGaps
-import LRX.ActualShallowExteriorDeficit
+module
+
+public import LRX.PrefixRankGaps
+public import LRX.ActualShallowExteriorDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ContractionBlocks.System

@@ -1,5 +1,9 @@
-import LRX.GeometricPacket
-import LRX.PortLoadMass
+module
+
+public import LRX.GeometricPacket
+public import LRX.PortLoadMass
+
+@[expose] public section
 
 /-! Every edge of positive load belongs to the footprint of a moving cycle. -/
 namespace LRX.CycleFootprint

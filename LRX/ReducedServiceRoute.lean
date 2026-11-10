@@ -1,5 +1,9 @@
-import LRX.ExactServiceRoute
-import LRX.SingleCycleServices
+module
+
+public import LRX.ExactServiceRoute
+public import LRX.SingleCycleServices
+
+@[expose] public section
 
 /-! Reachable clusters provide exact services. Affine deletion of a disjoint
 service route charges the inversions of the combined endpoint, not their sum. -/

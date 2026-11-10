@@ -1,5 +1,9 @@
-import LRX.FillingFamilyResource
-import LRX.SourceGapReversalFamily
+module
+
+public import LRX.FillingFamilyResource
+public import LRX.SourceGapReversalFamily
+
+@[expose] public section
 
 /-! The prefix and whole-map window families use the same actual fillings.
 Their independently chosen restrictions agree by matching the original map. -/

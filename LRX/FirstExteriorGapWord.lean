@@ -1,5 +1,9 @@
-import LRX.PacketExteriorBudget
-import LRX.ExteriorCursorWord
+module
+
+public import LRX.PacketExteriorBudget
+public import LRX.ExteriorCursorWord
+
+@[expose] public section
 
 namespace LRX.FiniteGaps
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

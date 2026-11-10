@@ -1,5 +1,9 @@
-import LRX.FiniteWindowLoad
-import Mathlib.Algebra.Group.End
+module
+
+public import LRX.FiniteWindowLoad
+public import Mathlib.Algebra.Group.End
+
+@[expose] public section
 
 /-! Extension through a window preserves products and disjointness, so a
 local cycle decomposition supplies the same ambient target. -/

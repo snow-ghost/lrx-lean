@@ -1,4 +1,8 @@
-import LRX.ContractionEnergy
+module
+
+public import LRX.ContractionEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

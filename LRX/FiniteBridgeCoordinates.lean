@@ -1,6 +1,10 @@
-import LRX.FiniteComponentBridge
-import LRX.ZeroGapInversionSum
-import LRX.RecenteredCrossings
+module
+
+public import LRX.FiniteComponentBridge
+public import LRX.ZeroGapInversionSum
+public import LRX.RecenteredCrossings
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

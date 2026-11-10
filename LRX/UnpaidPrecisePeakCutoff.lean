@@ -1,5 +1,9 @@
-import LRX.OriginalPrecisePeakCutoff
-import LRX.PeakActivityBound
+module
+
+public import LRX.OriginalPrecisePeakCutoff
+public import LRX.PeakActivityBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

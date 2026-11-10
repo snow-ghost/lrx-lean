@@ -1,4 +1,8 @@
-import LRX.OddZeroWidthFourCatalogue
+module
+
+public import LRX.OddZeroWidthFourCatalogue
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

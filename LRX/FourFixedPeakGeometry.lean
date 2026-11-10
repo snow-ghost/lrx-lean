@@ -1,5 +1,9 @@
-import LRX.TwoCapWindowEnvelope
-import LRX.ActualCutoffEnvelope
+module
+
+public import LRX.TwoCapWindowEnvelope
+public import LRX.ActualCutoffEnvelope
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 

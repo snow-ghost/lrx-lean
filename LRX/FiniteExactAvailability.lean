@@ -1,5 +1,9 @@
-import LRX.FiniteCycleAvailability
-import LRX.ReflectedExactService
+module
+
+public import LRX.FiniteCycleAvailability
+public import LRX.ReflectedExactService
+
+@[expose] public section
 
 /-! Both finite peak discounts are attained by services with exact integer endpoints. -/
 namespace LRX.FiniteCuts

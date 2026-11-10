@@ -1,4 +1,8 @@
-import LRX.ActualShallowExteriorDeficit
+module
+
+public import LRX.ActualShallowExteriorDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

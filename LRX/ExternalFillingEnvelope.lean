@@ -1,4 +1,8 @@
-import LRX.AreaWindowSplitSquare
+module
+
+public import LRX.AreaWindowSplitSquare
+
+@[expose] public section
 
 /-! M4: exact exterior square and energy envelopes for the actual nontrivial
 component windows, using only their real sizes and the lower bound two. -/

@@ -1,5 +1,9 @@
-import LRX.LowerBoundNoRepeat
-import LRX.LowerBoundPairParity
+module
+
+public import LRX.LowerBoundNoRepeat
+public import LRX.LowerBoundPairParity
+
+@[expose] public section
 
 /-! Exact pair occurrence counts in shortest concrete LRX words. -/
 namespace LRX.LowerBoundSwapCount

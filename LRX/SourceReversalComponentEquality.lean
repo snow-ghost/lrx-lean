@@ -1,5 +1,9 @@
-import LRX.SourceGapComponent
-import LRX.WindowReversalComponentEquality
+module
+
+public import LRX.SourceGapComponent
+public import LRX.WindowReversalComponentEquality
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

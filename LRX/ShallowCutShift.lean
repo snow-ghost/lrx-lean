@@ -1,5 +1,9 @@
-import LRX.ShallowRotation
-import LRX.ShallowCycleNeighbor
+module
+
+public import LRX.ShallowRotation
+public import LRX.ShallowCycleNeighbor
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

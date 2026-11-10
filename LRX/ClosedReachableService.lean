@@ -1,4 +1,8 @@
-import LRX.PortRoute
+module
+
+public import LRX.PortRoute
+
+@[expose] public section
 
 /-! Closed route tasks are supplied by the proved lifted service construction.
 Their contracts do not require a separately assumed word or execution witness. -/

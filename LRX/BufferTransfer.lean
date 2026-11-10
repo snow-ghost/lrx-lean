@@ -1,4 +1,8 @@
-import LRX.BufferMotion
+module
+
+public import LRX.BufferMotion
+
+@[expose] public section
 
 /-! A concrete move-and-handoff constructor. Congruent contracted endpoints
 suffice for handing the buffer to a specified named token. -/

@@ -1,5 +1,9 @@
-import LRX.ReducedRouteFrom
-import LRX.OrderedExactRoute
+module
+
+public import LRX.ReducedRouteFrom
+public import LRX.OrderedExactRoute
+
+@[expose] public section
 
 /-! An ascending visit of ports followed by a return from the right boundary
 has cursor cost at most (anchor-start)+(anchor-finish). -/

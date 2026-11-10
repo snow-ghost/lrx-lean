@@ -1,4 +1,8 @@
-import LRX.ClosedServiceAction
+module
+
+public import LRX.ClosedServiceAction
+
+@[expose] public section
 
 /-! Exact endpoints of a paid route through disjoint closed services. -/
 namespace LRX.RotationWords

@@ -1,4 +1,8 @@
-import LRX.SourceGapFilling
+module
+
+public import LRX.SourceGapFilling
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

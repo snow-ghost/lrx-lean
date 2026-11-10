@@ -1,4 +1,8 @@
-import LRX.ActualTwoComponentPeakGeometry
+module
+
+public import LRX.ActualTwoComponentPeakGeometry
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

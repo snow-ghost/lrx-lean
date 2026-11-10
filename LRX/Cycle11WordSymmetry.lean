@@ -1,4 +1,8 @@
-import LRX.Cycle11StructuralBridge
+module
+
+public import LRX.Cycle11StructuralBridge
+
+@[expose] public section
 
 namespace LRX.Cycle11WordSymmetry
 open LRX.BlockExchange LRX.ReducedPrice

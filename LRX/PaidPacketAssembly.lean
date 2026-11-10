@@ -1,4 +1,8 @@
-import LRX.CanonicalServiceFamily
+module
+
+public import LRX.CanonicalServiceFamily
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped BigOperators

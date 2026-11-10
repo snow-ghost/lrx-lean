@@ -1,5 +1,9 @@
-import LRX.DiscreteLevelWidths
-import LRX.FiniteCoordinateCapacity
+module
+
+public import LRX.DiscreteLevelWidths
+public import LRX.FiniteCoordinateCapacity
+
+@[expose] public section
 
 /-! Summing the actual superlevel widths gives a quadratic prefix-area bound. -/
 namespace LRX.DiscreteLoad

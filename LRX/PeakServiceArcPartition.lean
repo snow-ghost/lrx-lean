@@ -1,5 +1,9 @@
-import LRX.JoinedPeakArcWord
-import LRX.ArcCycleSelection
+module
+
+public import LRX.JoinedPeakArcWord
+public import LRX.ArcCycleSelection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

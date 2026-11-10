@@ -1,5 +1,9 @@
-import LRX.ActualEvenWidthSixLowPeak
-import LRX.EvenWidthSixPeakFourExclusion
+module
+
+public import LRX.ActualEvenWidthSixLowPeak
+public import LRX.EvenWidthSixPeakFourExclusion
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

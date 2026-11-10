@@ -1,7 +1,11 @@
-import LRX.PrefixFillingSize
-import LRX.ComponentAreaSizeBounds
-import LRX.TwoCapWindowEnvelope
-import LRX.AreaWindowSplitSquare
+module
+
+public import LRX.PrefixFillingSize
+public import LRX.ComponentAreaSizeBounds
+public import LRX.TwoCapWindowEnvelope
+public import LRX.AreaWindowSplitSquare
+
+@[expose] public section
 
 /-! M4: the exact J(x) envelope for actual internal windows, using the strict
 positive-boundary width rather than the coarser common area-window cap. -/

@@ -1,5 +1,9 @@
-import LRX.UnitEnergyExactComponentDefects
-import LRX.PeakFourSourceRigidity
+module
+
+public import LRX.UnitEnergyExactComponentDefects
+public import LRX.PeakFourSourceRigidity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ZeroGap RotationWords

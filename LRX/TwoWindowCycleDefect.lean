@@ -1,5 +1,9 @@
-import LRX.ActualNonunitComponentDefect
-import LRX.FiniteDisplacementSum
+module
+
+public import LRX.ActualNonunitComponentDefect
+public import LRX.FiniteDisplacementSum
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

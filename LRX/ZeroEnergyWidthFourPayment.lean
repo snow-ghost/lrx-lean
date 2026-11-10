@@ -1,5 +1,9 @@
-import LRX.ActualCriticalLowPeak
-import LRX.PeakFourSharpPayment
+module
+
+public import LRX.ActualCriticalLowPeak
+public import LRX.PeakFourSharpPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

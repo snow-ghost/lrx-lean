@@ -1,5 +1,9 @@
-import LRX.ShallowContractionTrace
-import LRX.ContractionSelectedCapacity
+module
+
+public import LRX.ShallowContractionTrace
+public import LRX.ContractionSelectedCapacity
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

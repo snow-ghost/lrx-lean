@@ -1,5 +1,9 @@
-import LRX.JoinedPacketCover
-import LRX.OutsideCycleServices
+module
+
+public import LRX.JoinedPacketCover
+public import LRX.OutsideCycleServices
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n k : ℕ} [NeZero n]

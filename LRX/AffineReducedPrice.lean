@@ -1,5 +1,9 @@
-import LRX.InversionSet
-import LRX.ReachableService
+module
+
+public import LRX.InversionSet
+public import LRX.ReachableService
+
+@[expose] public section
 
 /-! Exact paid length after affine pair deletion, and its application to the
 service of all cycles reachable from the chosen root. -/

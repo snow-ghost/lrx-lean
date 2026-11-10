@@ -1,5 +1,9 @@
-import LRX.ComponentTailCapacity
-import Research.CayleyPy.ManyComponentTailBudget
+module
+
+public import LRX.ComponentTailCapacity
+public import Research.CayleyPy.ManyComponentTailBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

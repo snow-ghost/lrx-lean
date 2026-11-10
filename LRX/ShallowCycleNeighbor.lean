@@ -1,5 +1,9 @@
-import LRX.FiniteWindowInversions
-import LRX.FiniteWindowSupport
+module
+
+public import LRX.FiniteWindowInversions
+public import LRX.FiniteWindowSupport
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 open scoped BigOperators

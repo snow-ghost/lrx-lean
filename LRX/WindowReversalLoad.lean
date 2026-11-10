@@ -1,4 +1,8 @@
-import LRX.FiniteReversalBounds
+module
+
+public import LRX.FiniteReversalBounds
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

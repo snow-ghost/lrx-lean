@@ -1,4 +1,8 @@
-import LRX.PacketGapAggregate
+module
+
+public import LRX.PacketGapAggregate
+
+@[expose] public section
 
 /-! The packet complement-energy estimate applies to every interval in the
 actual partition, without changing physical distances or choosing a new root. -/

@@ -1,5 +1,9 @@
-import LRX.LowerBoundNativeTrace
-import LRX.LowerBoundExceptionalNative
+module
+
+public import LRX.LowerBoundNativeTrace
+public import LRX.LowerBoundExceptionalNative
+
+@[expose] public section
 
 /-! Composition of A's native physical reduction and B's exceptional cases.
 All hypotheses of the exported word lower bound are native endpoint facts. -/

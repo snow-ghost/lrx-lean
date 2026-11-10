@@ -1,5 +1,9 @@
-import LRX.StrictFillingFamilyWidth
-import LRX.ActualNonshortFillings
+module
+
+public import LRX.StrictFillingFamilyWidth
+public import LRX.ActualNonshortFillings
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

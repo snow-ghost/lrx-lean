@@ -1,4 +1,8 @@
-import LRX.FiniteCycleLoads
+module
+
+public import LRX.FiniteCycleLoads
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

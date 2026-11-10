@@ -1,4 +1,8 @@
-import LRX.ServiceSaturation
+module
+
+public import LRX.ServiceSaturation
+
+@[expose] public section
 
 /-! Complete lifted service when the root reaches every nonzero displacement.
 Reachability uses actual lifted arrow segments and target permutation cycles.

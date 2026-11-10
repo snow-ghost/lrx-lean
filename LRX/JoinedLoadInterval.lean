@@ -1,4 +1,8 @@
-import LRX.FiniteZeroPortBarrier
+module
+
+public import LRX.FiniteZeroPortBarrier
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

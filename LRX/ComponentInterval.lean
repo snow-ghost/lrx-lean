@@ -1,6 +1,10 @@
-import LRX.InvariantCutInversionBudget
-import LRX.LoadComponentCardRecenter
-import Mathlib.Order.Interval.Finset.Fin
+module
+
+public import LRX.InvariantCutInversionBudget
+public import LRX.LoadComponentCardRecenter
+public import Mathlib.Order.Interval.Finset.Fin
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

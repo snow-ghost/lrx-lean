@@ -1,5 +1,9 @@
-import LRX.LiftedTranslation
-import LRX.ClosedReachableService
+module
+
+public import LRX.LiftedTranslation
+public import LRX.ClosedReachableService
+
+@[expose] public section
 
 /-! Exact integer endpoints survive recentering a service at a physical port. -/
 namespace LRX.LiftedModel

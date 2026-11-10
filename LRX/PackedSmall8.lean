@@ -1,59 +1,63 @@
-import LRX.PackedSmall8.Block00
-import LRX.PackedSmall8.Block01
-import LRX.PackedSmall8.Block02
-import LRX.PackedSmall8.Block03
-import LRX.PackedSmall8.Block04
-import LRX.PackedSmall8.Block05
-import LRX.PackedSmall8.Block06
-import LRX.PackedSmall8.Block07
-import LRX.PackedSmall8.Block08
-import LRX.PackedSmall8.Block09
-import LRX.PackedSmall8.Block10
-import LRX.PackedSmall8.Block11
-import LRX.PackedSmall8.Block12
-import LRX.PackedSmall8.Block13
-import LRX.PackedSmall8.Block14
-import LRX.PackedSmall8.Block15
-import LRX.PackedSmall8.Block16
-import LRX.PackedSmall8.Block17
-import LRX.PackedSmall8.Block18
-import LRX.PackedSmall8.Block19
-import LRX.PackedSmall8.Block20
-import LRX.PackedSmall8.Block21
-import LRX.PackedSmall8.Block22
-import LRX.PackedSmall8.Block23
-import LRX.PackedSmall8.Block24
-import LRX.PackedSmall8.Block25
-import LRX.PackedSmall8.Block26
-import LRX.PackedSmall8.Block27
-import LRX.PackedSmall8.Block28
-import LRX.PackedSmall8.Block29
-import LRX.PackedSmall8.Block30
-import LRX.PackedSmall8.Block31
-import LRX.PackedSmall8.Block32
-import LRX.PackedSmall8.Block33
-import LRX.PackedSmall8.Block34
-import LRX.PackedSmall8.Block35
-import LRX.PackedSmall8.Block36
-import LRX.PackedSmall8.Block37
-import LRX.PackedSmall8.Block38
-import LRX.PackedSmall8.Block39
-import LRX.PackedSmall8.Block40
-import LRX.PackedSmall8.Block41
-import LRX.PackedSmall8.Block42
-import LRX.PackedSmall8.Block43
-import LRX.PackedSmall8.Block44
-import LRX.PackedSmall8.Block45
-import LRX.PackedSmall8.Block46
-import LRX.PackedSmall8.Block47
-import LRX.PackedSmall8.Block48
-import LRX.PackedSmall8.Block49
-import LRX.PackedSmall8.Block50
-import LRX.PackedSmall8.Block51
-import LRX.PackedSmall8.Block52
-import LRX.PackedSmall8.Block53
-import LRX.PackedSmall8.Block54
-import LRX.PackedSmall8.Block55
+module
+
+public import LRX.PackedSmall8.Block00
+public import LRX.PackedSmall8.Block01
+public import LRX.PackedSmall8.Block02
+public import LRX.PackedSmall8.Block03
+public import LRX.PackedSmall8.Block04
+public import LRX.PackedSmall8.Block05
+public import LRX.PackedSmall8.Block06
+public import LRX.PackedSmall8.Block07
+public import LRX.PackedSmall8.Block08
+public import LRX.PackedSmall8.Block09
+public import LRX.PackedSmall8.Block10
+public import LRX.PackedSmall8.Block11
+public import LRX.PackedSmall8.Block12
+public import LRX.PackedSmall8.Block13
+public import LRX.PackedSmall8.Block14
+public import LRX.PackedSmall8.Block15
+public import LRX.PackedSmall8.Block16
+public import LRX.PackedSmall8.Block17
+public import LRX.PackedSmall8.Block18
+public import LRX.PackedSmall8.Block19
+public import LRX.PackedSmall8.Block20
+public import LRX.PackedSmall8.Block21
+public import LRX.PackedSmall8.Block22
+public import LRX.PackedSmall8.Block23
+public import LRX.PackedSmall8.Block24
+public import LRX.PackedSmall8.Block25
+public import LRX.PackedSmall8.Block26
+public import LRX.PackedSmall8.Block27
+public import LRX.PackedSmall8.Block28
+public import LRX.PackedSmall8.Block29
+public import LRX.PackedSmall8.Block30
+public import LRX.PackedSmall8.Block31
+public import LRX.PackedSmall8.Block32
+public import LRX.PackedSmall8.Block33
+public import LRX.PackedSmall8.Block34
+public import LRX.PackedSmall8.Block35
+public import LRX.PackedSmall8.Block36
+public import LRX.PackedSmall8.Block37
+public import LRX.PackedSmall8.Block38
+public import LRX.PackedSmall8.Block39
+public import LRX.PackedSmall8.Block40
+public import LRX.PackedSmall8.Block41
+public import LRX.PackedSmall8.Block42
+public import LRX.PackedSmall8.Block43
+public import LRX.PackedSmall8.Block44
+public import LRX.PackedSmall8.Block45
+public import LRX.PackedSmall8.Block46
+public import LRX.PackedSmall8.Block47
+public import LRX.PackedSmall8.Block48
+public import LRX.PackedSmall8.Block49
+public import LRX.PackedSmall8.Block50
+public import LRX.PackedSmall8.Block51
+public import LRX.PackedSmall8.Block52
+public import LRX.PackedSmall8.Block53
+public import LRX.PackedSmall8.Block54
+public import LRX.PackedSmall8.Block55
+
+@[expose] public section
 
 namespace LRX.PackedSmall8
 

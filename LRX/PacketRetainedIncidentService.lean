@@ -1,6 +1,10 @@
-import LRX.PacketIncidentLoad
-import LRX.PacketExactService
-import LRX.FiniteRemovalBalance
+module
+
+public import LRX.PacketIncidentLoad
+public import LRX.PacketExactService
+public import LRX.FiniteRemovalBalance
+
+@[expose] public section
 
 /-! Any invariant retained set containing the whole packet has an exact
 service at either incident port of any packet vertex, with the original load. -/

@@ -1,4 +1,8 @@
-import LRX.SuffixFamilyComponentCapacity
+module
+
+public import LRX.SuffixFamilyComponentCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

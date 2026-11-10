@@ -1,5 +1,9 @@
-import LRX.SourceReversalComponentEquality
-import LRX.ComponentInversionBudget
+module
+
+public import LRX.SourceReversalComponentEquality
+public import LRX.ComponentInversionBudget
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

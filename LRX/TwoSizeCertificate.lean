@@ -1,5 +1,9 @@
-import LRX.TwoOuterTable
-import LRX.PeakProfileInterval
+module
+
+public import LRX.TwoOuterTable
+public import LRX.PeakProfileInterval
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

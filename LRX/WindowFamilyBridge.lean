@@ -1,5 +1,9 @@
-import LRX.WindowServiceFamily
-import LRX.CanonicalServiceFamily
+module
+
+public import LRX.WindowServiceFamily
+public import LRX.CanonicalServiceFamily
+
+@[expose] public section
 
 /-! The window constructors satisfy the canonical-family and disjoint-target
 contracts needed by periodic root composition. -/

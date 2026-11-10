@@ -1,4 +1,8 @@
-import LRX.ZeroGapEvents
+module
+
+public import LRX.ZeroGapEvents
+
+@[expose] public section
 
 /-! Connected components of the event graph contain the cycles of the
 original permutation and are invariant under it. -/

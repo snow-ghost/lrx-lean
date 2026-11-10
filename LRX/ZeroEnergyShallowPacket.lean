@@ -1,6 +1,10 @@
-import LRX.ZeroEnergyPeakRigidity
-import LRX.CycleDefectMonotonicity
-import LRX.ExtractedPacketDefect
+module
+
+public import LRX.ZeroEnergyPeakRigidity
+public import LRX.CycleDefectMonotonicity
+public import LRX.ExtractedPacketDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

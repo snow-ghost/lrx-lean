@@ -1,4 +1,8 @@
-import LRX.WindowReplacement
+module
+
+public import LRX.WindowReplacement
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

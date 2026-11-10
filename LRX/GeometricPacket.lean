@@ -1,6 +1,10 @@
-import LRX.ConnectedCycleFootprint
-import LRX.FootprintPacket
-import LRX.PacketCoverage
+module
+
+public import LRX.ConnectedCycleFootprint
+public import LRX.FootprintPacket
+public import LRX.PacketCoverage
+
+@[expose] public section
 
 /-! Source packets for the footprints of actual lifted permutation cycles. -/
 namespace LRX.CycleFootprint

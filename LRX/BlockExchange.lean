@@ -1,4 +1,8 @@
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Concrete L/R/X list semantics and paid macros exchanging a repeated block
 with an adjacent atom. Independent namespace; no hypothesis about an optimizer,

@@ -1,4 +1,8 @@
-import LRX.ContractionPathSystem
+module
+
+public import LRX.ContractionPathSystem
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 variable {m k : ℕ} {P : State m} {q : State k}

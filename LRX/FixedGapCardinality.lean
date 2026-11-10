@@ -1,5 +1,9 @@
-import LRX.PacketExteriorReduction
-import LRX.ActiveSetSlack
+module
+
+public import LRX.PacketExteriorReduction
+public import LRX.ActiveSetSlack
+
+@[expose] public section
 
 namespace LRX.FiniteGaps
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,4 +1,8 @@
-import LRX.PairExactCost
+module
+
+public import LRX.PairExactCost
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ}

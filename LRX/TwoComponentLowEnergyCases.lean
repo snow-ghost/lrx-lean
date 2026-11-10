@@ -1,4 +1,8 @@
-import LRX.ZeroEnergyUnitPeak
+module
+
+public import LRX.ZeroEnergyUnitPeak
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

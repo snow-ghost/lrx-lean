@@ -1,4 +1,8 @@
-import LRX.SelectedSourceGapWord
+module
+
+public import LRX.SelectedSourceGapWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

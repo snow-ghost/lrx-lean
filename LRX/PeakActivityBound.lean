@@ -1,4 +1,8 @@
-import LRX.SourcePacketEventCover
+module
+
+public import LRX.SourcePacketEventCover
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords ZeroGap

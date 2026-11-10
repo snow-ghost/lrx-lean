@@ -1,5 +1,9 @@
-import LRX.TwoBlockCenterCover
-import LRX.PortRoute
+module
+
+public import LRX.TwoBlockCenterCover
+public import LRX.PortRoute
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

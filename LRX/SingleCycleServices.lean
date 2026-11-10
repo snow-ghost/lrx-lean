@@ -1,4 +1,8 @@
-import LRX.ReflectedClosedService
+module
+
+public import LRX.ReflectedClosedService
+
+@[expose] public section
 
 /-! Reachability for a single nontrivial cycle is derived from cycle structure.
 Both incident-port services are consequently available without a routing premise. -/

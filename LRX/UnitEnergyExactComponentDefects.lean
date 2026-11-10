@@ -1,4 +1,8 @@
-import LRX.UnitEnergyPeakTwoRigidity
+module
+
+public import LRX.UnitEnergyPeakTwoRigidity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

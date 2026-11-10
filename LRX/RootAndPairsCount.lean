@@ -1,5 +1,9 @@
-import LRX.TranspositionPeak
-import Mathlib.GroupTheory.Perm.Cycle.Type
+module
+
+public import LRX.TranspositionPeak
+public import Mathlib.GroupTheory.Perm.Cycle.Type
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

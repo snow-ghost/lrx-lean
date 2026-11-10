@@ -1,4 +1,8 @@
-import LRX.ZeroGapFactorization
+module
+
+public import LRX.ZeroGapFactorization
+
+@[expose] public section
 
 /-! The constructed swap factorization bounds the number of active positions
 by twice its length, giving an unconditional first inversion reserve. -/

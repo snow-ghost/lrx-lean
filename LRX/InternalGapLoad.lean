@@ -1,6 +1,10 @@
-import LRX.PacketPartitionWidths
-import LRX.ArrowLoadPaths
-import LRX.PortLoadBalance
+module
+
+public import LRX.PacketPartitionWidths
+public import LRX.ArrowLoadPaths
+public import LRX.PortLoadBalance
+
+@[expose] public section
 
 /-! Every nonempty internal gap has a positive, hence at least two, load at
 its left boundary port in the original balanced lift. -/

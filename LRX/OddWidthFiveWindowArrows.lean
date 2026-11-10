@@ -1,6 +1,10 @@
-import LRX.OddWidthFiveCatalogue
-import LRX.OddZeroSmallArrows
-import LRX.ExternalUnitPairsNoUnit
+module
+
+public import LRX.OddWidthFiveCatalogue
+public import LRX.OddZeroSmallArrows
+public import LRX.ExternalUnitPairsNoUnit
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

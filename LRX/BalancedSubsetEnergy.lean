@@ -1,4 +1,8 @@
-import LRX.PacketCoreBalance
+module
+
+public import LRX.PacketCoreBalance
+
+@[expose] public section
 
 /-! Majorization bounds the energy of any balanced subset by its number of
 positions. No separate majorization assumption on the pruned lift is needed. -/

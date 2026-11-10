@@ -1,4 +1,8 @@
-import LRX.PairOrder
+module
+
+public import LRX.PairOrder
+
+@[expose] public section
 
 /-! A trace without repeated lifted pairs consists precisely of the pair orbits
 whose relative order differs between the initial and final configurations. -/

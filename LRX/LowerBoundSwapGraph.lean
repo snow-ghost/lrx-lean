@@ -1,4 +1,8 @@
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-! Algebraic part of the reflection swap-graph reduction.
 The hypotheses express parity of actual label-pair swaps. Establishing those

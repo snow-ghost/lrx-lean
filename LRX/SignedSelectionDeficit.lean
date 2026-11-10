@@ -1,5 +1,9 @@
-import LRX.CanonicalActivityDeficit
-import LRX.SourceGapSharpPayment
+module
+
+public import LRX.CanonicalActivityDeficit
+public import LRX.SourceGapSharpPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

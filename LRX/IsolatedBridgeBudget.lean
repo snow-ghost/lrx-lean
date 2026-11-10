@@ -1,4 +1,8 @@
-import LRX.IsolatedComponentGaps
+module
+
+public import LRX.IsolatedComponentGaps
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

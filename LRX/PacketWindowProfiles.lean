@@ -1,6 +1,10 @@
-import LRX.PacketWindowRoutes
-import LRX.WindowRightCycleSelection
-import LRX.NarrowWindowLift
+module
+
+public import LRX.PacketWindowRoutes
+public import LRX.WindowRightCycleSelection
+public import LRX.NarrowWindowLift
+
+@[expose] public section
 
 /-! Automatic profile discounts and both boundary lines for multi-cycle packets. -/
 namespace LRX.FiniteWindow

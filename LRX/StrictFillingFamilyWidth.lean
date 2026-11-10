@@ -1,5 +1,9 @@
-import LRX.TightFillingResource
-import LRX.FillingFamilyResource
+module
+
+public import LRX.TightFillingResource
+public import LRX.FillingFamilyResource
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

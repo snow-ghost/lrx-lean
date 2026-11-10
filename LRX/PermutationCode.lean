@@ -1,4 +1,8 @@
-import LRX.Graph
+module
+
+public import LRX.Graph
+
+@[expose] public section
 
 /-! A constructive enumeration of permutations. Checking one word per code
 avoids a quadratic search through a finite set of evaluated words. -/

@@ -1,4 +1,8 @@
-import LRX.PhysicalDescendingPrice
+module
+
+public import LRX.PhysicalDescendingPrice
+
+@[expose] public section
 
 namespace LRX.LiftedModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

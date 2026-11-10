@@ -1,4 +1,8 @@
-import LRX.FixedCorrectedDensity
+module
+
+public import LRX.FixedCorrectedDensity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

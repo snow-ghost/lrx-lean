@@ -1,4 +1,8 @@
-import LRX.ItineraryPorts
+module
+
+public import LRX.ItineraryPorts
+
+@[expose] public section
 
 /-! A finite service certificate records actual commands, exact delivered
 coordinates, rotation price, and every port visited by serviced arrows. It is

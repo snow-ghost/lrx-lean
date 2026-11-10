@@ -1,5 +1,9 @@
-import LRX.BalancedSubsetEnergy
-import Mathlib.Algebra.Order.Group.Int.Sum
+module
+
+public import LRX.BalancedSubsetEnergy
+public import Mathlib.Algebra.Order.Group.Int.Sum
+
+@[expose] public section
 
 /-! Exact subset capacity for injective integer coordinates in a finite
 interval. The endpoints need not be consecutive. -/

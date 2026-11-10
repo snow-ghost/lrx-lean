@@ -1,4 +1,8 @@
-import LRX.WindowReversalComponents
+module
+
+public import LRX.WindowReversalComponents
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

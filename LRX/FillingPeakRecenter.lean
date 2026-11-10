@@ -1,4 +1,8 @@
-import LRX.ComponentCutPeakInvariant
+module
+
+public import LRX.ComponentCutPeakInvariant
+
+@[expose] public section
 
 /-! M4: filling-cycle peak sums survive a canonical zero-cut recentering.
 This is separate from preservation of the global source peak. -/

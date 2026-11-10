@@ -1,4 +1,8 @@
-import LRX.ComponentDensityBound
+module
+
+public import LRX.ComponentDensityBound
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

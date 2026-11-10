@@ -1,4 +1,8 @@
-import LRX.RotationWords
+module
+
+public import LRX.RotationWords
+
+@[expose] public section
 
 /-! Recenter a phase lift at an arbitrary port. The local target is chosen so
 that paid entry and exit rotations recover the original visible permutation. -/

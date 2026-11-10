@@ -1,6 +1,10 @@
-import LRX.JointInternalExternalBudget
-import LRX.SourceGapFilling
-import LRX.FiniteGapPartition
+module
+
+public import LRX.JointInternalExternalBudget
+public import LRX.SourceGapFilling
+public import LRX.FiniteGapPartition
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

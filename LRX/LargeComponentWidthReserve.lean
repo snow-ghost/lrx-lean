@@ -1,4 +1,8 @@
-import LRX.LargeComponentBridgeReserve
+module
+
+public import LRX.LargeComponentBridgeReserve
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

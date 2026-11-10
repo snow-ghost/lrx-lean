@@ -1,5 +1,9 @@
-import LRX.PeakFourScalarSizes
-import LRX.PeakFourEmptyWindows
+module
+
+public import LRX.PeakFourScalarSizes
+public import LRX.PeakFourEmptyWindows
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

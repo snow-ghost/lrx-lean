@@ -1,4 +1,8 @@
-import LRX.TwoComponentPositiveGap
+module
+
+public import LRX.TwoComponentPositiveGap
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

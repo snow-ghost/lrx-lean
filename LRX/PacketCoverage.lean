@@ -1,4 +1,8 @@
-import LRX.PrunedReachability
+module
+
+public import LRX.PrunedReachability
+
+@[expose] public section
 
 /-! A root packet may contain several cycles. Every child is reached directly
 from the strongly connected core, followed by movement inside its own cycle. -/

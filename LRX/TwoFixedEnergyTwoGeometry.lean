@@ -1,5 +1,9 @@
-import LRX.AreaWindowSplitSquare
-import LRX.PrefixCoreBalancedEnergy
+module
+
+public import LRX.AreaWindowSplitSquare
+public import LRX.PrefixCoreBalancedEnergy
+
+@[expose] public section
 
 set_option maxHeartbeats 3000000
 namespace LRX.FiniteCuts

@@ -1,4 +1,8 @@
-import LRX.PrefixCoreEnergy
+module
+
+public import LRX.PrefixCoreEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

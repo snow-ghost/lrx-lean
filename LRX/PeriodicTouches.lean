@@ -1,5 +1,9 @@
-import LRX.PrunedReachability
-import LRX.ClosedReachableService
+module
+
+public import LRX.PrunedReachability
+public import LRX.ClosedReachableService
+
+@[expose] public section
 
 /-! A lifted arrow touches a periodic vertex according only to the relative
 residue of that vertex. This makes root-star coverage independent of the port. -/

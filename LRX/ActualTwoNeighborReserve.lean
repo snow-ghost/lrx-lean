@@ -1,6 +1,10 @@
-import LRX.TwoNeighborReserve
-import LRX.ShallowShellBoundaryJoin
-import LRX.OriginalShallowExteriorDeficit
+module
+
+public import LRX.TwoNeighborReserve
+public import LRX.ShallowShellBoundaryJoin
+public import LRX.OriginalShallowExteriorDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open ContractionBlocks.System RotationWords

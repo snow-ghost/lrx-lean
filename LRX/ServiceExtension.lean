@@ -1,4 +1,8 @@
-import LRX.ServiceCertificate
+module
+
+public import LRX.ServiceCertificate
+
+@[expose] public section
 
 /-! Insert an unserviced orbit at an already visited port. This increases the
 serviced set, preserves every old visit, and adds exactly that orbit's price. -/

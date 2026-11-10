@@ -1,4 +1,8 @@
-import LRX.PortEndpoints
+module
+
+public import LRX.PortEndpoints
+
+@[expose] public section
 
 /-! Read exact endpoints back in coordinates centered at the initial cursor. -/
 namespace LRX.LiftedModel

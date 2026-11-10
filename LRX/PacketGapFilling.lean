@@ -1,6 +1,10 @@
-import LRX.PacketGapConfinement
-import LRX.FiniteWindowRestriction
-import LRX.FiniteGapPacketWordBound
+module
+
+public import LRX.PacketGapConfinement
+public import LRX.FiniteWindowRestriction
+public import LRX.FiniteGapPacketWordBound
+
+@[expose] public section
 
 /-! The finite filling required by the gap-word theorem is derived from the
 absence of packet vertices in the open gap. -/

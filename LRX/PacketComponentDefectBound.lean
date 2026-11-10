@@ -1,6 +1,10 @@
-import LRX.UnitEnergyExactComponentDefects
-import LRX.CycleDefectMonotonicity
-import LRX.ExtractedPacketDefect
+module
+
+public import LRX.UnitEnergyExactComponentDefects
+public import LRX.CycleDefectMonotonicity
+public import LRX.ExtractedPacketDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

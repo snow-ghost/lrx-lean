@@ -1,5 +1,9 @@
-import LRX.PacketCoverage
-import LRX.ReflectedRootStar
+module
+
+public import LRX.PacketCoverage
+public import LRX.ReflectedRootStar
+
+@[expose] public section
 
 /-! Recenter and reflect reachability of the whole root packet, including
 paths between its different permutation cycles. -/

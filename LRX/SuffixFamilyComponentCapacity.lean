@@ -1,5 +1,9 @@
-import LRX.SuffixWindowPullback
-import LRX.ReversalFamilyComponentCapacity
+module
+
+public import LRX.SuffixWindowPullback
+public import LRX.ReversalFamilyComponentCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

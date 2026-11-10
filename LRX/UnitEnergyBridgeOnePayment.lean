@@ -1,5 +1,9 @@
-import LRX.UnitEnergyPeakTwoRigidity
-import LRX.OriginalZeroDefectShellPayment
+module
+
+public import LRX.UnitEnergyPeakTwoRigidity
+public import LRX.OriginalZeroDefectShellPayment
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

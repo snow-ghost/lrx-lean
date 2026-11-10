@@ -1,4 +1,8 @@
-import LRX.ComponentPeakCapacity
+module
+
+public import LRX.ComponentPeakCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

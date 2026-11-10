@@ -1,5 +1,9 @@
-import LRX.FiniteCycleAvailability
-import Mathlib.GroupTheory.Perm.Cycle.Factors
+module
+
+public import LRX.FiniteCycleAvailability
+public import Mathlib.GroupTheory.Perm.Cycle.Factors
+
+@[expose] public section
 
 /-! Cut loads add across disjoint cycles. This identifies the aggregate load
 with the cut load of the permutation, before choosing service ports. -/

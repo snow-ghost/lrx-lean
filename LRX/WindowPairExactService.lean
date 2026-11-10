@@ -1,8 +1,12 @@
-import LRX.ArbitraryFiniteRouteTransfer
-import LRX.OrderedPortRoute
-import LRX.ReversalPairCostSum
-import LRX.WindowComposition
-import LRX.ReflectedExactService
+module
+
+public import LRX.ArbitraryFiniteRouteTransfer
+public import LRX.OrderedPortRoute
+public import LRX.ReversalPairCostSum
+public import LRX.WindowComposition
+public import LRX.ReflectedExactService
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.NatCast Fin.CommRing

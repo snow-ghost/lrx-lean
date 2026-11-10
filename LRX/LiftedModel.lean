@@ -1,4 +1,8 @@
-import LRX.PhysicalModel
+module
+
+public import LRX.PhysicalModel
+
+@[expose] public section
 
 /-! Literal LRX execution with an integer cursor and integer positions of every
 named token. The position log records winding, including exchanges at the seam.

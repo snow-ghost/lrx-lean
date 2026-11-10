@@ -1,6 +1,10 @@
-import LRX.BlockExchange
-import Mathlib.Data.List.Perm.Basic
-import Mathlib.Data.List.Induction
+module
+
+public import LRX.BlockExchange
+public import Mathlib.Data.List.Perm.Basic
+public import Mathlib.Data.List.Induction
+
+@[expose] public section
 
 /-! Native reachability, without a bound on the length of its witness.
 Adjacent exchanges are lifted under prefixes, not native rotations of shorter lists. -/

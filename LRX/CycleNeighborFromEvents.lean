@@ -1,4 +1,8 @@
-import LRX.EventTreeRankNeighbor
+module
+
+public import LRX.EventTreeRankNeighbor
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

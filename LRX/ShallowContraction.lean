@@ -1,5 +1,9 @@
-import LRX.ContractionStructure
-import LRX.ShallowCutShift
+module
+
+public import LRX.ContractionStructure
+public import LRX.ShallowCutShift
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

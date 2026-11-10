@@ -1,4 +1,8 @@
-import LRX.ExactCycleEventFactorization
+module
+
+public import LRX.ExactCycleEventFactorization
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ}

@@ -1,4 +1,8 @@
-import LRX.FixedCountReflection
+module
+
+public import LRX.FixedCountReflection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.NatCast Fin.CommRing

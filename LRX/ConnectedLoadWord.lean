@@ -1,7 +1,11 @@
-import LRX.LoadComponentSet
-import LRX.PacketExactService
-import LRX.LoadComponentSet
-import LRX.ReducedRouteFrom
+module
+
+public import LRX.LoadComponentSet
+public import LRX.PacketExactService
+public import LRX.LoadComponentSet
+public import LRX.ReducedRouteFrom
+
+@[expose] public section
 
 /-! Paid words for a single connected load support and for individual
 components cut out of an arbitrary lift. -/

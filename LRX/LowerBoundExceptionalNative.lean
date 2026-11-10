@@ -1,7 +1,11 @@
-import LRX.LowerBoundExceptional
-import LRX.LowerBoundExceptionalCount
-import LRX.LowerBoundFourParity
-import Mathlib.Data.Finset.Card
+module
+
+public import LRX.LowerBoundExceptional
+public import LRX.LowerBoundExceptionalCount
+public import LRX.LowerBoundFourParity
+public import Mathlib.Data.Finset.Card
+
+@[expose] public section
 
 namespace LRX.LowerBoundExceptionalNative
 open LRX.BlockExchange LRX.LowerBoundNoRepeat LRX.LowerBoundSwapCount

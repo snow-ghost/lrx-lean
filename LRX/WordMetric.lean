@@ -1,4 +1,8 @@
-import LRX.Graph
+module
+
+public import LRX.Graph
+
+@[expose] public section
 
 namespace LRX
 

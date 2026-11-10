@@ -1,5 +1,9 @@
-import LRX.TwoWindowCycleDefect
-import LRX.PrunedPartition
+module
+
+public import LRX.TwoWindowCycleDefect
+public import LRX.PrunedPartition
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

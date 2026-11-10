@@ -1,4 +1,8 @@
-import LRX.ShallowSelectedPhysicalBound
+module
+
+public import LRX.ShallowSelectedPhysicalBound
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks
 variable {r : ℕ}

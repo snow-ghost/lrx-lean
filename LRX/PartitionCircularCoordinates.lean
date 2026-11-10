@@ -1,5 +1,9 @@
-import LRX.CircularArcCoordinates
-import LRX.ConsecutivePacketGap
+module
+
+public import LRX.CircularArcCoordinates
+public import LRX.ConsecutivePacketGap
+
+@[expose] public section
 
 /-! The final linear gap ends at n; its circular right endpoint is zero. -/
 namespace LRX.FiniteGaps

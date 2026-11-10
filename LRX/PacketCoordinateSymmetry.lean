@@ -1,5 +1,9 @@
-import LRX.PacketPortSymmetry
-import LRX.BalancedSubsetEnergy
+module
+
+public import LRX.PacketPortSymmetry
+public import LRX.BalancedSubsetEnergy
+
+@[expose] public section
 
 /-! Coordinate changes preserve majorization and the entire strongly
 connected root packet. -/

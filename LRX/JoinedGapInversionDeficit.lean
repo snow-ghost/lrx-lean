@@ -1,5 +1,9 @@
-import LRX.JoinedInternalGapWord
-import LRX.GapCostInversionDeficit
+module
+
+public import LRX.JoinedInternalGapWord
+public import LRX.GapCostInversionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

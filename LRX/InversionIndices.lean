@@ -1,4 +1,8 @@
-import LRX.TraceInversions
+module
+
+public import LRX.TraceInversions
+
+@[expose] public section
 
 /-! Finite copy-index intervals for the inversions of one periodic pair. -/
 namespace LRX.LiftedModel

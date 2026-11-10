@@ -1,4 +1,8 @@
-import LRX.ProtectedContractionTrace
+module
+
+public import LRX.ProtectedContractionTrace
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

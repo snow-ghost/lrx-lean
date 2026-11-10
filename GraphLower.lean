@@ -1,8 +1,12 @@
-import GraphBridge
-import Reachability
-import LRX.LowerBoundNativeComplete
-import Mathlib.Combinatorics.SimpleGraph.Diam
-import Mathlib.Data.List.Permutation
+module
+
+public import GraphBridge
+public import Reachability
+public import LRX.LowerBoundNativeComplete
+public import Mathlib.Combinatorics.SimpleGraph.Diam
+public import Mathlib.Data.List.Permutation
+
+@[expose] public section
 
 namespace LRX.GraphBridge
 open LRX.BlockExchange

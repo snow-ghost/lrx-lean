@@ -1,4 +1,8 @@
-import LRX.PrunedLift
+module
+
+public import LRX.PrunedLift
+
+@[expose] public section
 
 /-! The retained and removed unions of cycles partition both the permutation
 and every integer displacement, with disjoint physical targets. -/

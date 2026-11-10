@@ -1,4 +1,8 @@
-import LRX.FiniteComponentRoots
+module
+
+public import LRX.FiniteComponentRoots
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n k : ℕ} [NeZero n]

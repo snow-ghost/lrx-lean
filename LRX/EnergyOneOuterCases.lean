@@ -1,22 +1,26 @@
-import LRX.EnergyOneChunks.Chunk0
-import LRX.EnergyOneChunks.Chunk1
-import LRX.EnergyOneChunks.Chunk2
-import LRX.EnergyOneChunks.Chunk3
-import LRX.EnergyOneChunks.Chunk4
-import LRX.EnergyOneChunks.Chunk5
-import LRX.EnergyOneChunks.Chunk6
-import LRX.EnergyOneChunks.Chunk7
-import LRX.EnergyOneChunks.Chunk8
-import LRX.EnergyOneChunks.Chunk9
-import LRX.EnergyOneChunks.Chunk10
-import LRX.EnergyOneChunks.Chunk11
-import LRX.EnergyOneChunks.Chunk12
-import LRX.EnergyOneChunks.Chunk13
-import LRX.EnergyOneChunks.Chunk14
-import LRX.EnergyOneChunks.Chunk15
-import LRX.EnergyOneChunks.Chunk16
-import LRX.EnergyOneChunks.Chunk17
-import LRX.EnergyOneChunks.Chunk18
+module
+
+public import LRX.EnergyOneChunks.Chunk0
+public import LRX.EnergyOneChunks.Chunk1
+public import LRX.EnergyOneChunks.Chunk2
+public import LRX.EnergyOneChunks.Chunk3
+public import LRX.EnergyOneChunks.Chunk4
+public import LRX.EnergyOneChunks.Chunk5
+public import LRX.EnergyOneChunks.Chunk6
+public import LRX.EnergyOneChunks.Chunk7
+public import LRX.EnergyOneChunks.Chunk8
+public import LRX.EnergyOneChunks.Chunk9
+public import LRX.EnergyOneChunks.Chunk10
+public import LRX.EnergyOneChunks.Chunk11
+public import LRX.EnergyOneChunks.Chunk12
+public import LRX.EnergyOneChunks.Chunk13
+public import LRX.EnergyOneChunks.Chunk14
+public import LRX.EnergyOneChunks.Chunk15
+public import LRX.EnergyOneChunks.Chunk16
+public import LRX.EnergyOneChunks.Chunk17
+public import LRX.EnergyOneChunks.Chunk18
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

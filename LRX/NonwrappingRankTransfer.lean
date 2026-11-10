@@ -1,4 +1,8 @@
-import LRX.DescendingIntegerWindow
+module
+
+public import LRX.DescendingIntegerWindow
+
+@[expose] public section
 
 namespace LRX.PhysicalModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

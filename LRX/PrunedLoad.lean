@@ -1,6 +1,10 @@
-import LRX.FiniteRootStar
-import LRX.ReducedServiceRoute
-import LRX.PrunedPartition
+module
+
+public import LRX.FiniteRootStar
+public import LRX.ReducedServiceRoute
+public import LRX.PrunedPartition
+
+@[expose] public section
 
 /-! Deleting canonical finite cycles away from the root preserves the root
 port load. Thus the root discount remains available to the retained service. -/

@@ -1,5 +1,9 @@
-import LRX.CycleLeafInsertion
-import LRX.PrefixRootPacketSupport
+module
+
+public import LRX.CycleLeafInsertion
+public import LRX.PrefixRootPacketSupport
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ}

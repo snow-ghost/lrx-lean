@@ -1,4 +1,8 @@
-import LRX.FourFixedPeakGeometry
+module
+
+public import LRX.FourFixedPeakGeometry
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

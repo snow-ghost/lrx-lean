@@ -1,4 +1,8 @@
-import LRX.AffineCrossings
+module
+
+public import LRX.AffineCrossings
+
+@[expose] public section
 
 /-! A zero-displacement phase lift is an actual rotation. Its final rotation
 is explicitly paid by an LRX word of length at most n-1. -/

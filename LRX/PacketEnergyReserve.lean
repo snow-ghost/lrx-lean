@@ -1,4 +1,8 @@
-import LRX.PacketComplementEnergy
+module
+
+public import LRX.PacketComplementEnergy
+
+@[expose] public section
 
 /-! The packet reserve H in the connected-branch arithmetic is a quantity of
 the original lift. Both geometric lower bounds are derived here. -/

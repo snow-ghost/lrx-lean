@@ -1,6 +1,10 @@
-import LRX.NineShellCertificate
-import LRX.NineShellShape
-import LRX.TwoPrunedPartsDefect
+module
+
+public import LRX.NineShellCertificate
+public import LRX.NineShellShape
+public import LRX.TwoPrunedPartsDefect
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

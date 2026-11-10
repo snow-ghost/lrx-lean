@@ -1,4 +1,8 @@
-import LRX.CoupledPeakCutoff
+module
+
+public import LRX.CoupledPeakCutoff
+
+@[expose] public section
 
 namespace CoupledPeakCutoff
 theorem coupled_residual_precise_cutoff (m p t U eps a r S2 : ℤ)

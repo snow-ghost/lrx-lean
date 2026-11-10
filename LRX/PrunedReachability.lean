@@ -1,4 +1,8 @@
-import LRX.PrunedLift
+module
+
+public import LRX.PrunedLift
+
+@[expose] public section
 
 /-! A root star remains connected after deleting any union of leaf cycles.
 The intermediate vertices stay in the root or the retained target cycle. -/

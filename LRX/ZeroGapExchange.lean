@@ -1,4 +1,8 @@
-import LRX.ZeroGapCentered
+module
+
+public import LRX.ZeroGapCentered
+
+@[expose] public section
 
 /-! Swapping the endpoints of a zero gap gives a balanced shorter lift.
 The exact drop in displacement mass is twice the gap length. -/

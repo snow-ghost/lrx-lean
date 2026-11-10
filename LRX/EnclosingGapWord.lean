@@ -1,7 +1,11 @@
-import LRX.EnclosingWindowRightRoute
-import LRX.CanonicalWindowBoundaryLoad
-import LRX.ReversalCombinedPrice
-import LRX.EnclosingCycleLoads
+module
+
+public import LRX.EnclosingWindowRightRoute
+public import LRX.CanonicalWindowBoundaryLoad
+public import LRX.ReversalCombinedPrice
+public import LRX.EnclosingCycleLoads
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators Fin.CommRing

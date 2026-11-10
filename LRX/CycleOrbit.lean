@@ -1,4 +1,8 @@
-import LRX.CyclicService
+module
+
+public import LRX.CyclicService
+
+@[expose] public section
 
 /-! Canonical finite orbit data for any target permutation, rather than only a
 permutation consisting of one cycle. The orbit is invariant under the target. -/

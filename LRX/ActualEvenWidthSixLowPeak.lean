@@ -1,5 +1,9 @@
-import LRX.EvenWidthSixLowExclusion
-import LRX.EvenWidthSixArrowCertificate
+module
+
+public import LRX.EvenWidthSixLowExclusion
+public import LRX.EvenWidthSixArrowCertificate
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

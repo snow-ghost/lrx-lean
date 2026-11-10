@@ -1,4 +1,8 @@
-import LRX.CircularOrderedRoute
+module
+
+public import LRX.CircularOrderedRoute
+
+@[expose] public section
 
 /-! M4's exceptional three-service route. The circle metric statement is
 valid at every size and for three arbitrary ports, including repeated ones.

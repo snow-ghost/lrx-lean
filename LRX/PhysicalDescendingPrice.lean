@@ -1,5 +1,9 @@
-import LRX.PhysicalRankDescending
-import LRX.FiniteAdjacentInversions
+module
+
+public import LRX.PhysicalRankDescending
+public import LRX.FiniteAdjacentInversions
+
+@[expose] public section
 
 namespace LRX.PhysicalModel
 variable {n : ℕ} [NeZero n]

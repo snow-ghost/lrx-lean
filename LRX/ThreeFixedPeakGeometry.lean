@@ -1,4 +1,8 @@
-import LRX.TwoComponentReducedPeak
+module
+
+public import LRX.TwoComponentReducedPeak
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 

@@ -1,5 +1,9 @@
-import LRX.ZeroGapActivityBound
-import LRX.FirstGapSharpWord
+module
+
+public import LRX.ZeroGapActivityBound
+public import LRX.FirstGapSharpWord
+
+@[expose] public section
 
 /-! Zero-gap sorting and majorization give a nonnegative exchange reserve
 for every input lift. The stronger source-packet reserve remains separate. -/

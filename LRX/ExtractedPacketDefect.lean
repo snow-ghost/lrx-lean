@@ -1,5 +1,9 @@
-import LRX.ConnectedEventDefect
-import LRX.PacketCoreBalance
+module
+
+public import LRX.ConnectedEventDefect
+public import LRX.PacketCoreBalance
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

@@ -1,5 +1,9 @@
-import LRX.FiniteRetainedPacket
-import LRX.PacketExactService
+module
+
+public import LRX.FiniteRetainedPacket
+public import LRX.PacketExactService
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

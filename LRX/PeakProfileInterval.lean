@@ -1,5 +1,9 @@
-import LRX.FinitePeakProfile
-import LRX.ScalarIntervalCertificate
+module
+
+public import LRX.FinitePeakProfile
+public import LRX.ScalarIntervalCertificate
+
+@[expose] public section
 
 /-! M4: interval certificates reject a scalar profile while retaining its actual x. -/
 namespace LRX.FinitePeak.Profile

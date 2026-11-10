@@ -1,5 +1,9 @@
-import LRX.ZeroGapComponentCounting
-import LRX.ExchangeReserveNonnegative
+module
+
+public import LRX.ZeroGapComponentCounting
+public import LRX.ExchangeReserveNonnegative
+
+@[expose] public section
 
 /-! The source-packet exchange reserve follows from the actual sorting
 component, its edge count, and the majorized active-set energy bound. -/

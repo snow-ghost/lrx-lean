@@ -1,5 +1,9 @@
-import LRX.PacketGapConfinement
-import LRX.FiniteRemovalBalance
+module
+
+public import LRX.PacketGapConfinement
+public import LRX.FiniteRemovalBalance
+
+@[expose] public section
 
 /-! The source packet is balanced even when the load covers the full circle:
 all cycles outside it have canonical endpoints after cutting at the root. -/

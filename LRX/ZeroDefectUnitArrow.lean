@@ -1,5 +1,9 @@
-import LRX.InnermostEventComponent
-import LRX.EventDefectParity
+module
+
+public import LRX.InnermostEventComponent
+public import LRX.EventDefectParity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

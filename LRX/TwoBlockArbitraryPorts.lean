@@ -1,5 +1,9 @@
-import LRX.TwoBlockOuterRoute
-import LRX.PortApproachWord
+module
+
+public import LRX.TwoBlockOuterRoute
+public import LRX.PortApproachWord
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

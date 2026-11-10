@@ -1,4 +1,8 @@
-import LRX.ActualPeakFourSizes
+module
+
+public import LRX.ActualPeakFourSizes
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

@@ -1,6 +1,10 @@
-import LRX.FiniteFillingEnergyBounds
-import LRX.TwoWindowCycleDefect
-import LRX.GapCostInversionDeficit
+module
+
+public import LRX.FiniteFillingEnergyBounds
+public import LRX.TwoWindowCycleDefect
+public import LRX.GapCostInversionDeficit
+
+@[expose] public section
 
 /-! M4: resource inequalities for actual finite filling permutations.
 All peaks, ranks and defects are calculated from the permutation. -/

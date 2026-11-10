@@ -1,7 +1,11 @@
-import LRX.SignedSelectionDeficit
-import LRX.ZeroEnergyPeakRigidity
-import LRX.UnitEnergyNoUnitArrows
-import LRX.EventDefectParity
+module
+
+public import LRX.SignedSelectionDeficit
+public import LRX.ZeroEnergyPeakRigidity
+public import LRX.UnitEnergyNoUnitArrows
+public import LRX.EventDefectParity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

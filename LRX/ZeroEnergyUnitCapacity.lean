@@ -1,4 +1,8 @@
-import LRX.SignedSelectionDeficit
+module
+
+public import LRX.SignedSelectionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

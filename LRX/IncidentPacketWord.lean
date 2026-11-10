@@ -1,5 +1,9 @@
-import LRX.ConnectedLoadWord
-import LRX.PacketExactService
+module
+
+public import LRX.ConnectedLoadWord
+public import LRX.PacketExactService
+
+@[expose] public section
 
 namespace LRX.RotationWords
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

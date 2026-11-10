@@ -1,4 +1,8 @@
-import LRX.PositiveWindowWidth
+module
+
+public import LRX.PositiveWindowWidth
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords

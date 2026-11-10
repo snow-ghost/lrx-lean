@@ -1,5 +1,9 @@
-import LRX.PeakFourNoFillings
-import LRX.ExceptionalSourcePeakRoute
+module
+
+public import LRX.PeakFourNoFillings
+public import LRX.ExceptionalSourcePeakRoute
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

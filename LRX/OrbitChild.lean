@@ -1,5 +1,9 @@
-import LRX.ChildService
-import LRX.CycleOrbit
+module
+
+public import LRX.ChildService
+public import LRX.CycleOrbit
+
+@[expose] public section
 
 /-! A canonical paid child call for one cycle of an arbitrary target permutation.
 Individual cycle winding may be nonzero. The input parent is outside this cycle. -/

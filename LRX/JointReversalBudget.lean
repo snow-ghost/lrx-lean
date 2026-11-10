@@ -1,4 +1,8 @@
-import LRX.ReversalWindowFamily
+module
+
+public import LRX.ReversalWindowFamily
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

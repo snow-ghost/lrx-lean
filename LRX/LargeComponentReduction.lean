@@ -1,5 +1,9 @@
-import LRX.SmallComponentSharpWord
-import LRX.MaximalCanonicalReduction
+module
+
+public import LRX.SmallComponentSharpWord
+public import LRX.MaximalCanonicalReduction
+
+@[expose] public section
 
 namespace LRX
 

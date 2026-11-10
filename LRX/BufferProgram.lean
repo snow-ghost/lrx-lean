@@ -1,4 +1,8 @@
-import LRX.BufferMachine
+module
+
+public import LRX.BufferMachine
+
+@[expose] public section
 
 /-! A certified compiler of legal periodic-buffer programs into literal LRX
 words. Integer positions are preserved; rotations and exchanges are counted

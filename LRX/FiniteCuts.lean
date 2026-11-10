@@ -1,4 +1,8 @@
-import LRX.Graph
+module
+
+public import LRX.Graph
+
+@[expose] public section
 
 /-! Real cut crossings of a finite permutation. Forward and backward crossings
 balance, and the half-load is bounded by the two side capacities. -/

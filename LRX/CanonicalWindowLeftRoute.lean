@@ -1,5 +1,9 @@
-import LRX.CanonicalWindowPacketData
-import LRX.SpanRankTransfer
+module
+
+public import LRX.CanonicalWindowPacketData
+public import LRX.SpanRankTransfer
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

@@ -1,5 +1,9 @@
-import LRX.LiftedModel
-import LRX.PeriodicBuffer
+module
+
+public import LRX.LiftedModel
+public import LRX.PeriodicBuffer
+
+@[expose] public section
 
 /-! Exact periodic buffer macros connected to the literal lifted LRX executor.
 The buffer identity, integer logical positions and integer head are retained. -/

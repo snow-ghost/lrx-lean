@@ -1,5 +1,9 @@
-import LRX.JoinedSourcePeak
-import LRX.PeakServiceArcPartition
+module
+
+public import LRX.JoinedSourcePeak
+public import LRX.PeakServiceArcPartition
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

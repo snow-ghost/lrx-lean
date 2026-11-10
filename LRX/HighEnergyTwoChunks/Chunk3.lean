@@ -1,4 +1,8 @@
-import LRX.HighEnergyTwoRows
+module
+
+public import LRX.HighEnergyTwoRows
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 set_option maxRecDepth 10000

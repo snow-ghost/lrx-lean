@@ -1,5 +1,9 @@
-import LRX.PortEndpointInverse
-import LRX.ReducedServiceRoute
+module
+
+public import LRX.PortEndpointInverse
+public import LRX.ReducedServiceRoute
+
+@[expose] public section
 
 /-! Affine reduction for a service route with arbitrary initial cursor.
 The inversion price remains that of the original balanced lift. -/

@@ -1,5 +1,9 @@
-import LRX.ContractionArrowSigns
-import LRX.FiniteCoordinateCapacity
+module
+
+public import LRX.ContractionArrowSigns
+public import LRX.FiniteCoordinateCapacity
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

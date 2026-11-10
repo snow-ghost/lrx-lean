@@ -1,6 +1,10 @@
-import LRX.TwoPrunedPartsDefect
-import LRX.SourcePacketCyclePartition
-import LRX.PrefixFillingSize
+module
+
+public import LRX.TwoPrunedPartsDefect
+public import LRX.SourcePacketCyclePartition
+public import LRX.PrefixFillingSize
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

@@ -1,6 +1,10 @@
-import LRX.ThreeOuterEnergyExclusion
-import LRX.ExternalExactEnergyFilter
-import LRX.ActualPeakCountThree
+module
+
+public import LRX.ThreeOuterEnergyExclusion
+public import LRX.ExternalExactEnergyFilter
+public import LRX.ActualPeakCountThree
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

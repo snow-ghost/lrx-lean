@@ -1,5 +1,9 @@
-import LRX.PortLoad
-import LRX.RecenteredCrossings
+module
+
+public import LRX.PortLoad
+public import LRX.RecenteredCrossings
+
+@[expose] public section
 
 /-! Literal composition of closed services along a paid cursor route. The
 permutation product, all letters, and both ends of every move are accounted for. -/

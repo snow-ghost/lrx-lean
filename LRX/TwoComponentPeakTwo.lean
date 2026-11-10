@@ -1,5 +1,9 @@
-import LRX.TwoComponentDefectSum
-import LRX.StrongPacketEventBudget
+module
+
+public import LRX.TwoComponentDefectSum
+public import LRX.StrongPacketEventBudget
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

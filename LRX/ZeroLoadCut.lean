@@ -1,6 +1,10 @@
-import LRX.LoadedFootprint
-import LRX.FiniteRootStar
-import LRX.ReducedServiceRoute
+module
+
+public import LRX.LoadedFootprint
+public import LRX.FiniteRootStar
+public import LRX.ReducedServiceRoute
+
+@[expose] public section
 
 /-! A zero-load cut at the end of a finite indexing interval forces the
 original lifted endpoints to be the canonical finite endpoints. -/

@@ -1,6 +1,10 @@
-import LRX.CapacityEqualityReflectionAtZero
-import LRX.RecenteredCrossings
-import LRX.PacketCoordinateSymmetry
+module
+
+public import LRX.CapacityEqualityReflectionAtZero
+public import LRX.RecenteredCrossings
+public import LRX.PacketCoordinateSymmetry
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

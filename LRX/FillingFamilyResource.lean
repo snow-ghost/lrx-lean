@@ -1,5 +1,9 @@
-import LRX.FiniteFillingResource
-import LRX.ReversalWindowFamily
+module
+
+public import LRX.FiniteFillingResource
+public import LRX.ReversalWindowFamily
+
+@[expose] public section
 
 /-! M4 resource filters summed over actual finite filling windows.
 The sole external numerical input is the upper budget on this same family. -/

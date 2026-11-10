@@ -1,4 +1,8 @@
-import LRX.LowerBoundSwapCount
+module
+
+public import LRX.LowerBoundSwapCount
+
+@[expose] public section
 
 /-! Filtered cyclic adjacency formulation of one-run color contiguity.
 All events refer to the original actual LRX word. -/

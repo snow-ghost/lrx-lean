@@ -1,5 +1,9 @@
-import LRX.EventComponentRestriction
-import LRX.ShallowNeighborSplice
+module
+
+public import LRX.EventComponentRestriction
+public import LRX.ShallowNeighborSplice
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

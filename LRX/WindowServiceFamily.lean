@@ -1,5 +1,9 @@
-import LRX.WindowPeakService
-import LRX.WindowComposition
+module
+
+public import LRX.WindowPeakService
+public import LRX.WindowComposition
+
+@[expose] public section
 
 /-! Assemble local cycles as exact ambient services without changing their
 local prices. Products and integer displacement lists are retained explicitly. -/

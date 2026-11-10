@@ -1,4 +1,8 @@
-import LRX.BridgeInteriorCard
+module
+
+public import LRX.BridgeInteriorCard
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

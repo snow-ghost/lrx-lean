@@ -1,4 +1,8 @@
-import LRX.CycleLeafInsertion
+module
+
+public import LRX.CycleLeafInsertion
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ}

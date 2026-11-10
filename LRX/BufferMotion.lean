@@ -1,4 +1,8 @@
-import LRX.BufferProgram
+module
+
+public import LRX.BufferProgram
+
+@[expose] public section
 
 /-! Compile any signed integer buffer displacement into paid moves. This is an
 executable construction for arbitrary distances, with exact logical and physical

@@ -1,6 +1,10 @@
-import LRX.FiniteAggregatePacketFamily
-import LRX.WindowFamilyBridge
-import LRX.WindowReachability
+module
+
+public import LRX.FiniteAggregatePacketFamily
+public import LRX.WindowFamilyBridge
+public import LRX.WindowReachability
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

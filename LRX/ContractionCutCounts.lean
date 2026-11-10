@@ -1,5 +1,9 @@
-import LRX.ContractionCutFlux
-import LRX.ShallowSelectedRankBound
+module
+
+public import LRX.ContractionCutFlux
+public import LRX.ShallowSelectedRankBound
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks.System
 open scoped BigOperators

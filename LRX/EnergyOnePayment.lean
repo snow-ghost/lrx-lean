@@ -1,8 +1,12 @@
-import LRX.ActualEnergyOneCases
-import LRX.ActualHighEnergyExclusion
-import LRX.EnergyOneParity
-import LRX.ZeroEnergyManyComponentPayment
-import LRX.EnergyOneCriticalExclusion
+module
+
+public import LRX.ActualEnergyOneCases
+public import LRX.ActualHighEnergyExclusion
+public import LRX.EnergyOneParity
+public import LRX.ZeroEnergyManyComponentPayment
+public import LRX.EnergyOneCriticalExclusion
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords FiniteWindow

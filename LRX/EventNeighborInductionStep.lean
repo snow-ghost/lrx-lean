@@ -1,4 +1,8 @@
-import LRX.SingletonNeighborStep
+module
+
+public import LRX.SingletonNeighborStep
+
+@[expose] public section
 
 namespace LRX.ZeroGap
 variable {n : ℕ} [NeZero n]

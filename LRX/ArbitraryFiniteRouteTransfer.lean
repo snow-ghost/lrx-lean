@@ -1,5 +1,9 @@
-import LRX.ArbitraryPortRankTransfer
-import LRX.FiniteRouteRankTransfer
+module
+
+public import LRX.ArbitraryPortRankTransfer
+public import LRX.FiniteRouteRankTransfer
+
+@[expose] public section
 
 namespace LRX.LiftedModel
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

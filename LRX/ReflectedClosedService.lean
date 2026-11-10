@@ -1,4 +1,8 @@
-import LRX.ReflectedPortLoad
+module
+
+public import LRX.ReflectedPortLoad
+
+@[expose] public section
 
 /-! Reflected closed services are genuine route tasks at the opposite ports,
 with identical letter counts and no extra coordinate-change cost. -/

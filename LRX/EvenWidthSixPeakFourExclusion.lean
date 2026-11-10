@@ -1,5 +1,9 @@
-import LRX.EvenWidthSixPeakFour
-import LRX.FinitePeakProfile
+module
+
+public import LRX.EvenWidthSixPeakFour
+public import LRX.FinitePeakProfile
+
+@[expose] public section
 
 namespace LRX.FinitePeak
 

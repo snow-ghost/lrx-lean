@@ -1,4 +1,8 @@
-import LRX.EventNeighborInductionStep
+module
+
+public import LRX.EventNeighborInductionStep
+
+@[expose] public section
 
 /-! Rank neighbors from minimal separated event trees, without an external
 classification of shallow cycles. The bridge from shallow defect to this

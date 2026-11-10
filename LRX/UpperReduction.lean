@@ -1,5 +1,9 @@
-import LRX.ZeroLift
-import LRX.ExactDiameter
+module
+
+public import LRX.ZeroLift
+public import LRX.ExactDiameter
+
+@[expose] public section
 
 /-! Reduction of the upper bound to routing of nonzero majorized lifts.
 Phase selection and normalization are proved from the input permutation; the

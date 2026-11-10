@@ -1,6 +1,10 @@
-import LRX.ComponentInterval
-import LRX.LoadComponentPartition
-import LRX.JoinedSourcePeak
+module
+
+public import LRX.ComponentInterval
+public import LRX.LoadComponentPartition
+public import LRX.JoinedSourcePeak
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

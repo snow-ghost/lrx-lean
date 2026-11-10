@@ -1,5 +1,9 @@
-import LRX.FiniteDepthRank
-import LRX.ShallowContraction
+module
+
+public import LRX.FiniteDepthRank
+public import LRX.ShallowContraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

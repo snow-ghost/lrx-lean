@@ -1,5 +1,9 @@
-import LRX.SourceGapReversalFamily
-import LRX.ComponentInterval
+module
+
+public import LRX.SourceGapReversalFamily
+public import LRX.ComponentInterval
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

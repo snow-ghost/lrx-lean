@@ -1,4 +1,8 @@
-import LRX.ActualExteriorPairSigns
+module
+
+public import LRX.ActualExteriorPairSigns
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

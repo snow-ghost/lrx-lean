@@ -1,5 +1,9 @@
-import LRX.ActualShellWidths
-import LRX.ActualShellInternalGeometry
+module
+
+public import LRX.ActualShellWidths
+public import LRX.ActualShellInternalGeometry
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow

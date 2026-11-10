@@ -1,5 +1,9 @@
-import LRX.PacketCoordinateSymmetry
-import LRX.ConsecutivePacketGap
+module
+
+public import LRX.PacketCoordinateSymmetry
+public import LRX.ConsecutivePacketGap
+
+@[expose] public section
 
 /-! Sharp internal-gap words at any physical root, including gaps crossing
 position zero. All coordinates used to order cursors are relative to the root. -/

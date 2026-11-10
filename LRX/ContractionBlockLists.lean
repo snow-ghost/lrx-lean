@@ -1,4 +1,8 @@
-import LRX.ContractionStructure
+module
+
+public import LRX.ContractionStructure
+
+@[expose] public section
 
 namespace LRX.ContractionBlocks
 variable {m k : ℕ}

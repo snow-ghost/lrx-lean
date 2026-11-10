@@ -1,5 +1,9 @@
-import LRX.LargeComponentBridgeReserve
-import LRX.JoinedGapInversionDeficit
+module
+
+public import LRX.LargeComponentBridgeReserve
+public import LRX.JoinedGapInversionDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

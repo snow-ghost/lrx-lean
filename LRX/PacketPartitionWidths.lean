@@ -1,4 +1,8 @@
-import LRX.PacketGapMass
+module
+
+public import LRX.PacketGapMass
+
+@[expose] public section
 
 /-! Every visited gap in the actual partition has strictly less than half
 of the physical circle between its boundary vertices. -/

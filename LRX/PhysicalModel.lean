@@ -1,4 +1,8 @@
-import LRX.ZeroLift
+module
+
+public import LRX.ZeroLift
+
+@[expose] public section
 
 /-! Physical positions, a paid cursor, and literal L/R/X words.
 Every physical operation is proved to induce the same visible generator.

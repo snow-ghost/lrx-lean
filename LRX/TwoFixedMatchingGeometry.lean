@@ -1,4 +1,8 @@
-import LRX.WindowMatchingReflection
+module
+
+public import LRX.WindowMatchingReflection
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

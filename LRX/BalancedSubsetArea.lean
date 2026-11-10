@@ -1,5 +1,9 @@
-import LRX.FiniteFillingEnergyBounds
-import LRX.BalancedSubsetEnergy
+module
+
+public import LRX.FiniteFillingEnergyBounds
+public import LRX.BalancedSubsetEnergy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

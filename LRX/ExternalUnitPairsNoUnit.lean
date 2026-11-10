@@ -1,5 +1,9 @@
-import LRX.ZeroEnergyUnitCapacity
-import LRX.ExteriorUnitPairRigidity
+module
+
+public import LRX.ZeroEnergyUnitCapacity
+public import LRX.ExteriorUnitPairRigidity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

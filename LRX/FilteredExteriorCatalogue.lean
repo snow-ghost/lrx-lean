@@ -1,5 +1,9 @@
-import LRX.LocalPairSignCheck
-import LRX.FinitePeakEnumeration
+module
+
+public import LRX.LocalPairSignCheck
+public import LRX.FinitePeakEnumeration
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 

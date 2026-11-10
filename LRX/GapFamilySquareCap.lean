@@ -1,6 +1,10 @@
-import LRX.PartitionComplementEnergy
-import Research.CayleyPy.ConnectedComplementCap
-import Research.CayleyPy.RootGapArithmetic
+module
+
+public import LRX.PartitionComplementEnergy
+public import Research.CayleyPy.ConnectedComplementCap
+public import Research.CayleyPy.RootGapArithmetic
+
+@[expose] public section
 
 /-! The connected square cap for an actual finite family of gap sizes.
 The dominant gap is selected from the family and all other squares are summed. -/

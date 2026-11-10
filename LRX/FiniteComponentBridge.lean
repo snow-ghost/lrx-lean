@@ -1,5 +1,9 @@
-import LRX.ArbitraryFiniteRouteTransfer
-import LRX.ShallowContraction
+module
+
+public import LRX.ArbitraryFiniteRouteTransfer
+public import LRX.ShallowContraction
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

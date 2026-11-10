@@ -1,5 +1,9 @@
-import LRX.AreaCorePartition
-import LRX.ComponentPeakCapacity
+module
+
+public import LRX.AreaCorePartition
+public import LRX.ComponentPeakCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

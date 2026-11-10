@@ -1,4 +1,8 @@
-import LRX.LowerBoundPaidProjection
+module
+
+public import LRX.LowerBoundPaidProjection
+
+@[expose] public section
 
 /-! Actual X-budget in the same physical two-arc model. Integer inversion
 potentials count every swap, including descending or repeated exchanges. -/

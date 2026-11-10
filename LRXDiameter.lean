@@ -1,4 +1,8 @@
-import LRX.SharpDiameterAll
+module
+
+public import LRX.SharpDiameterAll
+
+@[expose] public section
 
 /-!
 # Exact diameter of the LRX Cayley graph

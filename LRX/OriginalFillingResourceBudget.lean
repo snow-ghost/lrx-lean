@@ -1,7 +1,11 @@
-import LRX.WindowCyclePeakFamily
-import LRX.FillingPeakRecenter
-import LRX.LargeComponentNumericReserve
-import LRX.PeakReserveBound
+module
+
+public import LRX.WindowCyclePeakFamily
+public import LRX.FillingPeakRecenter
+public import LRX.LargeComponentNumericReserve
+public import LRX.PeakReserveBound
+
+@[expose] public section
 
 /-! M4: the real kappa budget follows from original unpaid peak data and C7.
 The normalized windows and the original route are linked by filling-peak invariance. -/

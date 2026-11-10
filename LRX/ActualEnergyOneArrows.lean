@@ -1,5 +1,9 @@
-import LRX.EnergyOneArrowCertificate
-import LRX.ExternalFixedPositionsExhaust
+module
+
+public import LRX.EnergyOneArrowCertificate
+public import LRX.ExternalFixedPositionsExhaust
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

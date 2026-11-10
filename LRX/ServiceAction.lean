@@ -1,4 +1,8 @@
-import LRX.PortEndpoints
+module
+
+public import LRX.PortEndpoints
+
+@[expose] public section
 
 /-! Transfer a service endpoint contract to an arbitrary physical state.
 This retains integer positions, including previous winding of every token. -/

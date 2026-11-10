@@ -1,4 +1,8 @@
-import LRX.WindowReversalServiceFamily
+module
+
+public import LRX.WindowReversalServiceFamily
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

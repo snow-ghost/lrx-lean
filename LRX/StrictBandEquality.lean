@@ -1,4 +1,8 @@
-import LRX.StrictBandInversionCapacity
+module
+
+public import LRX.StrictBandInversionCapacity
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

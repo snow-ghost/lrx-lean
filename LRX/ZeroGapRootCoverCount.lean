@@ -1,4 +1,8 @@
-import LRX.ZeroGapComponentSize
+module
+
+public import LRX.ZeroGapComponentSize
+
+@[expose] public section
 
 /-! If a list of roots meets every event component, the number of vertices
 is at most the number of exchange events plus the number of roots. -/

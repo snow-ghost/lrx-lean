@@ -1,6 +1,10 @@
-import LRX.WindowFamilyBridge
-import LRX.PacketRootChildrenRoutes
-import LRX.WindowReachability
+module
+
+public import LRX.WindowFamilyBridge
+public import LRX.PacketRootChildrenRoutes
+public import LRX.WindowReachability
+
+@[expose] public section
 
 /-! Both window boundary routes for a multi-cycle root packet. Finite-window
 closure proves that the selected children avoid the complete root core. -/

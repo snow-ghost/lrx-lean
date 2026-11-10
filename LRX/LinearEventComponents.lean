@@ -1,4 +1,8 @@
-import LRX.ZeroGapComponentCounting
+module
+
+public import LRX.ZeroGapComponentCounting
+
+@[expose] public section
 
 /-! Separation of components in a finite, linearly oriented event forest.
 The linear-orientation hypothesis is explicit; a circular trace needs an

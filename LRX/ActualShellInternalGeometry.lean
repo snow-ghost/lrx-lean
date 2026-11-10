@@ -1,5 +1,9 @@
-import LRX.ActualShellPrice
-import LRX.ActualShallowInternalDeficit
+module
+
+public import LRX.ActualShellPrice
+public import LRX.ActualShallowInternalDeficit
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open FiniteWindow RotationWords

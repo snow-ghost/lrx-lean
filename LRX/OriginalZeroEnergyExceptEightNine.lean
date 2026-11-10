@@ -1,7 +1,11 @@
-import LRX.SignedSelectionDeficit
-import LRX.ActualOddShellPayment
-import LRX.EvenShellExceptEightNine
-import LRX.PacketCoordinateSymmetry
+module
+
+public import LRX.SignedSelectionDeficit
+public import LRX.ActualOddShellPayment
+public import LRX.EvenShellExceptEightNine
+public import LRX.PacketCoordinateSymmetry
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

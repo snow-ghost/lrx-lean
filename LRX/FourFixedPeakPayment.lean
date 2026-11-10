@@ -1,5 +1,9 @@
-import LRX.FourFixedPeakGeometry
-import LRX.TwoComponentTightPeakBounds
+module
+
+public import LRX.FourFixedPeakGeometry
+public import LRX.TwoComponentTightPeakBounds
+
+@[expose] public section
 
 set_option maxHeartbeats 800000
 

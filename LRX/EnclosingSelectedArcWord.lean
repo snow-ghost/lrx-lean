@@ -1,7 +1,11 @@
-import LRX.EnclosingSelectedFamily
-import LRX.EnclosingCycleIncidentService
-import LRX.WeightedPacketAssembly
-import LRX.CircularRankTransfer
+module
+
+public import LRX.EnclosingSelectedFamily
+public import LRX.EnclosingCycleIncidentService
+public import LRX.WeightedPacketAssembly
+public import LRX.CircularRankTransfer
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

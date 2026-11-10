@@ -1,4 +1,8 @@
-import LRX.FiniteWeightedPacketFamily
+module
+
+public import LRX.FiniteWeightedPacketFamily
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

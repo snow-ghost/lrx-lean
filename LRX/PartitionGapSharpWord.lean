@@ -1,5 +1,9 @@
-import LRX.PacketGapSharpWord
-import LRX.PartitionCircularCoordinates
+module
+
+public import LRX.PacketGapSharpWord
+public import LRX.PartitionCircularCoordinates
+
+@[expose] public section
 
 /-! Every internal member of the actual packet partition admits a sharp
 word for either cursor order, including its last gap and empty members. -/

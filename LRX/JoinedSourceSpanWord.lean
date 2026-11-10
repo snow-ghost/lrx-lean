@@ -1,4 +1,8 @@
-import LRX.JoinedCursorDichotomy
+module
+
+public import LRX.JoinedCursorDichotomy
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators Fin.IntCast Fin.NatCast Fin.CommRing

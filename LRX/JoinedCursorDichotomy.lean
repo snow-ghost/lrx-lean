@@ -1,4 +1,8 @@
-import LRX.JoinedPositiveArcCases
+module
+
+public import LRX.JoinedPositiveArcCases
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

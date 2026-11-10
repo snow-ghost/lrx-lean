@@ -1,5 +1,9 @@
-import LRX.InternalGapAnyOrder
-import LRX.PacketIncidentSharpWord
+module
+
+public import LRX.InternalGapAnyOrder
+public import LRX.PacketIncidentSharpWord
+
+@[expose] public section
 
 namespace LRX.FiniteGaps
 open scoped Fin.IntCast Fin.NatCast Fin.CommRing

@@ -1,7 +1,11 @@
+module
+
 /- Run in the ORIGINAL development repository (lake env lean <this file>).
 Writes the constant dependency closure of LRX.exact_diameter_all (used.tsv) and the list of
 all project constants (all.tsv) to the current directory; input of extract_package.py. -/
-import LRX.SharpDiameterAll
+public import LRX.SharpDiameterAll
+
+@[expose] public section
 open Lean Elab Command
 
 partial def collect (env : Environment) (start : Array Name) : Std.HashSet Name := Id.run do

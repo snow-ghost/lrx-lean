@@ -1,4 +1,8 @@
-import LRX.CycleWinding
+module
+
+public import LRX.CycleWinding
+
+@[expose] public section
 
 /-! A literal child-cycle call with entry and return exchanges. The integer head
 may acquire nonzero winding; the suspended parent buffer is returned unchanged. -/

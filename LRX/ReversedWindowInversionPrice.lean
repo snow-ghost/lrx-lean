@@ -1,7 +1,11 @@
-import LRX.ReversalFamilyRank
-import LRX.WindowFamilySelectedEnergy
-import LRX.FiniteWindowLoad
-import LRX.FiniteDisplacementSum
+module
+
+public import LRX.ReversalFamilyRank
+public import LRX.WindowFamilySelectedEnergy
+public import LRX.FiniteWindowLoad
+public import LRX.FiniteDisplacementSum
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts

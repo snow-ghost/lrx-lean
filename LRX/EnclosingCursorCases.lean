@@ -1,5 +1,9 @@
-import LRX.EnclosingCycleLoads
-import LRX.FiniteMarkedGap
+module
+
+public import LRX.EnclosingCycleLoads
+public import LRX.FiniteMarkedGap
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped Fin.CommRing

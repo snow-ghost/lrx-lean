@@ -1,5 +1,9 @@
-import LRX.LoadComponentPartition
-import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+module
+
+public import LRX.LoadComponentPartition
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open scoped BigOperators

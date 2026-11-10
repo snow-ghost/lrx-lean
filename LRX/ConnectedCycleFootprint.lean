@@ -1,4 +1,8 @@
-import LRX.CircleIntervalPaths
+module
+
+public import LRX.CircleIntervalPaths
+
+@[expose] public section
 
 /-! The footprint of an actual lifted cycle is connected: follow the cycle
 arrows to a supporting vertex, then follow its integer interval. -/

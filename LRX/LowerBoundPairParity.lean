@@ -1,5 +1,9 @@
-import LRX.Cycle11StructuralBridge
-import LRX.LowerBoundSwapGraph
+module
+
+public import LRX.Cycle11StructuralBridge
+public import LRX.LowerBoundSwapGraph
+
+@[expose] public section
 
 /-! Parity bookkeeping from the actual LRX trace, not an abstract graph premise. -/
 namespace LRX.LowerBoundPairParity

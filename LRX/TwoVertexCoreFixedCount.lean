@@ -1,4 +1,8 @@
-import LRX.FixedGapCardinality
+module
+
+public import LRX.FixedGapCardinality
+
+@[expose] public section
 
 /-! A two-vertex packet with at most two fixed vertices is impossible for
 n >= 7: both partition gaps would be strictly shorter than half the circle. -/

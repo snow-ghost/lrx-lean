@@ -1,5 +1,9 @@
-import LRX.BalancedSubsetArea
-import LRX.ReversalWindowFamily
+module
+
+public import LRX.BalancedSubsetArea
+public import LRX.ReversalWindowFamily
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators

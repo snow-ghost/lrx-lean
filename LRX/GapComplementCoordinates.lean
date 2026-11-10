@@ -1,5 +1,9 @@
-import LRX.PacketGapWidth
-import LRX.FiniteCoordinateCapacity
+module
+
+public import LRX.PacketGapWidth
+public import LRX.FiniteCoordinateCapacity
+
+@[expose] public section
 
 /-! Finite coordinates on the complement of a packet gap retain every
 physical distance. A shortest lifted arrow is no longer than its finite representative. -/

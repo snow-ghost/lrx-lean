@@ -1,5 +1,9 @@
-import LRX.ArcPacketServiceFamily
-import LRX.TwoArcServiceWord
+module
+
+public import LRX.ArcPacketServiceFamily
+public import LRX.TwoArcServiceWord
+
+@[expose] public section
 
 /-! Assign each outside cycle to one complementary arc containing its
 positive service port. The two selected lists partition the actual cycles. -/

@@ -1,4 +1,8 @@
-import LRX.FiniteRankSorting
+module
+
+public import LRX.FiniteRankSorting
+
+@[expose] public section
 
 namespace LRX.FiniteRankOrder
 open scoped BigOperators

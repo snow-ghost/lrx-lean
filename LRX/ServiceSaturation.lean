@@ -1,4 +1,8 @@
-import LRX.ServiceExtension
+module
+
+public import LRX.ServiceExtension
+
+@[expose] public section
 
 /-! Finite saturation of real service certificates. Maximality is over finite
 sets of labels, not over arbitrary programs. Every reachable cycle is covered. -/

@@ -1,6 +1,10 @@
-import LRX.FiniteComponentBoundary
-import LRX.LoadBoundaryActive
-import LRX.LoadComponentSet
+module
+
+public import LRX.FiniteComponentBoundary
+public import LRX.LoadBoundaryActive
+public import LRX.LoadComponentSet
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 variable {n : ℕ} [NeZero n]

@@ -1,4 +1,8 @@
-import LRX.LoadedFootprint
+module
+
+public import LRX.LoadedFootprint
+
+@[expose] public section
 
 /-! Lifted arrow intervals yield paths using only positive-load edges. -/
 namespace LRX.CycleFootprint

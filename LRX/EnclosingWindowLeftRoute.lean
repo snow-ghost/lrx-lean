@@ -1,6 +1,10 @@
-import LRX.EnclosingSpanRoute
-import LRX.WindowFamilyBridge
-import LRX.WindowCycleSelection
+module
+
+public import LRX.EnclosingSpanRoute
+public import LRX.WindowFamilyBridge
+public import LRX.WindowCycleSelection
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open scoped BigOperators Fin.CommRing

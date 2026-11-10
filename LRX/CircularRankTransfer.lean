@@ -1,6 +1,10 @@
-import LRX.CircularOrderedRoute
-import LRX.ArbitraryFiniteRouteTransfer
-import LRX.CanonicalServiceFamily
+module
+
+public import LRX.CircularOrderedRoute
+public import LRX.ArbitraryFiniteRouteTransfer
+public import LRX.CanonicalServiceFamily
+
+@[expose] public section
 
 namespace LRX.FiniteCuts
 open RotationWords

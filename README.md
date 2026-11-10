@@ -52,12 +52,13 @@ usual Lean build prerequisites. Then run:
 ```sh
 git clone https://github.com/snow-ghost/lrx-lean.git
 cd lrx-lean
+git checkout v1.0.0
 lake exe cache get
 bash scripts/verify.sh
 ```
 
-The toolchain is pinned to **Lean 4.34.0**. Mathlib is pinned to commit
-`5ed2965256430c3649e86755f9576b54eca72435` (v4.34.0). Exact dependency
+The toolchain is pinned to **Lean 4.35.0**. Mathlib is pinned to commit
+`56a005855ea17e0b0958f73ec801ae140b0a1679` (v4.35.0). Exact dependency
 revisions are recorded in [`lake-manifest.json`](lake-manifest.json).
 The cache command downloads Mathlib artifacts; the build checks the
 proof sources in this repository.
@@ -65,7 +66,8 @@ proof sources in this repository.
 [`scripts/verify.sh`](scripts/verify.sh) checks:
 
 1. Source integrity against [`files.sha256`](files.sha256).
-2. Absence of `sorry`, `admit`, `native_decide`, postulated `axiom`,
+2. Absence of `sorry` (except the two intentional Challenge placeholders),
+   `admit`, `native_decide`, postulated `axiom`,
    `unsafe`, `implemented_by`, and `extern` outside comments.
 3. The complete build with `lake build`.
 4. [`Verify.lean`](Verify.lean), which audits every theorem of every
@@ -94,13 +96,13 @@ memory limit; `LEAN_NUM_THREADS` can be set to reduce parallelism.
 | `scripts/generators/` | Optional witness generators |
 | [`provenance/`](provenance/) | Dependency and pruning records |
 
-The proof contains 1137 modules, plus the entry point `LRXDiameter.lean`
+The original pruned proof contains 1137 modules, plus the entry point `LRXDiameter.lean`
 and the verification file `Verify.lean`. The source set is restricted to
 dependencies of the main diameter theorem. Pruning removed 66 modules
 and 460 declarations. All remaining proof modules contribute to the
 recorded constant dependency closure.
 
-There are 23 user-level declarations outside that closure: retained
+The original Lean 4.34 extraction retained 23 user-level declarations outside that closure: retained
 `simp` lemmas, derived `DecidableEq` instances, two lemmas in generated
 certificate files, and one definitional equality needed by `simp only`.
 These exceptions preserve source compilation and certificate reproducibility;
@@ -108,6 +110,10 @@ strict declaration-by-declaration minimality is not claimed.
 The records are in [`provenance/dependency-closure.tsv`](provenance/dependency-closure.tsv),
 [`provenance/pruning-report.json`](provenance/pruning-report.json), and
 [`provenance/keep_extra.txt`](provenance/keep_extra.txt).
+
+The Lean 4.35 migration makes the proof modules public and exposes definitions
+needed by downstream modules. The extraction records describe the earlier
+Lean 4.34 snapshot; they are not a fresh minimality certificate for this port.
 
 The repository contains the formalization, verification tools, and their
 documentation. The build and audit require no accompanying manuscript.
@@ -121,3 +127,34 @@ preferably, a commit. GitHub's citation button uses [`CITATION.cff`](CITATION.cf
 
 The project is licensed under [MIT](LICENSE). Retain the copyright and
 permission notices when redistributing the code. See [authorship](AUTHORS.md).
+
+## Palomar submission interface
+
+[`Challenge.lean`](Challenge.lean) imports Mathlib alone and defines the three
+unit-cost generators, literal word evaluation, and the ordinary undirected
+Cayley graph. It states bounded routing between every ordered pair and exact
+diameter for every n ≥ 4. Its two intentional proof placeholders are confined
+to this independent statement file.
+
+[`Solution.lean`](Solution.lean) proves both statements using the existing
+LRX development. Its bridges identify the Cayley graph and preserve evaluation
+and length when encoding LRX letters as `Fin 3` words.
+[`Verify.lean`](Verify.lean) uses full imports to include private and generated
+proof bodies in its axiom audit.
+
+With Bubblewrap installed, run:
+
+```sh
+lake build LRXDiameter Solution Challenge
+lake env lean Verify.lean
+lake comparator --config comparator.json
+```
+
+[`formalization.yaml`](formalization.yaml) records the seven authors,
+S. Uskov as responsible maintainer, MIT, sources, AI assistance, scope, and
+pre-submission review status. Neither independent human peer review nor
+registration is asserted. The full proof development is included here.
+
+For a submission, use this public repository, a full 40-character commit SHA,
+the root project, `comparator.json`, and `formalization.yaml`. Registration
+is a separate action at https://submit.palomar-registry.org/.

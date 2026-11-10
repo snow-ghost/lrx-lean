@@ -1,5 +1,9 @@
-import LRX.SuffixComponentTransfer
-import LRX.ReversalWindowFamily
+module
+
+public import LRX.SuffixComponentTransfer
+public import LRX.ReversalWindowFamily
+
+@[expose] public section
 
 namespace LRX.FiniteWindow
 open FiniteCuts RotationWords
